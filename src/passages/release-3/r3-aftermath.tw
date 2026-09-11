@@ -1,5 +1,5 @@
 :: R3_TheHallway [r3 story]
-<<scene "Floor 42, Corridor" "files/images/locations/hallway_floor42.png">>
+<<location "Floor 42, Corridor">>
 <<objective "Get back down to Floor 39.">>
 
 The corridor is still empty. 7:14 AM. The building is waking up below me. I can hear the elevator ding on a lower floor, the distant murmur of the lobby. Up here, nothing. Just my footsteps on carpet that absorbs sound like a confession booth.
@@ -8,11 +8,15 @@ My hand is in my jacket pocket. Fingers touching the silk through the lining. I 
 
 <<moodimage "files/images/mood/jacket_pocket.png" "">>
 
+<<scene "Elevator, Descending" "files/images/locations/elevator_r3.png">>
+
 The elevator arrives. I step in. The doors close and I'm alone with my reflection in the polished steel. Same face. Same tie. Same shoes with the scuff on the left toe. Same Daniel Ashford who walked into this building ninety minutes ago.
 
 Not the same. Something moved. Something small and interior, like furniture being rearranged in a room I thought was empty.
 
 I press the button for 39. My floor. My lane. My adequate, dependable, unremarkable lane.
+
+<<moodimage "files/images/mood/elevator_numbers.png" "">>
 
 The silk shifts in my pocket as the elevator descends.
 
@@ -22,7 +26,7 @@ The silk shifts in my pocket as the elevator descends.
 
 :: R3_HarperHallway [r3 story]
 <<location "Elevator Bank, Floor 39">>
-<<portrait "files/images/characters/harper_casual.png" "Harper Quinn">>
+<<portrait "files/images/characters/harper_casual_r3.png" "Harper Quinn">>
 <<objective "Get through the rest of the day.">>
 
 Harper is by the elevator bank when the doors open. She's got a coffee in one hand and a folder in the other and her hair is up in that efficient twist she does when she's already working before she's technically at work.
@@ -72,7 +76,7 @@ The morning settles into its ordinary shape around me. Emails. A team call. The 
 :: R3_SQ_HarperLunch [r3 sidequest]
 <<set $flags.r3HarperLunch = true>>
 <<location "The Place With the Soup">>
-<<portrait "files/images/characters/harper_casual.png" "Harper Quinn">>
+<<portrait "files/images/characters/harper_casual_r3.png" "Harper Quinn">>
 
 Harper Quinn occupies the desk fourteen feet from mine. I know the exact distance because I measured it once during a particularly boring conference call, pacing it out heel-to-toe like a crime scene technician at a scene with no crime.
 
