@@ -15,6 +15,7 @@
 :: R2_Opening [r2 story]
 <<scene "Daniel & Lena's Apartment, Bedroom" "files/images/locations/apartment_morning.png">>
 <<set $time = { day: "tuesday", period: "morning", week: 1 }>>
+<<objective "Prepare for the Henderson presentation.">>
 
 I have been staring at this binder for forty minutes.
 

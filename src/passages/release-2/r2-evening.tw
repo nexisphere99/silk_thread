@@ -1,5 +1,6 @@
 :: R2_Dinner_Silence [r2 story]
 <<scene "Daniel & Lena's Apartment, Dinner" "files/images/locations/apartment_dinner.png">>
+<<objective "Get through dinner with Lena.">>
 
 Lena made stir-fry. The good kind, with the sesame oil and the snap peas she gets from the farmer's market on Saturdays. She used to only make this when she was in a good mood. I don't know what mood she's in tonight. I don't know what mood she's been in for weeks. We coexist in the apartment the way books coexist on a shelf. Side by side. Spines touching. Never opening each other.
 
@@ -35,6 +36,7 @@ We finish dinner. She washes the dishes. I dry. We perform the choreography with
 
 :: R2_Choice_Lena [r2 choice]
 <<location "Bedroom Doorway">>
+<<objective "Decide whether to tell Lena about Henderson.">>
 <<portrait "files/images/characters/lena_bedroom_doorway.png" "Lena Ashford">>
 
 She pauses at the bedroom door. Turns.
