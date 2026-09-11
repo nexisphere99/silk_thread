@@ -1,6 +1,7 @@
 :: R1_Commute [r1 story]
 <<advancetime>>
 <<scene "Downtown, In Transit" "files/images/locations/city_commute_downtown.png">>
+<<objective "Get to Meridian Consulting.">>
 
 The drive to Meridian takes twenty-two minutes without traffic, thirty-one with. Today it's twenty-eight. I listen to a podcast about market disruption that I'll reference in a meeting to sound current and then immediately forget. The host has the kind of voice that suggests he's never lost sleep over anything, and I envy that, the luxury of certainty.
 

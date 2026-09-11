@@ -1,6 +1,7 @@
 :: R1_Bedroom_Approach [r1 story]
 <<set $time.period = "night">>
 <<scene "Bedroom" "files/images/locations/apartment_bedroom_night.png">>
+<<objective "End the day.">>
 
 The bedroom is dark except for the glow of Lena's phone. She's lying on her side, scrolling. Her face in that blue light looks younger, softer, like the Lena I met at that gallery opening five years ago, the one who argued with me about Rothko for twenty minutes and then kissed me in the parking lot.
 
@@ -134,6 +135,7 @@ I close my eyes. Sleep takes a long time to arrive, and when it does, it brings 
 
 :: R1_PostSex [r1 story]
 <<scene "Kitchen, Late Night" "files/images/locations/kitchen_window_late_night.png">>
+<<objective "Try to get some sleep.">>
 
 The night settles. The apartment ticks with the sounds buildings make when no one's listening. Refrigerator hum. Heat cycling. The faint murmur of traffic forty feet below.
 

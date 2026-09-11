@@ -106,6 +106,15 @@ Macro.add('location', {
     }
 });
 
+/* <<objective "text">> — sets the current-goal text shown in the sidebar
+   below the time chip. Called once per story beat, same pattern as
+   <<location>>; doesn't render anything inline, just updates $objective. */
+Macro.add('objective', {
+    handler: function () {
+        State.variables.objective = this.args[0];
+    }
+});
+
 /* <<scene "Label" "files/images/locations/x.png">>   header + hero background image */
 Macro.add('scene', {
     handler: function () {

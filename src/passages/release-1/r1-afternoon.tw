@@ -1,6 +1,7 @@
 :: R1_Afternoon [r1 story]
 <<set $time.period = "afternoon">>
 <<location "Meridian Consulting, Floor 39">>
+<<objective "Get through the afternoon, then head home.">>
 
 The afternoon is a sludge of meetings and spreadsheets and a lunch I eat at my desk. Turkey on wheat, apple, water. The same lunch four days a week because decisions are a finite resource and I spend mine on things that matter less.
 
