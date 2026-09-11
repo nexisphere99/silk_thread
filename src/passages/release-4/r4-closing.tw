@@ -1,0 +1,166 @@
+:: R4_HomeEvening [r4 story intimate]
+<<scene "Daniel & Lena's Apartment, Kitchen" "files/images/locations/r4-homeevening-kitchen.webp">>
+<<set $time = { day: "thursday", period: "evening", week: 1 }>>
+<<objective "Get through the evening at home.">>
+
+The apartment smells like garlic and white wine. Lena is in the kitchen. She's changed out of her yoga clothes into a cotton sundress, bare feet on the tile, her auburn hair pulled up. Music playing from the Bluetooth speaker. Something French. Edith Piaf or a modern woman doing an impression of Edith Piaf. Lena grew up in Montreal. She defaults to French music when she's in a certain mood. I've never been able to identify which mood.
+
+<<say "Lena Ashford">>Hey.<</say>>
+
+She doesn't turn around. Stirring something on the stove.
+
+<<sayself>>Hey.<</sayself>>
+
+<<say "Lena Ashford">>There's wine on the counter.<</say>>
+
+I pour a glass. Sauvignon blanc. Take a sip. Stand in the kitchen doorway and watch my wife cook. She moves with the unselfconscious grace of someone who doesn't know they're being watched. Or doesn't care. One of those.
+
+<<say "Lena Ashford">>How was your day?<</say>>
+
+<<sayself>>Long.<</sayself>>
+
+<<say "Lena Ashford">>Good long or bad long?<</say>>
+
+<<sayself>>Just long.<</sayself>>
+
+She nods. This is the choreography. Question, deflection, acceptance. The steps of a dance we've done so many times we could do it blindfolded. We probably are blindfolded. We probably have been for a year.
+
+We eat at the dining table. Pasta with shrimp. It's good. Lena is a good cook when she bothers. Lately she only bothers when she's in a specific mood. The French music mood. I wonder what triggers it. I wonder if I want to know.
+
+She talks about a woman from her yoga class who's starting a ceramics business. I nod. Ask follow-up questions. Perform the role of engaged husband the way I performed the role of competent executive all day. The performance is the same. The costume is different. Or the same. I'm not sure anymore which costume is the real one.
+
+After dinner, I wash the dishes. She dries. Our elbows touch at the sink. The contact is incidental, domestic, the kind of touch that happens between people who share square footage. It's nothing like the touch of lace against my cock. Nothing like the click of Victoria's heel on marble. Nothing like the word //good// in Victoria's mouth when she says //good boy// and means it like a brand.
+
+Lena puts the last plate away. Kisses me on the cheek. Quick. Dry. The kind of kiss that is technically a kiss the way the missionary sex on Tuesday nights is technically sex.
+
+<<say "Lena Ashford">>I'm going to read for a bit.<</say>>
+
+<<sayself>>Okay.<</sayself>>
+
+She disappears into the bedroom. I stand at the sink. The water drips. The lace is drying against my skin. Tomorrow I will put these same panties on and smell my own arousal and drive to work and sit in meetings and feel the silk and think of Victoria's voice saying //did it feel good// and the answer will be yes. The answer is yes now. The answer was yes from the moment the lace touched my thighs this morning.
+
+I go to the bathroom. Lock the door. Unzip. Look down at the panties. They're wrinkled from a full day of wear. The lace is darkened where I leaked. The silk has a small stain at the front, translucent, faintly glossy. Evidence. Victoria wants me to preserve it. To sleep in it. To wake up tomorrow and put my face close to the fabric and breathe in the smell of what she did to me from forty-two floors up without touching me once.
+
+I rearrange myself in the panties. Zip up. Wash my hands. Look at my face in the mirror. Same Daniel. I keep expecting the mirror to show me something different. To show me the truth. But mirrors only show surfaces, and the truth is underneath, where the lace is, where the silk is, where the part of me that said //yes, Ms. Cross// is settling in like a tenant who just signed a very long lease.
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_Evening_Hub">><</link>>
+</div>
+
+:: R4_Evening_Hub [r4 hub]
+<<location "Daniel & Lena's Apartment, Living Room">>
+<<objective "Wind down for the night.">>
+
+The apartment settles into quiet. Lena's light is still on down the hall, the murmur of pages turning. I sit on the couch, phone in hand, the panties drying stiff against my skin.
+
+<div class="choice-container">
+    <<if !$flags.r4PhoneCheck>>
+        <span class="sidequest"><<link "Sit with the phone a while" "R4_SQ_PhoneCheck">><</link>></span>
+    <</if>>
+    <<link "Go to bed" "R4_Closing">><</link>>
+</div>
+
+:: R4_SQ_PhoneCheck [r4 sidequest]
+<<set $flags.r4PhoneCheck = true>>
+<<moodimage "files/images/mood/r4-sq-phone-glow.webp" "">>
+<<objective "Sit with the thought a while.">>
+
+8:47 PM. I'm on the couch. Lena is in the bedroom reading. My phone buzzes. Work email. Nothing important. I swipe it away.
+
+But the motion of swiping makes me think about phones. About Lena's phone. About the text she got at the holiday party from Adrian Wolfe. //It was wonderful meeting you tonight. Daniel's a lucky man.// A sentence designed to be harmless. A sentence that is harmless if you read it in one light and something else entirely if you read it in another.
+
+I don't check her phone. Not tonight. Not yet. The panties are enough new information for one day. My body is still processing the data of twelve hours in silk. My brain doesn't have the bandwidth for the data of my wife's text messages.
+
+But I think about it. Sitting in the dark living room, the panties stiffening against me, the apartment quiet except for the occasional page-turn from the bedroom. I think about Adrian's text. About the forty minutes he spent talking to Lena at the party. About the way she laughed.
+
+The thought doesn't make me angry. It makes me something. A feeling without a name. A pressure without a location. My cock twitches in the lace.
+
+I turn on the television. Find a game. Watch without seeing. The commentators' voices blur into white noise. My hand rests on my thigh. The lace is underneath. Everything is underneath now. The panties. The feelings. The question of what Victoria has planned for tomorrow.
+
+The question of what Adrian has planned for my wife.
+
+I watch the game until Lena turns off her light. Then I watch the highlights. Then I watch the post-game. Then I sit in the dark and feel the panties and think about nothing and everything and the space between the two where I seem to be living now.
+
+<<modstat "ntrAwareness" 3>>
+
+<div class="continue-wrap">
+    <<link "Go to bed" "R4_Closing">><</link>>
+</div>
+
+:: R4_Closing [r4 system]
+<<scene "Daniel & Lena's Bedroom, Night" "files/images/locations/r4-closing-bedroom-distance.webp">>
+<<set $objective = "">>
+
+I brush my teeth. Change into pajama pants. The panties stay on underneath. Victoria's instruction. Or my choice. The line between those two things is blurring the way headlights blur in rain, the shapes still visible but the edges gone.
+
+I slide into bed beside Lena. She's asleep. Her breathing is even, slow, the breathing of a woman who has no secrets. Or the breathing of a woman who is very good at sleeping like she has no secrets. I can't tell anymore. Maybe I never could.
+
+The panties are warm against me. Worn in. The lace has softened over the day, conforming to my body in a way that's almost comfortable. Almost. The discomfort is still there but it's changed character. Less like wearing something foreign. More like wearing something I'm not supposed to want to wear. The discomfort isn't in the fabric. It's in the admission. It's in the //yes, Ms. Cross// that I said in a locked office on the forty-second floor while a city glittered behind a woman who is remaking me in an image I can't see yet.
+
+Tomorrow I'll put these on again. Same pair. Unwashed. Carrying the scent of everything that happened today. Every moment of arousal, every near-discovery, every locked stall and clenched jaw and whispered silk. I'll step into the evidence and wear it against my skin and drive to work and perform the man I'm supposed to be and underneath, pressed against the most private parts of my body, the truth of what I'm becoming will warm slowly with my heat and bloom.
+
+I close my eyes. Lena breathes beside me. The panties hold me.
+
+Something is beginning.
+
+<div class="release-end">
+    <div class="release-title">End of Release 4<br>Silk Against Skin</div>
+    <p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:0 auto 2rem;">
+        If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+    </p>
+    <div class="title-menu" style="margin: 0 auto;">
+        <<link "View Stats" "R4_StatsScreen">><</link>>
+        <<link "Return to Title" "Start">><</link>>
+    </div>
+</div>
+
+:: R4_StatsScreen [r4 system]
+<<location "Release 4, Complete">>
+
+<div class="stats-full">
+
+<h3>Final Stats</h3>
+
+|Stat|Value|
+|Identity|<<= $stats.selfIdentity>>% (<<= Silk.identityLabel($stats.selfIdentity)>>)|
+|Marriage Bond|<<= $stats.marriageBond>>%|
+|Feminization|<<= $stats.feminization>>%|
+|Submission|<<= $stats.submission>>%|
+|Arousal Rewiring|<<= $stats.arousalRewiring>>%|
+|Victoria Trust|<<= $stats.victoriaTrust>>%|
+|Office Suspicion|<<= $stats.officeSuspicion>>%|
+|NTR Awareness|<<= $stats.ntrAwareness>>%|
+
+<h3>After Hours</h3>
+<<if $choices.r4.afterHoursChoice === "ask">>You asked what comes next. Victoria gave you one word: patience. It sounded like a promise.
+<<elseif $choices.r4.afterHoursChoice === "demand">>You demanded the endgame. She reminded you the "when" and "what" are hers now. You didn't argue.
+<<else>>You said nothing at all. Victoria called it learning. She wasn't wrong.
+<</if>>
+
+<h3>Side Quests</h3>
+<p>
+<<if $flags.r4LockerMoment>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> The Washroom Stall<br>
+<<if $flags.r4PhoneCheck>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> An Evening With the Phone
+</p>
+
+<h3>Key Unlocks</h3>
+<p>
+Daily wear initiated, La Perla panties, under the suit<br>
+Harper's filing thread advances (three data points now)<br>
+Martin's suspicion thread advances<br>
+Victoria transitions from threat to architect<br>
+A first, unspoken thread toward Adrian Wolfe
+</p>
+
+<h3>Tomorrow</h3>
+<p>The same pair, unwashed. A city forty-two floors down still glittering behind a woman who isn't finished yet.</p>
+
+</div>
+
+<p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:2rem auto 1rem; text-align:center;">
+    If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+</p>
+
+<div class="title-menu" style="margin: 0 auto;">
+    <<link "Return to Title" "Start">><</link>>
+</div>

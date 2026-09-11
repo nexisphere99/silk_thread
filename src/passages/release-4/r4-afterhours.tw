@@ -1,0 +1,207 @@
+:: R4_AfterHours [r4 story intimate]
+<<scene "Victoria Cross's Office, Floor 42, Dusk" "files/images/locations/r4-afterhours-victoria-office-dusk.webp">>
+<<objective "Answer Victoria's summons.">>
+
+6:27 PM. The floor is emptying out. The cleaning crew starts at seven. The sunset hits the west-facing windows and paints the carpet orange. I have an email from Victoria. It arrived two minutes ago. One word.
+
+//Come.//
+
+No period. No signature. Just the imperative. The space after it implies everything.
+
+I take the elevator to 42. The ride is four floors and it lasts a lifetime. My reflection in the polished steel looks the same as this morning. The man who stepped into those panties twelve hours ago. He looks more tired. He looks like a man who has been holding his breath all day and still hasn't exhaled.
+
+Victoria's door is closed. I knock. Once.
+
+<<say "Victoria Cross">>It's open.<</say>>
+
+Her office in the evening is different from her office in the morning. The fluorescent overhead is off. Desk lamp only. Warm amber light that softens the edges of everything. The city skyline behind her is shifting from daylight to dusk. The buildings are beginning to glow. She's behind her desk, jacket off, a cream silk blouse with the top button undone. Her hair is down. It changes her face. Makes the sharpness look deliberate rather than architectural.
+
+She doesn't look up when I enter. She's writing something. Pen on paper. Actual paper. Actual ink. I stand in front of her desk and wait.
+
+Thirty seconds pass. Forty. A minute. The silence is the silence of a room where one person has all the power and the other person is learning what it feels like to stand in the absence of it.
+
+She puts the pen down. Looks up.
+
+<<say "Victoria Cross">>Close the door.<</say>>
+
+I close it.
+
+<<say "Victoria Cross">>Lock it.<</say>>
+
+I lock it. The click is louder than a gunshot.
+
+She leans back in her chair. Folds her hands. Looks at me the way a jeweler looks at a stone before deciding where to cut.
+
+<<say "Victoria Cross">>How did it feel?<</say>>
+
+I open my mouth. My throat is dry. I've been rehearsing this answer since noon. Since the moment the lace pulled tight in the conference room and my cock jumped and my heart rate spiked and the word //good// formed in the back of my skull like a confession I couldn't make.
+
+<<sayself>>Uncomfortable.<</sayself>>
+
+Victoria smiles. Not wide. Not warm. The smile of a woman who asked a question she already knew the answer to and is now waiting for the real one.
+
+<<say "Victoria Cross">>Liar.<</say>>
+
+The word is almost affectionate.
+
+<<say "Victoria Cross">>Tell me the truth, Daniel. Or tomorrow it's a matching bra.<</say>>
+
+The threat drops through my stomach and keeps going. Past my gut, past my hips, landing somewhere in the region where fear and arousal share a border that I'm only now discovering is undefended.
+
+A matching bra. Straps on my shoulders all day. The shape of it under my shirt. Another layer between who I present to the world and what I'm becoming underneath. The thought should horrify me. It does. It also does something else. Something my slacks can't hide and she can definitely see.
+
+<<portrait "files/images/characters/r4-victoria-standing-close.webp" "Victoria Cross">>
+
+She stands. Moves around the desk. Slow. Her heels click on the marble floor. Each click is a period at the end of a sentence I can't read yet. She stops in front of me. Close. Close enough that I can smell her perfume. Tom Ford. Tobacco Vanille. Dark and layered and completely unlike anything Lena wears. It smells like leather and smoke and decisions that have already been made.
+
+<<say "Victoria Cross">>I'll ask one more time. Did it feel good?<</say>>
+
+The silence stretches. My face is burning. From the jaw up, a slow creep of heat that I know is turning my skin blotchy and red and visible and I can't stop it any more than I can stop the wetness spreading through the lace between my legs. The panties are damp. They've been damp since the conference room. Since the moment Victoria raised her eyebrow and I felt something inside me shift from resistance to recognition.
+
+She probably knows that too. She knows everything. She designed this.
+
+<<sayself>>Yes, Ms. Cross.<</sayself>>
+
+Three words. They leave my mouth and they take something with them. Some wall. Some door. Some structural support in the architecture of who I thought I was. I feel it go. There's a space where it used to be and the space doesn't feel empty. It feels open.
+
+She leans back. The satisfaction on her face is proprietary. Not pleasure. Ownership. She just acquired something she's been shopping for.
+
+<<say "Victoria Cross">>Tomorrow. Same pair.<</say>>
+
+A pause. Her eyes flick down to my crotch, then back up. Clinical.
+
+<<say "Victoria Cross">>Don't wash them tonight. I want you to smell yourself in them.<</say>>
+
+The instruction is filthy. It's also precise. She's not just making me wear women's underwear. She's making me marinate in the evidence of what wearing them does to me. She's making sure that tomorrow morning, when I step into them again, the first thing I register is the dried residue of today's arousal. My own scent. Proof that this isn't just compliance. This is response.
+
+<<sayself>>Yes, Ms. Cross.<</sayself>>
+
+She nods. Sits back down. Picks up her pen.
+
+<<say "Victoria Cross">>That's all. You can go.<</say>>
+
+<<modstat "submission" 10>>
+<<modstat "arousalRewiring" 8>>
+<<npc "victoria" "trust" 3>>
+<<npc "victoria" "control" 8>>
+
+<<moodimage "files/images/characters/r4-daniel-choice-moment.webp" "">>
+
+I stand there for three more seconds. She doesn't look up. I am dismissed. The word fits in a way that "excused" or "free to go" would not. Dismissed. Like a servant. Like a student. Like something that exists at the pleasure of someone else.
+
+<div class="choice-container">
+    <<link "Ask what comes next" "R4_Choice_A">><<set $choices.r4.afterHoursChoice = "ask">><</link>>
+    <<link "Demand the endgame" "R4_Choice_B">><<set $choices.r4.afterHoursChoice = "demand">><</link>>
+    <<link "Say nothing" "R4_Choice_C">><<set $choices.r4.afterHoursChoice = "silent">><</link>>
+</div>
+
+:: R4_Choice_A [r4 story]
+<<location "Victoria Cross's Office, Floor 42">>
+<<objective "Leave Victoria's office.">>
+
+I should leave. She said I could go. The pen is moving on the paper. I'm already dismissed.
+
+But.
+
+<<sayself>>Ms. Cross.<</sayself>>
+
+The pen stops.
+
+<<sayself>>What comes next?<</sayself>>
+
+She looks up. Studies me. The question is a tell. She knows it and now I know she knows it. Asking what comes next means I'm not running. It means the door she opened, I'm looking through it instead of slamming it shut. It means eagerness dressed up as practicality.
+
+Her smile widens. A fraction. The kind of widening that on another face might be called warmth.
+
+<<say "Victoria Cross">>Patience, Daniel. That's what comes next.<</say>>
+
+She looks back down. The pen resumes. I leave. But the word patience hangs in the elevator like perfume. It implies a timeline. A plan. A sequence of events she's already plotted on a calendar I'll never see.
+
+Patience means there is more. And I asked for it.
+
+<<modstat "submission" 5>>
+<<modstat "arousalRewiring" 5>>
+<<modstat "victoriaTrust" 5>>
+<<npc "victoria" "trust" 5>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_DriveHome">><</link>>
+</div>
+
+:: R4_Choice_B [r4 story]
+<<location "Victoria Cross's Office, Floor 42">>
+<<objective "Leave Victoria's office.">>
+
+<<sayself>>What's the endgame here?<</sayself>>
+
+The words come out sharper than I intend. Or maybe exactly as sharp as I intend. Self-defense dressed up as a question. The last gasp of a man who just admitted that wearing women's underwear felt good and needs to reassert control over something, anything.
+
+Victoria's expression cools. Not cold. Cooler. The temperature change of a room when someone opens a window a crack.
+
+<<say "Victoria Cross">>You don't get to ask that yet.<</say>>
+
+<<sayself>>Yet implies I will eventually.<</sayself>>
+
+<<say "Victoria Cross">>It implies I decide when. Which is the point of all of this, Daniel. I decide. You said yes. The "when" and "what" are mine now.<</say>>
+
+She holds my gaze. I hold hers. Two people in a locked office on the forty-second floor, having a conversation about power while the city darkens outside. She wins. She was always going to win. She was winning before I knocked on the door.
+
+I leave. In the elevator, I replay //you don't get to ask that yet// and realize the important word isn't "ask." It's "yet." She's going to tell me. Someday. When she decides I'm ready for it.
+
+Which means she has an answer. Which means there is a plan. Which means the panties are step one.
+
+I'm in the car before I realize I didn't ask what step two is. I'm on the highway before I realize I didn't need to. I already know it involves a bra.
+
+<<modstat "submission" 3>>
+<<modstat "victoriaTrust" 1>>
+<<npc "victoria" "trust" 1>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_DriveHome">><</link>>
+</div>
+
+:: R4_Choice_C [r4 story]
+<<location "Victoria Cross's Office, Floor 42">>
+<<objective "Leave Victoria's office.">>
+
+I say nothing.
+
+The silence sits between us like an object. Solid. Present. Victoria lets it exist. She doesn't fill it. She doesn't prompt. She picks up her pen and looks down at her paper and writes and the sound of the nib on the page is the only sound in the room.
+
+I should speak. Ask a question. Make a demand. Reassert some version of the man who walked into this building twelve hours ago with polished shoes and a firm handshake. That man would have said something. That man would have negotiated.
+
+That man didn't wear silk panties to work and get hard in a conference room.
+
+The silence stretches. Ten seconds. Twenty. Long enough that it stops being awkward and starts being something else. A statement. A position. A surrender that doesn't need words because the words would only get in the way of what my silence already says.
+
+Victoria looks up. Studies me. Something shifts in her eyes. Not warmth exactly. Recognition. The look of a woman who just watched someone pass a test they didn't know they were taking.
+
+<<say "Victoria Cross">>Good. You're learning.<</say>>
+
+She sets the pen down. Folds her hands.
+
+I leave her office. In the elevator, I think about what I'm learning. I'm not sure I could name it. But I know the lesson involves silence, and panties, and the discovery that sometimes the strongest thing a man can do is close his mouth and feel the lace against his skin and let the woman in the corner office decide what happens next.
+
+<<modstat "submission" 8>>
+<<modstat "victoriaTrust" 4>>
+<<npc "victoria" "trust" 4>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_DriveHome">><</link>>
+</div>
+
+:: R4_DriveHome [r4 story]
+<<scene "In Transit, Night" "files/images/mood/r4-drivehome-car-night.webp">>
+<<objective "Drive home.">>
+
+The drive home takes thirty-one minutes. Traffic on the bridge. I sit in the left lane behind a pickup truck and feel the panties cooling against my skin. The silk is stiff where it dried. Victoria's instruction was clear. Don't wash them. Tomorrow I put these back on, crusted and fragrant, and wear the evidence of today's surrender against my cock for another eight hours.
+
+I pull into the parking garage of our building at 7:14 PM. Kill the engine. Sit in the dark for a moment. The leather seat is cool. The panties are warm. My cock is soft now but the memory of hardness is everywhere, in the dampness, in the slight chafe of lace against skin that's been stimulated all day.
+
+Lena's car is in her spot. She's home from yoga. Or from wherever she actually goes in her yoga pants with her mat rolled under her arm and that look on her face like she's been somewhere good.
+
+I get out. Walk to the elevator. Each step is a whisper of silk. By tomorrow morning, the whisper will smell like me.
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_HomeEvening">><</link>>
+</div>

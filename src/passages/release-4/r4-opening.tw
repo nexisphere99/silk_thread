@@ -1,0 +1,82 @@
+:: R4_TitleCard [r4 system]
+<<set $currentRelease = 4>>
+<div class="title-screen">
+    <div class="title-image">
+        <img src="files/images/ui/release_4_title_card.png" alt="" onerror="this.closest('.title-image').classList.add('is-missing')">
+    </div>
+    <p class="title-wordmark" style="font-size:2.2rem;">SILK AGAINST SKIN</p>
+    <div class="title-rule"></div>
+    <p class="title-subtitle">Release Four</p>
+    <div class="title-menu">
+        <<link "Continue" "R4_Opening">><</link>>
+    </div>
+</div>
+
+:: R4_Opening [r4 story intimate]
+<<scene "Daniel & Lena's Apartment, Bedroom" "files/images/locations/r4-opening-suit-panties-bed.webp">>
+<<set $time = { day: "thursday", period: "morning", week: 1 }>>
+<<objective "Get dressed for work.">>
+
+The panties are in my nightstand drawer. Buried under a copy of //Thinking, Fast and Slow// that I bought two years ago and never cracked past chapter three. The book is a prop. I keep it there because a man like me keeps books like that on his nightstand. Or kept. Past tense is starting to feel more accurate about a lot of things.
+
+Lena left for yoga at 5:30. I heard her move through the apartment in the dark. The soft zip of her gym bag. The click of the front door. The silence after. That silence used to feel like absence. Now it feels like opportunity, and the shift between those two words is a distance I don't want to measure.
+
+I shower. Seven minutes. Same temperature I always use, hot enough to redden the skin across my shoulders. I shave. Jawline first, then cheeks, then the tricky hollow beneath my lower lip. The razor follows the same path it has followed ten thousand times. I dry off. Hang the towel on the hook, not the bar, because Lena once mentioned she preferred it that way and some habits outlive the reasons for them.
+
+I stand naked in the bedroom.
+
+The panties are laid out on the bed now. I don't remember taking them from the drawer. I must have, while I was on autopilot, while the part of my brain that makes decisions was still fogged with steam. They're beside my charcoal suit. The suit is pressed. The shirt is white, starched, folded with the collar up. My black oxfords sit on the floor beneath, polished to a mirror finish. And next to all of it, black lace. La Perla. A scrap of silk and thread that costs more than my wife's entire underwear drawer.
+
+The juxtaposition looks like a crime scene. Or an invitation. Depends on the angle.
+
+I pick them up. The lace weighs nothing. Less than nothing. You could fold them into a closed fist and no one would know they were there. The silk lining catches the bedroom light and shimmers faintly, like the surface of something liquid.
+
+<<say "Daniel's Father">>Stand up straight. Look people in the eye. A man is what he does when no one is watching.<</say>>
+
+My father's voice is in the back of my skull. Clipped, military, the cadence of a man who replaced love with inspection. Colonel Richard Ashford, retired, emphysema, a house in Tucson he never leaves. He called once a month until he stopped calling. I never asked why. I knew. A man is what he does, and what I did, what I always did, was not enough.
+
+That voice says don't.
+
+My career says you have to.
+
+And something else. Something underneath both of those, quieter, coming from a room in my chest I didn't know had a door. That voice says you want to.
+
+I step into the panties.
+
+The lace slides up my thighs. Cool at first, then warming against skin that has never been touched by anything finer than cotton. The waistband settles on my hips. The silk presses against my cock, cups it, contains it in a way that is entirely different from the functional compression of boxer briefs. The lace edge traces the crease where my thigh meets my pelvis. The back panel is pure silk, smooth against my ass, and when I shift my weight from one foot to the other, the fabric moves with me like a second skin. Not restraining. Cradling.
+
+<<modstat "feminization" 3>>
+
+I put on the suit.
+
+White shirt. Buttons from bottom to top, the way I always do. The bra isn't part of today's instructions. Just the panties. Just this. I tuck the shirt in. Fasten my belt. Step into the oxfords. Tie my tie. Windsor knot, slightly left of center because I've never been able to get it dead middle and I stopped trying years ago.
+
+<<moodimage "files/images/mood/r4-opening-mirror.webp" "">>
+
+I check the mirror on the back of the closet door. Same Daniel. Same sandy hair, a little too long because I keep forgetting to schedule the barber. Same jaw, soft where I wish it were sharp. Same shoulders, narrow in the charcoal suit. Same shoes, same watch, same face.
+
+Nothing visible has changed. Everything has.
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_Commute">><</link>>
+</div>
+
+:: R4_Commute [r4 story intimate]
+<<scene "In Transit" "files/images/mood/r4-commute-hands-wheel.webp">>
+<<objective "Get through the drive to work.">>
+
+The drive to work is twenty-two minutes if I leave before seven. I leave at 6:41. The city is still waking up. Traffic lights cycle through their colors for nearly empty intersections. A jogger crosses against red on Sixth Street. A delivery truck idles outside a bakery.
+
+Every bump in the road registers differently now. The lace shifts against my cock when I press the brake. At the stoplight on Market, I adjust myself in the seat and the silk panel slides against my ass and a small sound escapes my throat. I check the rearview mirror reflexively. No one behind me. No one to hear.
+
+But the sound happened. Involuntary, animal, soft. The kind of noise that doesn't belong in a sedan at 6:45 in the morning on the way to a consulting firm.
+
+In the parking garage, the walk from the car to the elevator is maybe forty yards. Each stride produces friction. The lace against the shaft of my cock, the silk against the head, the waistband riding just below my hip bones. I'm hyperaware of the fabric the way you become hyperaware of a bandage on a wound. Except this doesn't hurt. This is the opposite of hurt. This is attention. My body is paying attention to itself in a way it has never been asked to before.
+
+My cock stirs. Half-hard by the time I reach the elevator. I will it down. Stand with my hands in my pockets, briefcase against my leg, watching the floor numbers climb. My reflection in the polished elevator door. Suit. Tie. Shoes. Nothing showing. The secret pressing warm against me underneath.
+
+The doors open on 39. I step out. The silk whispers.
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_Standup">><</link>>
+</div>
