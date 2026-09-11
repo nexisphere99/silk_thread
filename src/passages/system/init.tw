@@ -42,7 +42,8 @@
 <<set $choices = {
     r1: { bedChoice: "", sideQuests: [] },
     r2: { lenaChoice: "" },
-    r3: { dealChoice: "" }
+    r3: { dealChoice: "" },
+    r4: { afterHoursChoice: "" }
 }>>
 
 <<set $time = {
@@ -68,5 +69,7 @@
     r2PhoneChecked: false,
     r2StayedUpLate: false,
     r3HarperLunch: false,
-    r3MartinExtended: false
+    r3MartinExtended: false,
+    r4LockerMoment: false,
+    r4PhoneCheck: false
 }>>

@@ -1,0 +1,226 @@
+:: R4_Standup [r4 story intimate]
+<<scene "Conference Room B, Floor 39" "files/images/locations/r4-workday-standup.webp">>
+<<objective "Get through the morning standup.">>
+
+9:00 AM. The team gathers in Conference Room B. Glass walls, whiteboard, the smell of dry-erase markers and ambition. Eight people around the table. I take my usual seat. The chair is firm, corporate ergonomic, and when I sit the lace pulls tight against my cock and I clench my jaw so hard my back teeth ache.
+
+Harper is presenting. Q3 analytics. She stands at the whiteboard in her fitted blazer, pulling data from the dashboard with the casual precision of someone who thinks in spreadsheets. She's talking about conversion rates. Client acquisition costs. Funnel optimization. Words I know, concepts I've worked with for years, and right now they sound like a foreign language being spoken in an adjacent room.
+
+Because the lace pulled tight when I sat down and my cock is half-hard and I'm clenching my thighs together under the table like a teenager hiding an erection in math class. Except I'm thirty-one years old. In a boardroom. Wearing La Perla panties under a Brooks Brothers suit. And the woman four seats down, the one whose name is on the email that put these panties in my hand, is somewhere on this floor, possibly watching the security feed, possibly just sitting in her corner office knowing that right now, right this second, I am feeling exactly what she intended me to feel.
+
+Harper glances at me mid-sentence.
+
+<<say "Harper Quinn">>Daniel, any flags on the Whitmore account?<</say>>
+
+I open my mouth. Close it. The lace shifts.
+
+<<sayself>>No flags. Pipeline's clean.<</sayself>>
+
+She pauses. Her eyes narrow by a fraction most people wouldn't catch. I catch it because Harper's tells are the tells of a poker player, not a junior analyst. She files things. She watches and she files and someday those files will open and I will be in them.
+
+<<say "Harper Quinn">>Great.<</say>>
+
+She moves on. Her eyes don't.
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_LunchCrane">><</link>>
+</div>
+
+:: R4_LunchCrane [r4 story intimate]
+<<scene "Partners' Dining Room" "files/images/locations/r4-workday-lunch-crane.webp">>
+<<portrait "files/images/characters/martin_hallway.png" "Martin Crane">>
+<<objective "Get through lunch with Martin.">>
+
+Martin Crane takes me to the partners' dining room. Invitation only. White tablecloths, heavy silver, the soft clink of expensive cutlery on expensive plates. This is a mentorship gesture. Martin has been doing these since I joined Meridian. A steak every six weeks, conversations about leadership and legacy, the transmission of masculine corporate gospel from one generation to the next.
+
+He orders the ribeye. I order the same because I always order the same. Creatures of habit, the both of us. Or so he thinks.
+
+Martin leans back. Big shoulders, silver at the temples, the kind of jaw I've envied since I was twelve and realized I would never have one. He talks about the Henderson fallout. He doesn't know Victoria buried it. He thinks I recovered the account through grit. I let him think that. The lie tastes like steak.
+
+<<say "Martin Crane">>The firm needs men who can take a hit and get back up. You showed backbone on that one, Ashford.<</say>>
+
+I nod. Beneath the tablecloth, I shift in my chair. No garter clips yet. Just the panties. But the panties are enough. The lace drags across the head of my cock when I adjust my legs and I grip the table edge with one hand.
+
+<<say "Martin Crane">>You seem distracted lately, Ashford. Everything solid at home?<</say>>
+
+<<sayself>>Solid. Lena's good. We're good.<</sayself>>
+
+Martin nods slowly. It's the nod of a man who doesn't believe you but has decided that pressing the point is a kindness he won't extend. He signals the waiter for another bourbon. I drink water. I need to be sharp this afternoon. I need to be something resembling a person who isn't wearing women's underwear to lunch with his mentor in the executive dining room.
+
+The paranoia is electric. Every shift in my chair feels like a confession. Every time Martin's eyes drop below my collar, I'm certain he can see through the wool and cotton to the lace underneath. He can't. Nobody can. But the certainty that they might is its own drug, and I'm starting to understand that the drug is the point.
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_ConferenceRoom">><</link>>
+</div>
+
+:: R4_ConferenceRoom [r4 story intimate]
+<<location "Conference Room B, Floor 39">>
+<<portrait "files/images/characters/victoria_seated.png" "Victoria Cross">>
+<<objective "Get through the afternoon presentation.">>
+
+Mid-afternoon. I'm presenting the revised Whitmore strategy to the team. Standing at the whiteboard, marker in hand. Blue ink. Bullet points. Arrows. The ordinary language of corporate problem-solving, written in my ordinary handwriting, delivered in my ordinary voice.
+
+I cross my legs while thinking about a data point. It's an unconscious gesture. I've done it a thousand times. This time, the lace pulls tight against my cock. Pulls tight and holds. The friction is precise, concentrated, and my cock responds with the enthusiasm of a body that has been teased for seven straight hours.
+
+I stutter. Mid-sentence. The word "revenue" comes out as "rev" and then nothing and then I recover and nobody says anything but the pause existed and it sits in the room like a dropped glass.
+
+I finish the sentence. Keep writing. The marker squeaks on the board. My hand is steady. Everything else is not.
+
+Victoria is in the back of the room.
+
+I didn't know she was here. She's sitting in on the meeting as the new vertical lead. A reasonable explanation that I don't believe for a second. She's in a navy blazer. White silk blouse. Her legs crossed. Her expression is the expression of a woman watching a documentary she's already seen.
+
+I catch her eye. One raised eyebrow. The faintest curl at the corner of her mouth. A smile that is not a smile. A signal that is not a signal. A woman watching a man she dressed this morning perform for an audience that doesn't know they're watching a performance.
+
+She knows. Not that I'm wearing them. She told me to. She knows I'm //feeling// them. She can read it on my face like a weather forecast. Temperature rising. Pressure building. Storm incoming.
+
+<<moodimage "files/images/mood/r4-workday-presentation.webp" "">>
+
+I finish the presentation. Someone asks about the Whitmore timeline. I answer. My voice holds. My cock doesn't soften. The lace is damp. I have been leaking into these panties since the conference room chair and probably before. By the time I sit back down, the silk is wet against the underside of my shaft and the scent of my own arousal rises faintly from my lap and I fold my hands over my crotch and pray to a god I don't believe in that nobody can smell what I smell.
+
+<<modstat "arousalRewiring" 3>>
+
+The meeting ends. People file out. Harper lingers, stacking papers. Victoria leaves without looking at me.
+
+She doesn't need to look. She already saw everything.
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_Harper_Interaction">><</link>>
+</div>
+
+:: R4_Harper_Interaction [r4 story]
+<<location "Floor 39, Daniel's Desk">>
+<<portrait "files/images/mood/r4-npc-harper-desk.webp" "Harper Quinn">>
+<<objective "Handle Harper's questions.">>
+
+Harper catches me at my desk an hour later. She's carrying two coffees. Sets one on my desk without asking. Black, no sugar. She knows.
+
+<<say "Harper Quinn">>You blanked during the standup this morning.<</say>>
+
+<<sayself>>I was distracted.<</sayself>>
+
+<<say "Harper Quinn">>You're never distracted.<</say>>
+
+She sits on the edge of my desk. She does this. It's a Harper thing. Perching on surfaces, occupying space with a casual ownership that belies her junior title.
+
+<<say "Harper Quinn">>And then the stutter during Whitmore. Are you sleeping okay?<</say>>
+
+<<sayself>>Fine.<</sayself>>
+
+<<say "Harper Quinn">>You keep shifting in your chair. Like you're uncomfortable.<</say>>
+
+The observation is precise. Clinical. She's been watching me all day. Filing.
+
+<<sayself>>New suit. The tailor cut the inseam too tight.<</sayself>>
+
+She looks at my suit. Looks at me. Her expression doesn't change but something behind her eyes flickers. She doesn't believe me. Harper rarely believes explanations that arrive too quickly.
+
+<<say "Harper Quinn">>Okay.<</say>>
+
+She picks up her coffee. Takes a sip. Doesn't leave.
+
+<<say "Harper Quinn">>Victoria Cross sat in on your presentation. She never sits in on Floor 39 meetings.<</say>>
+
+<<sayself>>She's the new vertical lead. She's reviewing everything.<</sayself>>
+
+<<say "Harper Quinn">>She was watching you. Not the presentation. You.<</say>>
+
+I take a drink of the coffee she brought me. It's too hot. I drink it anyway.
+
+<<sayself>>She watches everyone. That's her thing.<</sayself>>
+
+Harper slides off my desk. Straightens her blazer.
+
+<<say "Harper Quinn">>Let me know if you need anything, Daniel. I mean that.<</say>>
+
+She walks away. I watch her go. She doesn't look back, but I know she's still watching. Harper Quinn never stops watching. It's her greatest skill and, depending on how the next few months unfold, it might be my greatest liability.
+
+<<npc "harper" "suspicion" 4>>
+<<modstat "officeSuspicion" 3>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_Martin_Hallway">><</link>>
+</div>
+
+:: R4_Martin_Hallway [r4 story]
+<<location "Corridor, Floor 39">>
+<<portrait "files/images/mood/r4-npc-martin-hallway.webp" "Martin Crane">>
+<<objective "Handle Martin's questions.">>
+
+I pass Martin Crane in the corridor on my way back from the bathroom. He's got his coat on. Heading out early, which is rare for a man who treats the office like a second home.
+
+He stops. Looks at me. That squint again.
+
+<<say "Martin Crane">>Ashford.<</say>>
+
+<<sayself>>Sir.<</sayself>>
+
+<<say "Martin Crane">>You left early yesterday too. You sick?<</say>>
+
+<<sayself>>No, sir. Just finishing up some remote work.<</sayself>>
+
+He studies me the way he studies quarterly reports. Looking for the number that doesn't fit.
+
+<<say "Martin Crane">>When I was your age, I spent seventy hours a week in this building. That was the price. Some people today think they can pay half and get the same result.<</say>>
+
+<<sayself>>I'm not cutting hours, Martin.<</sayself>>
+
+<<say "Martin Crane">>Good.<</say>>
+
+He claps my shoulder. His hand is heavy. Warm. It lands two inches from the bra strap that doesn't exist today. But it will tomorrow, or the day after, or the day after that, and the distance between his hand and that future strap is shrinking at a rate I can calculate but cannot stop.
+
+<<say "Martin Crane">>Keep it tight, son.<</say>>
+
+He walks away. His shoes are polished brighter than mine. His jaw is sharper. His shoulders are wider. He is the man my father wanted me to become and the man Victoria is systematically dismantling, piece by piece, starting with the underwear.
+
+<<npc "martin" "suspicion" 4>>
+<<modstat "officeSuspicion" 3>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R4_Afternoon_Hub">><</link>>
+</div>
+
+:: R4_Afternoon_Hub [r4 hub]
+<<location "Meridian Consulting, Floor 39">>
+<<objective "Wait out the rest of the afternoon.">>
+
+The afternoon settles into its ordinary shape around me. Emails. A team call. The lace, damp and warm, pressing against me under the desk. Somewhere on Floor 42, Victoria is waiting for the workday to end.
+
+<div class="choice-container">
+    <<if !$flags.r4LockerMoment>>
+        <span class="sidequest"><<link "Slip away to the executive washroom" "R4_SQ_LockerMoment">><</link>></span>
+    <</if>>
+    <<link "Wait for Victoria's summons" "R4_AfterHours">><</link>>
+</div>
+
+:: R4_SQ_LockerMoment [r4 sidequest intimate]
+<<set $flags.r4LockerMoment = true>>
+<<scene "Executive Washroom, Third Floor" "files/images/locations/r4-sq-washroom-stall.webp">>
+<<objective "Decide what to do with a moment alone.">>
+
+Mid-afternoon. Between the presentation and Victoria's summons. I lock myself in the executive washroom stall. Third floor bathroom, not my own floor. Fewer people. Less chance.
+
+I unbuckle my belt. Unzip. Push my slacks down to my knees and look at what I've become in the span of twelve hours.
+
+Black lace panties on pale thighs. My cock pressed against the silk, half-hard, a dark shape against the darker fabric. The lace edge follows the curve of my hip bone. The waistband sits where a woman's waistband would sit, below the navel, above the pelvis. My legs are ordinary. Unshaved, unremarkable. But framed by lace they look different. Slender instead of thin. Smooth-ish instead of just hairless in patches.
+
+I stare. The fluorescent light hums. Someone enters the bathroom. Footsteps. A stall door closes two down from mine. I hold my breath. My cock pulses against the lace. The person flushes, washes their hands, leaves. I let the breath go.
+
+I touch myself through the panties. One stroke. Two. The lace creates friction that cotton never did. A texture. A grain. My cock responds instantly, fully hard now, pushing against the silk, the head straining the fabric. I hook two fingers under the leg band and pull it aside, freeing myself into the open air of the stall, and wrap my hand around my own cock, and stroke.
+
+My grip is tight, deliberate, years of practiced efficiency behind every motion, but the rhythm keeps breaking against the thought of Victoria's voice, of the folder on her desk, of the word //obedience// in her mouth. My other hand braces against the cool metal of the stall wall. I stroke faster. The head is slick, flushed dark, and every drag of my fist sends a jolt up through my stomach that has nothing to do with fear.
+
+There's a wet spot forming on the lace where it's pushed aside, precome smearing against the fabric, against my fist, against my thigh. I'm close. Embarrassingly close, faster than I've come alone in years, like my body has been rationed all day and is finally being fed.
+
+I stop. Pull my hand away. My cock throbs, untouched, angry at the interruption. Victoria didn't give permission for this. Two days ago that sentence would have been meaningless. Today it stops my hand like a wall.
+
+I tuck myself back into the lace. The waistband settles against the wet spot, cool for a second before it warms again. My hands are shaking. I flush the toilet I didn't use. Wash my hands at the sink. The mirror over the sink shows my face. Flushed. Eyes bright. Lips slightly parted. I look like a man who just got caught doing something. Or a man who just stopped himself from doing something. The distinction is academic.
+
+I dry my hands. Walk back to my desk. Sit down. The lace is wet. The silk clings. I have four hours until Victoria's summons and every one of them will feel like waiting for a verdict that I've already decided to accept.
+
+<<modstat "submission" 3>>
+<<modstat "arousalRewiring" 4>>
+
+<div class="continue-wrap">
+    <<link "Back to the office" "R4_Afternoon_Hub">><</link>>
+</div>
