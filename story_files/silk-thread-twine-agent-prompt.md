@@ -144,6 +144,12 @@ You are building an adult interactive fiction game called "Silk Thread" in Twine
     week: 1
 }>>
 
+// Current objective — short goal text shown in the sidebar below the
+// time chip, so the player always knows what to do next. Set once per
+// story beat via <<objective "...">>. Cleared to "" at release endings
+// so the box disappears once there's nothing left to point toward.
+<<set $objective = "Get up and start the morning.">>
+
 // Flags
 <<set $flags = {
     harperCoffee: false,
@@ -228,6 +234,16 @@ Macro.add('location', {
         $(this.output).wiki('<div class="location-header">' + loc + '</div>');
     }
 });
+
+// Current-objective indicator (sidebar, below the time chip)
+// Usage: <<objective "Get through the workday.">> — call once per story
+// beat, same pattern as <<location>>. Doesn't render anything inline;
+// it just updates $objective, which the StoryCaption picks up.
+Macro.add('objective', {
+    handler: function() {
+        State.variables.objective = this.args[0];
+    }
+});
 ```
 
 #### 3. Open World Navigation System
@@ -292,6 +308,17 @@ The game uses a hub-based open world. Each time period (morning/afternoon/evenin
     </div>
     <</if>>
     
+    <div class="time-chip">
+        <<= $time.period.toUpperCase()>> | <<= $time.day.toUpperCase()>>
+    </div>
+
+    <<if $objective>>
+    <div class="objective-box">
+        <div class="objective-label">Objective</div>
+        <div class="objective-text"><<= $objective>></div>
+    </div>
+    <</if>>
+
     <<if $phone.unread > 0>>
     <div class="phone-notif" data-passage="PhoneUI">
         📱 <<= $phone.unread>> unread
@@ -997,3 +1024,4 @@ tweego src/passages/ -o dist/silk-thread.html -f sugarcube-2 --watch
 - NPC relationship objects persist and carry forward
 - Save system uses SugarCube's built-in `Save` API with custom slot naming
 - The open-world hub system gates content by `$time.period` so players explore freely within narrative time blocks
+- Every story beat sets `<<objective "...">>` (paired with `<<location>>`/`<<scene>>`) so the sidebar always shows a short current goal; cleared to `""` at each release's ending passage so the box disappears once there's nothing left to point toward
