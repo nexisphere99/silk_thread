@@ -13,7 +13,7 @@
 </div>
 
 :: R4_Opening [r4 story intimate]
-<<scene "Daniel & Lena's Apartment, Bedroom" "files/images/locations/r4-opening-suit-panties-bed.webp">>
+<<scene "Daniel & Lena's Apartment, Bedroom" "files/images/locations/r4-opening-suit-panties-bed.png">>
 <<set $time = { day: "thursday", period: "morning", week: 1 }>>
 <<objective "Get dressed for work.">>
 
@@ -51,7 +51,7 @@ I put on the suit.
 
 White shirt. Buttons from bottom to top, the way I always do. The bra isn't part of today's instructions. Just the panties. Just this. I tuck the shirt in. Fasten my belt. Step into the oxfords. Tie my tie. Windsor knot, slightly left of center because I've never been able to get it dead middle and I stopped trying years ago.
 
-<<moodimage "files/images/mood/r4-opening-mirror.webp" "">>
+<<moodimage "files/images/mood/r4-opening-mirror.png" "">>
 
 I check the mirror on the back of the closet door. Same Daniel. Same sandy hair, a little too long because I keep forgetting to schedule the barber. Same jaw, soft where I wish it were sharp. Same shoulders, narrow in the charcoal suit. Same shoes, same watch, same face.
 
@@ -62,7 +62,7 @@ Nothing visible has changed. Everything has.
 </div>
 
 :: R4_Commute [r4 story intimate]
-<<scene "In Transit" "files/images/mood/r4-commute-hands-wheel.webp">>
+<<scene "In Transit" "files/images/mood/r4-commute-hands-wheel.png">>
 <<objective "Get through the drive to work.">>
 
 The drive to work is twenty-two minutes if I leave before seven. I leave at 6:41. The city is still waking up. Traffic lights cycle through their colors for nearly empty intersections. A jogger crosses against red on Sixth Street. A delivery truck idles outside a bakery.
