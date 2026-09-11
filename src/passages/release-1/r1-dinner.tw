@@ -10,6 +10,7 @@ The drive home is twenty minutes. Light traffic. I stop at the grocery store for
 
 :: R1_Hub_Evening [r1 hub]
 <<scene "Daniel's Apartment, Evening" "files/images/locations/apartment_living_room_evening.png">>
+<<objective "Get through the evening with Lena.">>
 
 Lena is in the kitchen. The apartment smells like garlic and olive oil, which means she reheated the pasta from two nights ago.
 
@@ -53,6 +54,7 @@ The conversation dies the way our conversations always die. Not with conflict or
 
 :: R1_Evening_Couch [r1 story]
 <<location "Living Room">>
+<<objective "See out the rest of the evening.">>
 
 We sit on the couch. Her legs are tucked under her, phone tilted at an angle I can't see. Instagram, probably. Or texting someone. I have my laptop open, pretending to review tomorrow's prep, actually reading the same paragraph for the fourth time because my brain decided to clock out at 7:30 and my body hasn't caught up.
 

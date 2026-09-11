@@ -1,6 +1,7 @@
 :: R1_Morning2 [r1 story]
 <<set $time = { day: "tuesday", period: "morning", week: 1 }>>
 <<location "Bedroom">>
+<<objective "Get through Tuesday.">>
 
 Tuesday. The alarm. The count. The swing. The feet on the floor.
 
@@ -18,6 +19,7 @@ The drive is twenty-six minutes today. I don't listen to the podcast. I drive in
 
 :: R1_Office_Day2 [r1 story]
 <<location "Meridian Consulting, Floor 39">>
+<<objective "Prepare for the Henderson meeting on Thursday.">>
 
 Meridian is the same building doing the same things with the same people inside it. The only difference is the day printed on Greg Tanaka's calendar and the flavor of coffee in the machine. Yesterday was "Bold Roast." Today is "Smooth Morning." Both taste like hot brown disappointment.
 
@@ -52,6 +54,7 @@ She walks out. I stand there holding my mug of Smooth Morning, which has gone te
 :: R1_Closing_Evening [r1 story]
 <<set $time = { day: "thursday", period: "evening", week: 1 }>>
 <<location "Multiple, Rest of the Week">>
+<<objective "Get through the rest of the week.">>
 
 Wednesday and Thursday pass in a smear of meetings and decks and lunches I don't taste. The Henderson meeting is Thursday and it goes well. Not brilliantly. Not catastrophically. The client nods. Greg Tanaka nods. Martin Crane doesn't attend, which either means he trusts me or he doesn't consider it worth his time, and I choose to believe the former because the latter would keep me up at night.
 

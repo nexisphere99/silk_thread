@@ -113,5 +113,28 @@
 }
 .time-chip .time-day { color: var(--accent-gold); }
 
+.objective-box {
+    margin-top: 0.6rem;
+    padding: 0.7rem 0.85rem;
+    background: rgba(196, 163, 90, 0.06);
+    border: 1px solid var(--border-gold);
+    border-left: 2px solid var(--accent-gold);
+    border-radius: 4px;
+}
+.objective-label {
+    font-size: 0.58rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent-gold);
+    margin-bottom: 0.3rem;
+}
+.objective-text {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    color: var(--text-primary);
+}
+
 #ui-bar-toggle { color: var(--text-dim); }
 #ui-bar-toggle:hover { color: var(--accent-gold); }

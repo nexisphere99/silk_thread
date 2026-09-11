@@ -50,6 +50,8 @@
     week: 1
 }>>
 
+<<set $objective = "Get up and start the morning.">>
+
 <<set $flags = {
     harperCoffee: false,
     martinElevator: false,

@@ -10,5 +10,6 @@
 <<statbar "Victoria Trust" $stats.victoriaTrust "victoria">>
 <<statbar "Office Suspicion" $stats.officeSuspicion "suspicion">>
 <div class="time-chip"><span class="time-day"><<= $time.day.toUpperCase()>></span><span><<= $time.period>></span></div>
+<<if $objective>><div class="objective-box"><div class="objective-label">Objective</div><div class="objective-text"><<= $objective>></div></div><</if>>
 <<if $phone.unread > 0>><div class="phone-notif" data-passage="PhoneUI"><<link "&#128241; " + $phone.unread + " unread">><<openphone>><</link>></div><</if>>
 </div>
