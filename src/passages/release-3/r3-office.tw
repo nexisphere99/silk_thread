@@ -1,0 +1,181 @@
+:: R3_TheDrawer [r3 story intimate]
+<<location "Victoria Cross's Office, Floor 42">>
+<<objective "Decide how to respond.">>
+
+Inside the drawer, laid on dark velvet the color of a bruise, is a pair of black lace panties.
+
+<<moodimage "files/images/items/la_perla_panties.png" "">>
+
+I stare at them. My brain performs several operations simultaneously, like a computer running too many programs. The first operation is identification: La Perla. I know because Lena pointed them out in a magazine once, laughing, saying nobody actually buys those. Two hundred dollars for dental floss. The second operation is aesthetic recognition: they are beautiful. Black lace over a silk lining, delicate scalloped edge, a small satin bow at the front. They look like something a woman wears when she wants to feel expensive. The third operation is contextual processing: my boss is showing me women's underwear in her office at 7 AM while my career bleeds out on a conference room floor three stories below.
+
+The fourth operation is the one I try to shut down. It doesn't shut down.
+
+<<say "Victoria Cross">>Wear these tomorrow. Under your suit. All day. That's all I'm asking.<</say>>
+
+She pauses. Her eyes are on my face with the focus of a jeweler examining a stone for flaws. Or for value.
+
+<<say "Victoria Cross">>For now.<</say>>
+
+For now. Two words that contain an entire future. A hallway with doors I can't see yet. A staircase going somewhere I haven't agreed to visit.
+
+She picks the panties up from the velvet. Holds them out. Not to me. Between us. In the air between her hand and mine. The lace catches the morning light coming through the glass wall. The city glitters behind her. Forty-two stories of earned altitude.
+
+<<say "Victoria Cross">>Hold them.<</say>>
+
+I take them. The lace is lighter than I expected. Barely there. The silk lining is cool against my palm, slippery, the kind of fabric that doesn't want to stay still. My fingers close around them and the silk warms immediately, taking on my body heat like it was waiting for it.
+
+<<modstat "feminization" 2>>
+
+<<say "Victoria Cross">>Feel the fabric.<</say>>
+
+She's watching my face. Cataloguing. I understand now what she's looking for. She's looking for three things: shame, confusion, and beneath both, something smaller. A spark. A catch in the breath that has nothing to do with horror and everything to do with curiosity.
+
+I rub the silk between my thumb and forefinger. The lace edge has a texture like tiny raised letters in a language I don't know. The fabric is impossibly soft. Softer than anything in my drawer at home. Softer than anything I've ever worn against my skin. Lena's underwear is cotton, practical, bought in packs of six from Target. These are not that. These are crafted. Considered. They exist to make the wearer feel something specific.
+
+Victoria stands and moves around the desk. She comes to stand behind my chair and slightly to my left. Close. Close enough that the perfume is no longer a suggestion. It's a statement. Dark and layered, something with oud and jasmine and smoke, something designed to fill the space between two people and make them aware of exactly how small that space is.
+
+Her heels click on the hardwood. One. Two. They stop.
+
+She's inches from me. I can feel her warmth the way you feel a radiator when you walk past it. Not touching. Present.
+
+<<say "Victoria Cross">>Say 'yes, Ms. Cross.'<</say>>
+
+My mouth is dry. My career is a flatline on a screen and she's holding the paddles. The panties are warm from my grip. My fingers have tightened around them without my permission, bunching the silk, pressing the lace into my palm. My palm is sweating and I wonder if she can tell. I wonder if that's part of what she's cataloguing.
+
+I think about Greg Tanaka's face. The termination paperwork. The email I'd have to send to my father explaining why I lost another thing. The look on Lena's face when I tell her the career she married is gone. The apartment we can't afford on one salary. The plan I described over pad thai, dead at thirty-one, buried under a missed deadline and a misread room.
+
+I think about all of that. And underneath all of that, in the part of my brain I keep locked and unfurnished, I think about how the silk feels against my skin.
+
+<div class="choice-container">
+    <<link "Say it, and let it be shame" "R3_Choice_Shame">><<set $choices.r3.dealChoice = "shame">><</link>>
+    <<link "Say it, and let yourself feel the pull" "R3_Choice_Curiosity">><<set $choices.r3.dealChoice = "curiosity">><</link>>
+    <<link "Try to negotiate different terms" "R3_Choice_Negotiate">><<set $choices.r3.dealChoice = "negotiate">><</link>>
+</div>
+
+:: R3_Choice_Shame [r3 story]
+<<modstat "submission" 8>>
+<<modstat "victoriaTrust" 3>>
+<<npc "victoria" "trust" 3>>
+<<objective "Leave Victoria's office.">>
+
+<<sayself>>Yes, Ms. Cross.<</sayself>>
+
+The words come out dry. Quiet. They taste like copper pennies.
+
+<<say "Victoria Cross">>Good boy.<</say>>
+
+Two words. They hit somewhere below my stomach and above my cock. A location I don't have a map for. A part of the body that medical textbooks don't chart because it only exists in moments like this, when someone with authority says something that shouldn't feel like what it feels like.
+
+My face is burning. My neck is burning. The panties are a warm knot of silk in my fist and my knuckles are white around them and I don't know what I feel. I know what I should feel. I should feel revolted, offended, ready to stand up and walk out and call HR and retain a lawyer. That is what the man my father raised would do. That man would be on his feet already.
+
+That man is sitting very still.
+
+I take the panties because I have no choice. That's what I tell myself. That's the story I construct in the elevator going down. Forty-two floors of narrative building. I am a man who was cornered. A man who did what he had to do. Survival. Pragmatism. The calculated surrender of someone playing a long game.
+
+The fabric in my pocket means nothing. It's a transaction. A cost of doing business. The same as a handshake I don't want to give or a dinner I don't want to attend. Corporate reality.
+
+I repeat this in my head for the rest of the day. By 5 PM I almost believe it.
+
+Almost.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_VictoriaFarewell">><</link>>
+</div>
+
+:: R3_Choice_Curiosity [r3 story]
+<<modstat "submission" 5>>
+<<modstat "arousalRewiring" 5>>
+<<modstat "victoriaTrust" 5>>
+<<npc "victoria" "trust" 5>>
+<<objective "Leave Victoria's office.">>
+
+<<sayself>>Yes, Ms. Cross.<</sayself>>
+
+The words come out dry. Quiet. They taste like copper pennies.
+
+<<say "Victoria Cross">>Good boy.<</say>>
+
+Two words. They hit somewhere below my stomach and above my cock. A location I don't have a map for. A part of the body that medical textbooks don't chart because it only exists in moments like this, when someone with authority says something that shouldn't feel like what it feels like.
+
+My face is burning. My neck is burning. The panties are a warm knot of silk in my fist. Something happens during the taking. Not in the moment itself. In the afterimage. I notice that my thumb is rubbing the silk. Back and forth. A small, unconscious motion. The way you rub a good luck charm or a stone you found on the beach. Not because you need to. Because it feels interesting.
+
+I stop myself. Start again thirty seconds later.
+
+The fabric is genuinely beautiful. I've never thought about underwear in those terms. Underwear is functional. Underwear is the thing beneath the thing. But this. The way the lace holds light. The way the silk changes temperature against skin. These were made by someone who understood that what touches you closest matters most.
+
+I don't know what to do with that thought. So I carry it home in my pocket alongside the panties and I don't look at either until midnight.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_VictoriaFarewell">><</link>>
+</div>
+
+:: R3_Choice_Negotiate [r3 story]
+<<modstat "submission" 6>>
+<<modstat "victoriaTrust" 1>>
+<<npc "victoria" "trust" 1>>
+<<objective "Get out of the office.">>
+
+<<sayself>>Isn't there something else,<</sayself>>
+
+I start.
+
+Victoria raises one eyebrow. A single architectural motion. The eyebrow says everything her mouth doesn't bother with. It says: this is not a negotiation. It says: you walked into my office on Floor 42 with a dead career and sat in the shorter chair and I poured you coffee you didn't refuse. The negotiation happened before you opened my door. The terms were set before you pressed the elevator button. What's happening now is the part where you accept.
+
+<<say "Victoria Cross">>Something else.<</say>>
+
+Flat. Not a question.
+
+<<sayself>>A different arrangement. I could work weekends. Take on additional accounts. There are other ways to demonstrate com-<</sayself>>
+
+<<say "Victoria Cross">>Daniel.<</say>>
+
+She says my name the way a teacher says it when the answer is wrong but the student is trying. Gentle. Final.
+
+<<say "Victoria Cross">>This is what I'm offering. This, specifically. Not overtime. Not additional accounts. This.<</say>>
+
+She holds the panties up. The lace sways slightly. The silk catches light.
+
+I leave her office without agreeing. I ride the elevator down in silence. I sit at my desk for forty-five minutes staring at spreadsheets without reading a single number.
+
+At 11 AM I send an email. One line.
+
+//Yes, Ms. Cross.//
+
+Her reply arrives in under thirty seconds.
+
+//Good boy. I knew you'd get there.//
+
+The response is worse than if she'd made me say it to her face. Because she wasn't even waiting. She was just doing her work, knowing I'd come around, the way you know the mail will arrive or the tide will come in. Inevitability as a management style.
+
+I spend the rest of the day with the panties in my desk drawer, the bottom one, behind the hanging files where no one will look.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_TheHallway">><</link>>
+</div>
+
+:: R3_VictoriaFarewell [r3 story]
+<<location "Victoria Cross's Office, Floor 42">>
+
+Victoria returns to her side of the desk. Sits down in her higher chair. The power geometry reasserts itself. She opens her laptop like we've been discussing quarterly projections.
+
+<<say "Victoria Cross">>Tomorrow. Under your suit. All day. You can go.<</say>>
+
+She types something. Doesn't look up.
+
+I stand. The panties are still in my hand. I fold them. A small, precise fold, the way I fold my pocket square on Sunday nights. Muscle memory from a ritual designed to project control. I tuck them into my jacket pocket. The inside pocket, against my chest, where I keep my wallet and my phone and now this.
+
+The weight is negligible. A few grams of silk and lace. It feels like carrying a grenade with the pin half-pulled.
+
+<<say "Victoria Cross">>Daniel.<</say>>
+
+I stop at the door. Turn.
+
+Victoria is looking at me. Her expression has shifted by a degree. Still composed, still certain, but there's something warmer in it now. Something proprietary. The look of a woman who just acquired something she intends to keep.
+
+<<say "Victoria Cross">>You made the right choice.<</say>>
+
+I nod. Open the door. Walk out.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_TheHallway">><</link>>
+</div>

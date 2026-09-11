@@ -1,0 +1,115 @@
+:: R3_WorkdayAfter [r3 story]
+<<location "Meridian Consulting, Floor 39">>
+<<objective "Get through the rest of the day.">>
+
+The day happens around me. Emails. A team call where I say nothing memorable. Lunch from the cafeteria, turkey sandwich, chips, a cookie I don't eat. The Henderson fallout doesn't materialize. No calls from Greg Tanaka. No HR summons. No somber walk to the elevator with a cardboard box.
+
+Victoria made a call. The account survived. I survived. The paperwork evaporated like it was never typed.
+
+The price sits in my jacket pocket, folded against my chest.
+
+I check my phone at 2 PM. Lena sent a photo of a latte with a leaf pattern in the foam. No message, just the photo. I type back a heart emoji and delete it. Type "looks good" and send that instead. The heart felt too honest. Too much like something a man sends when he's trying to prove he's still the man he was yesterday.
+
+At 3:30, Martin Crane stops by my desk. Knuckles on the cubicle wall. Rap rap.
+
+<<say "Martin Crane">>Henderson sorted?<</say>>
+
+I look up. Martin's face is granite with a salt-and-pepper goatee. He knows something happened. He doesn't know what was resolved.
+
+<<sayself>>Under control. Victoria Cross is handling the transition.<</sayself>>
+
+Martin's eyebrows do a thing. A twitch. Victoria's name in this context is new information, and Martin is a man who tracks power the way some men track sports statistics.
+
+<<say "Martin Crane">>Cross, huh.<</say>>
+
+He nods slowly.
+
+<<say "Martin Crane">>She's something else. Good to have her in your corner.<</say>>
+
+He leaves. His footsteps are heavy. Martin Crane walks like every floor owes him money.
+
+I sit at my desk and think about the panties in my pocket. I've thought about them eleven times today. I know because I've been counting. Eleven times I've reached for the pocket. Eleven times I've felt the silk. Eleven times I've felt that thing in my stomach that isn't nausea and isn't excitement and is something in between that hasn't been named yet because most people never feel it.
+
+At 5:45, I pack up. Take the elevator down. Walk to my car. Drive home.
+
+<<scene "Daniel & Lena's Apartment, Evening" "files/images/locations/daniels_apartment.png">>
+<<portrait "files/images/characters/lena_couch.png" "Lena Ashford">>
+
+Lena is on the couch in yoga pants and one of my old college T-shirts. She's watching a cooking show. She smiles when I walk in. The smile is real but automatic. The smile of a woman who is glad to see you in the way she's glad to see the familiar. Not the thrilling. The familiar.
+
+<<say "Lena">>How was your day?<</say>>
+
+<<sayself>>Better than yesterday.<</sayself>>
+
+<<say "Lena">>Good.<</say>>
+
+She turns back to the TV. A man is making risotto with aggressive confidence.
+
+The evening is ordinary in the way that ordinary has become our default setting. We eat on the couch because the dining table has become a staging area for her crafting supplies, a sewing project she started in March and abandoned in May and hasn't moved because moving it would be admitting it's dead.
+
+She tells me about her day. A coworker who microwaved fish in the office kitchen. A client call where the connection dropped three times. Small, contained stories with beginnings and endings and no emotional weather. The forecasts we give each other now. Mild. Clearing by evening. No significant accumulation.
+
+<<say "Lena">>You seem better today.<</say>>
+
+She's watching the cooking show again. A different man, same confidence, attacking a duck with a cleaver.
+
+<<sayself>>Yeah. Things sorted themselves out at work.<</sayself>>
+
+<<say "Lena">>Good.<</say>>
+
+She pulls her legs up onto the couch. Her toes are painted a pale pink I've never seen before. She must have done them recently. I can't remember the last time I noticed Lena's toenails. I can't remember the last time I noticed anything about Lena's body that wasn't connected to the mechanical act of sleeping beside it.
+
+<<sayself>>Your toes look nice.<</sayself>>
+
+The observation surprises both of us. She looks down at her feet, then at me, and for a moment something opens in her expression. A window. A possibility.
+
+<<say "Lena">>Thanks. I did them last night while you were working late.<</say>>
+
+While I was at Victoria's office being shown women's underwear. While my world was being rearranged on Floor 42. Lena was on this couch, painting her toenails pink, and the parallel lives we're living have never felt more parallel.
+
+<<sayself>>Pink suits you.<</sayself>>
+
+I add it, because the window is open and I want to climb through it. I want to reach across the three feet and the thousand miles and touch her and have it mean something.
+
+<<say "Lena">>Yeah?<</say>>
+
+She smiles. The real one. The one I proposed to. It lasts two seconds, maybe three, and then the show cuts to a commercial and she picks up her phone and the window closes with a click so quiet I almost convince myself I imagined it.
+
+I wash the dishes. She goes to bed. I dry my hands on a towel that's been hanging too long and needs replacing and I stand in the kitchen and think about tomorrow morning when this towel will still be here and the dishes will still be drying and I will be standing naked in our bedroom deciding which underwear to put on.
+
+I already know which ones.
+
+I go to the bedroom. Close the door. Take the panties from my pocket. Unfold them. Lay them on the bed next to my suit.
+
+Tomorrow.
+
+The word sits in the room like another person.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_NightAlone">><</link>>
+</div>
+
+:: R3_NightAlone [r3 story]
+<<scene "Daniel's Apartment, Late Night" "files/images/locations/nightstand_panties.png">>
+<<set $time.period = "night">>
+<<objective "Try to get some sleep.">>
+
+Lena goes to bed at 10. I stay up. I do this thing I do where I sit on the couch with a glass of something amber and pretend I'm thinking about work when really I'm thinking about the thing I can't name.
+
+<<moodimage "files/images/items/whiskey_glass.png" "">>
+
+The panties are in my nightstand now. Buried under a book about leadership strategies that I bought at the airport and never opened. They're tucked beneath its pages like a secret pressed between the leaves of a Bible. Tomorrow morning I'll wake up and Lena will leave for yoga and I will stand naked in our bedroom and decide whether to step into them.
+
+Decide. That's funny. The decision was made at 7:06 AM in a corner office that smells like Tom Ford and dominion. What happens tomorrow morning isn't a decision. It's a consequence.
+
+I finish the whiskey. Wash the glass. Place it upside down on the drying rack, perfectly centered. Because I am a man who centers his glasses on drying racks. I am a man of precision and order and clean lines.
+
+I go to the bedroom. Lena is asleep, breathing soft and steady, phone on the nightstand, screen dark. I get into bed. The sheets are cool. Her body is warm beside me. We don't touch. We sleep in the same bed the way coworkers share an elevator. Proximate. Parallel. Heading in the same direction but for entirely different reasons.
+
+I close my eyes and think about Victoria's voice saying //good boy// and the silk against my palm and the way the lace caught the morning light.
+
+I don't sleep for a very long time.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_Wednesday">><</link>>
+</div>

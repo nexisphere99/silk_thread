@@ -1,0 +1,151 @@
+:: R3_Wednesday [r3 story]
+<<set $time = { day: "wednesday", period: "morning", week: 1 }>>
+<<scene "Meridian Consulting, Floor 39" "files/images/locations/kitchenette_r3.png">>
+<<objective "Get through Wednesday.">>
+
+Wednesday passes in the specific fog of a man carrying two lives, one on each shoulder blade. Daniel Ashford, adequate and dependable, files reports and answers emails and nods in meetings. The other one, the one who held silk in a corner office and said //yes, Ms. Cross//, sits somewhere underneath, quiet, waiting.
+
+I almost forgot about Greg. That's the thing about being rescued. You forget about the fire. You forget about the man who stood in his office at 4:47 PM and typed the first line of your termination while you stood there watching your reflection dissolve.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_GregKitchenette">><</link>>
+</div>
+
+:: R3_GregKitchenette [r3 story]
+<<location "Break Room, Floor 39">>
+<<portrait "files/images/characters/greg_kitchen.png" "Greg Tanaka">>
+<<objective "Get through Wednesday.">>
+
+Greg stops me in the kitchenette Wednesday morning. Two days after the Henderson meeting. One day before I'll put on the panties.
+
+<<say "Greg Tanaka">>Ashford.<</say>>
+
+His voice is different. Not the furious whisper from Monday. Something else. Confusion, maybe. The voice of a man who drafted a termination letter and then received a phone call that made the letter disappear.
+
+<<sayself>>Greg.<</sayself>>
+
+<<say "Greg Tanaka">>I spoke with Cross.<</say>>
+
+He fills his coffee mug. Pours too much cream. His hands are doing something nervous, the spoon circling the mug long after the cream has blended.
+
+<<say "Greg Tanaka">>Henderson's been reclassified. Strategic transition. Not a loss.<</say>>
+
+<<sayself>>I heard.<</sayself>>
+
+<<say "Greg Tanaka">>I didn't know you and Cross had a working relationship.<</say>>
+
+<<sayself>>It's new.<</sayself>>
+
+Greg looks at me. He has the eyes of a middle manager who just watched someone leap over his head and land on a trampoline he didn't know was there. It's the look of a man recalculating. Daniel Ashford, adequate and dependable, has a patron on Floor 42. That changes the math.
+
+<<say "Greg Tanaka">>Well.<</say>>
+
+He sets down the spoon.
+
+<<say "Greg Tanaka">>Good to have allies.<</say>>
+
+He leaves the kitchenette. His footsteps are lighter than Martin's. More tentative. Greg Tanaka just realized I am no longer a problem he can solve with paperwork. I'm something else now.
+
+I stand in the kitchenette, holding my coffee, and think about the word ally. It's the wrong word. Allies are equals who choose each other. What Victoria and I have is something else. Something with a different geometry. Higher and lower. Pull and follow. A silk thread tied to a place I haven't seen yet, tugging gently.
+
+I pour my coffee. Walk back to my desk. The panties are at home in my nightstand, waiting.
+
+Everything is waiting.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_NightBefore">><</link>>
+</div>
+
+:: R3_NightBefore [r3 story intimate]
+<<scene "Bathroom, Midnight" "files/images/locations/nightstand_panties.png">>
+<<set $time = { day: "wednesday", period: "night", week: 1 }>>
+<<objective "Prepare for tomorrow.">>
+
+Midnight. The apartment is dark. Lena is asleep. I'm in the bathroom, door locked, sitting on the closed toilet lid in my boxer briefs.
+
+I took the panties out of the nightstand. They're in my lap. Black lace, silk lining. In the bathroom light they look different than they did in Victoria's office. More real. Less symbolic. Just underwear. Very expensive, very beautiful underwear that I'm supposed to wear against my body for twelve hours tomorrow.
+
+I hold them up. Step one foot through the left leg opening. The lace brushes my ankle. I stop.
+
+I'm rehearsing. Practicing in the dark so that tomorrow morning I can do it smoothly, efficiently, like putting on socks. So the act itself doesn't have time to accumulate meaning. So I can frame it as mechanical. A task. A thing I do because I agreed to do it.
+
+I pull my foot back out. Fold the panties. Place them on the counter beside my toothbrush.
+
+They look wrong there. Next to the Oral-B and the tube of Colgate and the electric razor I use every morning. The panties are an alien artifact placed in the habitat of a man who polishes his shoes on Sunday and drives a Camry and has sex with his wife once a week, missionary, lights off, four minutes, ceiling.
+
+I put them back in the nightstand. Go to bed. Lena doesn't stir.
+
+Tomorrow.
+
+The word is heavier now. It has mass. It has velocity. It's falling toward me and I can either step aside or let it land.
+
+I close my eyes.
+
+I don't step aside.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_Closing">><</link>>
+</div>
+
+:: R3_Closing [r3 system]
+<<set $objective = "">>
+<div class="release-end">
+    <div class="release-title">End of Release 3<br>The Deal</div>
+    <p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:0 auto 2rem;">
+        If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+    </p>
+    <div class="title-menu" style="margin: 0 auto;">
+        <<link "View Stats" "R3_StatsScreen">><</link>>
+        <<link "Return to Title" "Start">><</link>>
+    </div>
+</div>
+
+:: R3_StatsScreen [r3 system]
+<<location "Release 3, Complete">>
+
+<div class="stats-full">
+
+<h3>Final Stats</h3>
+
+|Stat|Value|
+|Identity|<<= $stats.selfIdentity>>% (<<= Silk.identityLabel($stats.selfIdentity)>>)|
+|Marriage Bond|<<= $stats.marriageBond>>%|
+|Feminization|<<= $stats.feminization>>%|
+|Submission|<<= $stats.submission>>%|
+|Arousal Rewiring|<<= $stats.arousalRewiring>>%|
+|Victoria Trust|<<= $stats.victoriaTrust>>%|
+|Office Suspicion|<<= $stats.officeSuspicion>>%|
+
+<h3>The Deal</h3>
+<<if $choices.r3.dealChoice === "shame">>You said yes, and told yourself it was pragmatism. Survival. A cost of doing business.
+<<elseif $choices.r3.dealChoice === "curiosity">>You said yes, and underneath the shame, something else stirred. Curiosity you didn't ask for.
+<<else>>You tried to negotiate. Victoria didn't blink. You sent the email an hour later anyway.
+<</if>>
+
+<h3>Side Quests</h3>
+<p>
+<<if $flags.r3HarperLunch>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Lunch With Harper<br>
+<<if $flags.r3MartinExtended>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Martin's Warning
+</p>
+
+<h3>Key Unlocks</h3>
+<p>
+Victoria's protection activated (Henderson reclassified)<br>
+La Perla panties acquired, waiting in the nightstand<br>
+Harper's observation thread initiated<br>
+Martin's suspicion thread seeded<br>
+Greg Tanaka's dynamic shifted
+</p>
+
+<h3>Tomorrow</h3>
+<p>Silk against skin. Every meeting, every handshake, every step becomes a negotiation between the man everyone sees and the secret pressed against his skin.</p>
+
+</div>
+
+<p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:2rem auto 1rem; text-align:center;">
+    If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+</p>
+
+<div class="title-menu" style="margin: 0 auto;">
+    <<link "Return to Title" "Start">><</link>>
+</div>

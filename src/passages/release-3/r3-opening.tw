@@ -1,0 +1,162 @@
+:: R3_TitleCard [r3 system]
+<<set $currentRelease = 3>>
+<div class="title-screen">
+    <div class="title-image">
+        <img src="files/images/ui/release_3_title_card.png" alt="" onerror="this.closest('.title-image').classList.add('is-missing')">
+    </div>
+    <p class="title-wordmark" style="font-size:2.2rem;">THE DEAL</p>
+    <div class="title-rule"></div>
+    <p class="title-subtitle">Release Three</p>
+    <div class="title-menu">
+        <<link "Continue" "R3_Opening">><</link>>
+    </div>
+</div>
+
+:: R3_Opening [r3 story]
+<<scene "Floor 42, Corridor" "files/images/locations/hallway_floor42.png">>
+<<set $time = { day: "tuesday", period: "morning", week: 1 }>>
+<<objective "Meet with Victoria Cross.">>
+
+I get to Floor 42 at 6:52 AM.
+
+Eight minutes early. Because that is what Daniel Ashford does. Daniel Ashford builds buffers. Daniel Ashford reviews his notes twice and shows up before the clock tells him to. Daniel Ashford is a man of margins and contingencies, and right now every single one of them has been spent.
+
+The elevator doors open and the air is different up here. Thinner. Colder. The carpet is darker, the lighting warmer, the silence more deliberate. Down on 39, the office hums with fluorescent democracy. Up here, the quiet has weight. It says: you are in someone else's territory.
+
+Victoria Cross's corner office sits at the end of a corridor lined with abstract art that probably cost more than my car. Through the glass wall I can see the city skyline arranged behind her desk like a backdrop she commissioned. Dawn light catches the buildings at their edges. Everything up here looks curated. Intentional. Like someone sat down and decided what reality should look like, then built it.
+
+Her assistant's desk is empty. No one else on this floor yet. Just me and the corridor and the faint smell of dark coffee threading through Tom Ford perfume. Something woody and layered. Something that fills a room before the person wearing it does.
+
+I straighten my tie. Check my shoes. The left one has a scuff near the toe that I missed last night. Last night I was drinking whiskey alone on my couch while my career bled out through a conference room floor, so the scuff feels appropriate. A small failure on top of a catastrophic one. A garnish.
+
+I knock.
+
+<<say "Victoria Cross">>Come in.<</say>>
+
+Two words. Her voice is lower than I expected. Not deep. Controlled. The voice of someone who has never needed to raise it.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_VictoriasOffice">><</link>>
+</div>
+
+:: R3_VictoriasOffice [r3 story]
+<<scene "Victoria Cross's Office, Floor 42" "files/images/locations/victoria_office.png">>
+<<portrait "files/images/characters/victoria_seated.png" "Victoria Cross">>
+<<objective "Find out what Victoria wants.">>
+
+The office is larger than my apartment's living room. Floor-to-ceiling glass on two walls, the city laid out forty-two stories below like a circuit board someone left running. Dark wood desk, clean lines, not a single paper out of place. A leather chair behind the desk that probably costs what I make in a week. A single orchid on the credenza, white, perfect, the kind of plant that looks like it signed a contract agreeing not to wilt.
+
+Victoria Cross sits behind the desk with the posture of a woman who has never second-guessed a decision in her life. Tall even seated. Dark hair cut sharp at the jaw. Features that belong on currency. Charcoal blazer, structured shoulders, a silk blouse underneath in a color I'd call gunmetal if I were trying to impress someone. She is not trying to impress anyone. She is the person other people try to impress.
+
+She doesn't stand when I enter. She gestures to the chair across from her. I sit down and realize immediately that her chair is higher than mine. Not by much. Two inches, maybe three. Enough that I'm looking up at her. Enough that she's looking down.
+
+The difference is not accidental. Nothing in this room is accidental.
+
+<<say "Victoria Cross">>Daniel.<</say>>
+
+She says my name like she's reading it off a file.
+
+<<say "Victoria Cross">>Sit.<</say>>
+
+I'm already sitting. She knows that. The command is the point.
+
+<<say "Victoria Cross">>Coffee?<</say>>
+
+<<sayself>>No, thank you.<</sayself>>
+
+<<say "Victoria Cross">>You should have some. You look like you haven't slept.<</say>>
+
+She pours from a French press on her desk. Black. No sugar offered. She slides the cup across the wood and the ceramic whispers against the grain. I take it because refusing feels like it would cost me something I can't afford to lose. The coffee is excellent. Of course it is.
+
+Victoria opens a folder. Manila, slim, my name on the tab in a typeface I don't recognize. She doesn't look at it. She already knows what's inside. The folder is a prop. A stage direction. Look at what I have on you.
+
+<<moodimage "files/images/items/manila_folder.png" "">>
+
+<<say "Victoria Cross">>Henderson Analytics. Twelve-million-dollar annual relationship. Margaret Walsh, CFO, asked about regulatory risk modeling on Q3 projections. You pushed growth strategy. She wanted risk mitigation. You doubled down. She pulled the account. Greg Tanaka drafted termination paperwork at 4:47 PM yesterday.<</say>>
+
+She recites it like weather. Clear skies, high of seventy-two, your career is over.
+
+<<say "Victoria Cross">>That's the recent history. Want to hear the rest?<</say>>
+
+I don't. She tells me anyway.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_TheAutopsy">><</link>>
+</div>
+
+:: R3_TheAutopsy [r3 story]
+<<location "Victoria Cross's Office, Floor 42">>
+<<objective "Listen to what Victoria knows about you.">>
+
+Victoria goes back two years. She knows about the Paulson Group, a client I almost lost over a pricing model error that Harper caught at 11 PM on a Tuesday. She knows about the Quarterly Review where Martin Crane noted I was "reliable but risk-averse." She knows my annual evaluations read like the report card of a student who always sits in the third row. Competent. Dependable. Unremarkable.
+
+She recites details I'd forgotten. A presentation where I used the wrong revenue figure and nobody caught it because the number was close enough. A networking event where I stood by the bar for forty minutes talking to no one. She even knows about the team-building retreat where I volunteered for the easy role in the trust exercise because I didn't want to be the one who fell.
+
+She lays out my professional life like a body on a table. Clean cuts, no wasted motion. She's not cruel about it. That would require emotion. She's clinical. A surgeon showing you the X-ray and letting you count your own fractures.
+
+<<say "Victoria Cross">>You're not bad at your job, Daniel.<</say>>
+
+She closes the folder. Leans back. Crosses her legs. One heel, black, catches the morning light. Red sole. Louboutin. The shoe costs more than my monthly mortgage.
+
+<<say "Victoria Cross">>You're adequate. And adequate, in this firm, gets you a severance package and a LinkedIn update.<</say>>
+
+The words land in my stomach like ice water. Not because they're harsh. Because they're true. I have spent six years being adequate. I have perfected adequacy. I have made it an art form, this careful navigation of the middle, this studied avoidance of any height from which I might fall.
+
+And then I fell anyway.
+
+She lets the silence stretch. She's good at silence. Most people fill it with qualifiers, apologies, pivot statements. Victoria lets it breathe. The silence in this office has lungs.
+
+I look at my coffee. It's cooling. I haven't taken a second sip.
+
+<<sayself>>So what happens now?<</sayself>>
+
+My voice comes out smaller than I intended. Smaller than I've heard it since I was seventeen and my father asked me why I quit the wrestling team.
+
+Victoria's mouth does something. Not quite a smile. More like the preview of one. A coming attraction.
+
+<<say "Victoria Cross">>That depends entirely on you.<</say>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_TheOffer">><</link>>
+</div>
+
+:: R3_TheOffer [r3 story]
+<<location "Victoria Cross's Office, Floor 42">>
+<<portrait "files/images/characters/victoria_standing.png" "Victoria Cross">>
+<<objective "Hear Victoria's offer.">>
+
+She stands. Moves around the desk. Not quickly. She moves the way expensive things move. With the assurance that comes from knowing no one will rush you. Her heels click on the hardwood at the edge of the carpet. Click. Click. Click. Each one a period at the end of a sentence I can't read yet.
+
+She sits on the edge of her desk, two feet from my chair. I can smell her perfume now. Up close it's more complex. Dark base, something floral underneath but sharpened, something that doesn't want to be pretty. It wants to be remembered.
+
+<<say "Victoria Cross">>I can bury the Henderson situation. I have the relationships. I have the authority. Margaret Walsh and I went to Wharton together. I can make a call this morning and the account stays, reclassified as a strategic transition. Greg Tanaka reports to me now, as of the vertical merger. The termination paperwork disappears.<</say>>
+
+She pauses. Lets me absorb.
+
+<<say "Victoria Cross">>Beyond that. I can protect your position. I can mentor you. I can accelerate your promotion track. Two years from now, you're a senior account director. Three years, you're looking at VP.<</say>>
+
+The trajectory she's describing is the one I've been quietly dreaming about since I started at Meridian. The one I told Lena about on our third date, the plan I laid out over pad thai and cheap wine. VP by thirty-five. The dream that has been quietly dying in my cubicle on Floor 39 for six years while I filed reports and avoided eye contact with my own ambition.
+
+Victoria is offering it to me like a gift. A very expensive gift in a very expensive box. The kind that comes with terms of service.
+
+<<say "Victoria Cross">>In exchange, I need your trust. Your cooperation. Your obedience.<</say>>
+
+The word lands. Obedience. Not collaboration. Not partnership. Not team player synergy or whatever human resources calls it when they want you to do what you're told. Obedience. The raw word. The honest one.
+
+<<say "Victoria Cross">>I call it executive coaching. Personal development. Trust-building exercises.<</say>>
+
+A smile now, real this time, and it does something complicated to my nervous system. Something that starts in my chest and descends.
+
+<<say "Victoria Cross">>The language is flexible. The commitment is not.<</say>>
+
+<<sayself>>What kind of obedience?<</sayself>>
+
+The question comes out before I can stop it. I should be negotiating. I should be asking about contracts, HR protocols, documented agreements. I should be the careful man my father raised. Instead I asked the only question that matters, and we both know it.
+
+<<say "Victoria Cross">>Let's start simple.<</say>>
+
+She turns to her desk. Opens the top drawer. The one on the right side, closest to where she's sitting. The drawer slides open on soft runners, silent, like it was built for moments exactly like this.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_TheDrawer">><</link>>
+</div>

@@ -1,0 +1,183 @@
+:: R3_TheHallway [r3 story]
+<<scene "Floor 42, Corridor" "files/images/locations/hallway_floor42.png">>
+<<objective "Get back down to Floor 39.">>
+
+The corridor is still empty. 7:14 AM. The building is waking up below me. I can hear the elevator ding on a lower floor, the distant murmur of the lobby. Up here, nothing. Just my footsteps on carpet that absorbs sound like a confession booth.
+
+My hand is in my jacket pocket. Fingers touching the silk through the lining. I pull my hand out. Put it back. Pull it out again. A nervous habit I'm developing in real time, like watching myself grow a new limb.
+
+<<moodimage "files/images/mood/jacket_pocket.png" "">>
+
+The elevator arrives. I step in. The doors close and I'm alone with my reflection in the polished steel. Same face. Same tie. Same shoes with the scuff on the left toe. Same Daniel Ashford who walked into this building ninety minutes ago.
+
+Not the same. Something moved. Something small and interior, like furniture being rearranged in a room I thought was empty.
+
+I press the button for 39. My floor. My lane. My adequate, dependable, unremarkable lane.
+
+The silk shifts in my pocket as the elevator descends.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_HarperHallway">><</link>>
+</div>
+
+:: R3_HarperHallway [r3 story]
+<<location "Elevator Bank, Floor 39">>
+<<portrait "files/images/characters/harper_casual.png" "Harper Quinn">>
+<<objective "Get through the rest of the day.">>
+
+Harper is by the elevator bank when the doors open. She's got a coffee in one hand and a folder in the other and her hair is up in that efficient twist she does when she's already working before she's technically at work.
+
+<<say "Harper Quinn">>Early meeting with Cross?<</say>>
+
+She falls into step beside me. Her eyes do that thing. The cataloguing thing. She takes in my face the way an auditor takes in a spreadsheet. Line by line. Looking for the number that doesn't add up.
+
+<<say "Harper Quinn">>How'd it go?<</say>>
+
+<<sayself>>Fine.<</sayself>>
+
+The word comes out too fast. A bullet exiting a chamber. Fine. The universal shield. The word men use when they have no intention of telling you a single goddamn thing.
+
+Harper tilts her head. The motion is small. Precise. I've worked with her for eight months and I've learned that head tilt. It means she's filing something for later. Not pushing now. But not forgetting.
+
+<<say "Harper Quinn">>Coffee's fresh if you want some.<</say>>
+
+She gestures toward the kitchenette with her folder.
+
+<<sayself>>Thanks.<</sayself>>
+
+I walk past her. My hand goes to the pocket again. Fingers press against the silk through the fabric of my jacket. A phantom touch. A secret handshake with a new version of myself I haven't met yet.
+
+Harper watches me go. I can feel her eyes on my back like a hand between my shoulder blades. She's seen something. She doesn't know what she's seen. Neither do I.
+
+<div class="continue-wrap">
+    <<link "Continue" "R3_Afternoon_Hub">><</link>>
+</div>
+
+:: R3_Afternoon_Hub [r3 hub]
+<<location "Meridian Consulting, Floor 39">>
+<<objective "Get through the rest of the day.">>
+
+The morning settles into its ordinary shape around me. Emails. A team call. The building doesn't know what happened on Floor 42, and I'm not sure I do either.
+
+<div class="choice-container">
+    <<if !$flags.r3HarperLunch>>
+        <span class="sidequest"><<link "Grab lunch with Harper" "R3_SQ_HarperLunch">><</link>></span>
+    <</if>>
+    <<if !$flags.r3MartinExtended>>
+        <span class="sidequest"><<link "Catch Martin in the elevator lobby" "R3_SQ_MartinExtended">><</link>></span>
+    <</if>>
+    <<link "Get through the rest of the day" "R3_WorkdayAfter">><</link>>
+</div>
+
+:: R3_SQ_HarperLunch [r3 sidequest]
+<<set $flags.r3HarperLunch = true>>
+<<location "The Place With the Soup">>
+<<portrait "files/images/characters/harper_casual.png" "Harper Quinn">>
+
+Harper Quinn occupies the desk fourteen feet from mine. I know the exact distance because I measured it once during a particularly boring conference call, pacing it out heel-to-toe like a crime scene technician at a scene with no crime.
+
+She is twenty-six years old and she sees everything.
+
+Not in the way Martin Crane sees things, which is the way a hawk sees a field. From above. Looking for movement. Martin sees patterns and power dynamics and threats. Harper sees details. She sees the scuff on my shoe that I missed. She sees that I adjusted my tie twice during this morning's standup meeting. She sees that my coffee has gone cold because I've been staring at my monitor without moving my mouse for eleven minutes.
+
+She also sees that I came back from Floor 42 with something different in my posture. Not broken, exactly. Rearranged. The way a room looks after someone moved all the furniture two inches to the left. Everything's in approximately the right place. The proportions are wrong.
+
+<<say "Harper Quinn">>You want to grab lunch?<</say>>
+
+She asks it at noon, leaning into my cubicle entrance the way she does, one shoulder on the partition, folder against her chest like a shield she doesn't know she's holding.
+
+<<sayself>>I'm going to eat at my desk.<</sayself>>
+
+<<say "Harper Quinn">>You always eat at your desk. Let's go to the place with the soup.<</say>>
+
+The place with the soup is a deli two blocks over that makes a French onion that could fix minor emotional damage. Harper discovered it three months ago and has been quietly using it as a therapeutic tool for the team.
+
+<<sayself>>I'm fine.<</sayself>>
+
+She studies me. Head tilt. The folder drops to her side.
+
+<<say "Harper Quinn">>Daniel. You just survived a career-ending client loss in, what, eighteen hours? Either you're incredibly resilient or you're in shock. Either way, you should eat soup.<</say>>
+
+I almost tell her. Not about the panties. About Victoria. The deal. The protection. The way her voice sounded saying //good boy// and how it echoed in the elevator for thirty-eight floors. I almost tell Harper Quinn because she has that quality. That gravity. The kind that makes you lean in and loosen up and say things you haven't finished thinking yet.
+
+I don't tell her.
+
+<<sayself>>Soup sounds fine.<</sayself>>
+
+We go to the place with the soup. She talks about client analytics and a new ML model she's testing and a podcast about behavioral economics. I eat my French onion and let her voice fill the space where my thoughts would otherwise spiral. She doesn't press me about Victoria. She doesn't ask what happened on Floor 42. She just sits across from me and talks and watches and files.
+
+Harper Quinn is dangerous. Not to me. Not yet. But in the way that any sharp edge is dangerous when you're carrying something fragile and you don't know you're carrying it.
+
+<<npc "harper" "suspicion" 5>>
+<div class="choice-container">
+    <<link "Back to the office" "R3_Afternoon_Hub">><</link>>
+</div>
+
+:: R3_SQ_MartinExtended [r3 sidequest]
+<<set $flags.r3MartinExtended = true>>
+<<location "Elevator Lobby, Floor 39">>
+<<portrait "files/images/characters/martin_hallway.png" "Martin Crane">>
+
+Martin Crane has been at Meridian for twenty-three years. He joined when the firm was twelve people and a coffeemaker. He watched it grow into a glass tower full of Harvard MBAs and venture capital and he carries that origin story like a veteran carries a campaign ribbon. Visible. Permanent. A claim on territory that newer arrivals can never match.
+
+He corners me in the elevator lobby. Martin doesn't make appointments to talk to you. He intercepts you. It's a dominance display disguised as spontaneity.
+
+<<say "Martin Crane">>Ashford.<</say>>
+
+The handshake. Martin shakes hands like he's testing whether your bones will hold. Mine do, barely.
+
+<<say "Martin Crane">>Victoria Cross. Tell me about that.<</say>>
+
+<<sayself>>She's running the new vertical. My division got absorbed.<</sayself>>
+
+<<say "Martin Crane">>I know the org chart. I'm asking about you and her.<</say>>
+
+His eyes are steady. Martin has the eyes of a man who's watched twenty-three years of office politics and has developed a seismograph for the tremors that precede earthquakes.
+
+<<say "Martin Crane">>She took a meeting with you at seven AM. She doesn't take meetings at seven AM unless she wants something.<</say>>
+
+<<sayself>>She was reviewing my client portfolio. After the Henderson situation.<</sayself>>
+
+<<say "Martin Crane">>Mmhm.<</say>>
+
+Martin sips his coffee. Black, lukewarm, from the communal pot he refuses to upgrade from.
+
+<<say "Martin Crane">>Henderson's resolved?<</say>>
+
+<<sayself>>She made some calls.<</sayself>>
+
+<<say "Martin Crane">>Calls.<</say>>
+
+He processes this.
+
+<<say "Martin Crane">>Cross doesn't make calls as favors, Daniel. She makes calls as investments.<</say>>
+
+He lets that land the way Victoria lets her silences land. These people are all the same species. Different subspecies, maybe. Martin is the predator who tells you about his teeth. Victoria is the one who doesn't need to.
+
+<<say "Martin Crane">>Be careful up there.<</say>>
+
+He claps my shoulder. The hand is heavy. Paternal in a way that makes my chest tighten because my actual father never touched my shoulder like that. My actual father touched my shoulder to correct my posture or adjust my collar or push me toward something I didn't want to do.
+
+<<sayself>>She's a good mentor.<</sayself>>
+
+I manage it.
+
+<<say "Martin Crane">>Mentor.<</say>>
+
+Martin tastes the word. Finds it insufficient.
+
+<<say "Martin Crane">>Sure. Just remember where your office is. Thirty-nine. Not forty-two.<</say>>
+
+He walks away. Heavy footsteps. Each one a period at the end of a sentence about hierarchy and staying in your place and knowing your altitude.
+
+I stand in the elevator lobby and think about the panties in my nightstand drawer.
+
+I think about Martin's hand on my shoulder and Victoria's voice in my ear.
+
+I think about two kinds of power. One that grips. One that pulls.
+
+<<npc "martin" "suspicion" 8>>
+<<modstat "officeSuspicion" 5>>
+<div class="choice-container">
+    <<link "Back to the office" "R3_Afternoon_Hub">><</link>>
+</div>
