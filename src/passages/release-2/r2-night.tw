@@ -176,6 +176,9 @@ I lie still and listen to my own heartbeat and wait for the alarm that will carr
 <<set $objective = "">>
 <div class="release-end">
     <div class="release-title">End of Release 2<br>The Mistake</div>
+    <p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:0 auto 2rem;">
+        If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+    </p>
     <div class="title-menu" style="margin: 0 auto;">
         <<link "View Stats" "R2_StatsScreen">><</link>>
         <<link "Return to Title" "Start">><</link>>
@@ -213,6 +216,10 @@ I lie still and listen to my own heartbeat and wait for the alarm that will carr
 
 </div>
 
-<div class="title-menu" style="margin: 2rem auto 0;">
+<p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:2rem auto 1rem; text-align:center;">
+    If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+</p>
+
+<div class="title-menu" style="margin: 0 auto;">
     <<link "Return to Title" "Start">><</link>>
 </div>
