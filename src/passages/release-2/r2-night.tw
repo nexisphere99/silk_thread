@@ -1,6 +1,7 @@
 :: R2_Whiskey_Alone [r2 story]
 <<scene "Daniel's Apartment, Late Night" "files/images/locations/apartment_dark_whiskey.png">>
 <<set $time.period = "night">>
+<<objective "End the night.">>
 
 I pour whiskey. Bourbon. Maker's Mark, the bottle we got as a housewarming gift from Lena's cousin two years ago and have been slowly working through, mostly me, mostly on nights like this. The glass is heavy in my hand. The first sip burns and then blooms and then settles into a warmth that has nothing to do with comfort and everything to do with chemical alteration of consciousness, which is a clinical way of saying I am drinking alone on a Tuesday night because I destroyed my career today and told my wife I was fine.
 
@@ -69,6 +70,7 @@ I pour another whiskey.
 
 :: R2_Late_Night_Email [r2 story]
 <<location "Living Room, 11:47 PM">>
+<<objective "See what the night brings.">>
 
 11:47 PM.
 
@@ -114,6 +116,7 @@ I set my alarm for 5:30. Fifteen minutes earlier than usual. Building a buffer f
 
 :: R2_End_Reflection [r2 story]
 <<location "Bedroom, Late Night">>
+<<objective "Prepare for 7 AM with Victoria Cross.">>
 
 The apartment is dark. The whiskey is doing its slow chemical work on my nervous system, softening the edges but not erasing them. Nothing erases them.
 
@@ -145,6 +148,7 @@ It's early for everything else.
 
 :: R2_Dream_Sequence [r2 story]
 <<location "Dream, Elevator">>
+<<objective "Prepare for 7 AM with Victoria Cross.">>
 
 I dream about the elevator.
 
@@ -169,6 +173,7 @@ I lie still and listen to my own heartbeat and wait for the alarm that will carr
 </div>
 
 :: R2_Release_End [r2 system]
+<<set $objective = "">>
 <div class="release-end">
     <div class="release-title">End of Release 2<br>The Mistake</div>
     <div class="title-menu" style="margin: 0 auto;">

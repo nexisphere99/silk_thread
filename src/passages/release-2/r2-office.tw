@@ -1,5 +1,6 @@
 :: R2_Henderson_Meeting [r2 story]
 <<scene "Conference Room A, Floor 41" "files/images/locations/conference_room_floor41.png">>
+<<objective "Get through the Henderson meeting.">>
 <<portrait "files/images/characters/margaret_walsh_meeting.png" "Margaret Walsh">>
 
 The Henderson team arrives at 9:58. Four of them. Margaret Walsh leads. She is the CFO and she smiles like she's auditing your soul and finding the balance short. Gray suit, reading glasses she doesn't need but wears because they make people underestimate her for the three seconds before she asks a question that makes them sweat through their shirts.
@@ -62,6 +63,7 @@ I take the sticky note. Fold it. Put it in my pocket. I don't know why. Evidence
 
 :: R2_Greg_Office [r2 story]
 <<scene "Greg Tanaka's Office" "files/images/locations/gregs_office.png">>
+<<objective "Deal with the fallout from Henderson.">>
 <<portrait "files/images/characters/greg_tanaka_serious.png" "Greg Tanaka">>
 
 Greg Tanaka is waiting.

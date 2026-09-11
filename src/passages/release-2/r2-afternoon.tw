@@ -1,5 +1,6 @@
 :: R2_Elevator_Silence [r2 story]
 <<scene "Elevator, Descending" "files/images/locations/elevator_steel.png">>
+<<objective "Get through the rest of the day.">>
 
 The elevator takes forty floors to reach the lobby. I know this because I count them. Not the numbers on the display. The seconds. The small mechanical sounds. The hum of cables doing their honest work, transporting the weight of a man whose career is a flatline.
 
@@ -179,6 +180,7 @@ He turns back to the skyline. I'm dismissed. But not unkindly. Martin Crane oper
 
 :: R2_Afternoon_Fog [r2 story]
 <<location "Meridian Consulting, Floor 39">>
+<<objective "Make it to the end of the day.">>
 <<portrait "files/images/characters/martin_crane_portrait_r2.png" "Martin Crane">>
 
 The afternoon passes in a fog. I answer emails. I attend a team check-in and contribute nothing. I nod when people speak. I drink three cups of coffee that taste like hot brown water. At 2:15 I go to the men's room and stand in front of the mirror and look at my face and try to identify the exact moment I became the kind of man who loses twelve-million-dollar accounts.
