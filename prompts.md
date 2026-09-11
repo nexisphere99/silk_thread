@@ -19,3 +19,11 @@ Photorealistic interior, modern mid-rise apartment bedroom at dawn, thin blinds 
 this is having files structure and how to integrate this into the game
 
 can you add these into newly creating sugarcube twine game..Add nice styles. Should be very modern swine game.
+
+
+
+
+
+////
+
+end of release 2 add the ask if need to acces recent version or need to support devlopment go to patreon
