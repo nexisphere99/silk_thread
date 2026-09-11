@@ -1,6 +1,7 @@
 :: R1_Sunday [r1 story]
 <<set $time = { day: "sunday", period: "afternoon", week: 1 }>>
 <<location "Daniel's Apartment, Sunday">>
+<<objective "Get through the Sunday ritual.">>
 
 Sunday. The ritual.
 
@@ -46,6 +47,7 @@ I sleep.
 
 :: R1_Closing [r1 story]
 <<location "Bedroom, Late Night">>
+<<set $objective = "">>
 
 This is my life.
 

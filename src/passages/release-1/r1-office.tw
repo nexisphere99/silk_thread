@@ -1,5 +1,6 @@
 :: R1_Office_Arrival [r1 story]
 <<scene "Meridian Lobby" "files/images/locations/meridian_lobby.png">>
+<<objective "Get through the workday.">>
 
 7:15 AM. The lobby smells like fresh flowers and carpet cleaner and that particular strain of ambition that coats the inside of buildings where people wear lanyards. The security guard nods. I nod back. We've been nodding at each other for three years and I don't know his name. I am a terrible person in exactly the average way.
 
@@ -63,6 +64,7 @@ I go back to my emails. Scan, reply, file. The building hums with Monday.
 
 :: R1_Martin_Hallway [r1 story]
 <<location "Hallway, Floor 39">>
+<<objective "Prepare for the Henderson meeting on Thursday.">>
 <<portrait "files/images/characters/martin_corner_office.png" "Martin Crane">>
 
 Martin Crane intercepts me in the hallway at 11:40, which is Martin Crane's way of saying he was waiting for me to walk by. He's fifty-five, six-foot-one, built like a man who played football in college and never entirely stopped believing the world owed him for it. Silver hair swept back. Suit that costs more than my monthly car payment. Handshake like he's testing whether your bones are load-bearing.

@@ -1,6 +1,7 @@
 :: R1_Opening [r1 story]
 <<scene "Daniel & Lena's Apartment, Bedroom" "files/images/locations/apartment_bedroom_morning.png">>
 <<set $time = { day: "monday", period: "morning", week: 1 }>>
+<<objective "Get up and start the morning.">>
 
 The alarm goes off at 5:45 AM. Fifteen minutes early, the way it always does, the way I set it three years ago when I decided that being early was the same thing as being in control. It isn't. But the alarm doesn't know that and neither do I, most mornings.
 
@@ -30,6 +31,7 @@ Then the moment passes. Moments always pass. I swing my legs off the mattress.
 
 :: R1_MorningRoutine [r1 story]
 <<location "Bathroom">>
+<<objective "Get ready and head to the office.">>
 
 The shower takes exactly seven minutes. I've timed it. Water at 102 degrees because I read somewhere that's the optimal temperature for circulation without damaging your skin, and I filed that fact away the same way I file everything: neatly, permanently, uselessly.
 
