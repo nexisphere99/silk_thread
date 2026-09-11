@@ -180,6 +180,7 @@ I lie still and listen to my own heartbeat and wait for the alarm that will carr
         If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
     </p>
     <div class="title-menu" style="margin: 0 auto;">
+        <<link "Continue to Release 3" "R3_TitleCard">><</link>>
         <<link "View Stats" "R2_StatsScreen">><</link>>
         <<link "Return to Title" "Start">><</link>>
     </div>
@@ -221,5 +222,6 @@ I lie still and listen to my own heartbeat and wait for the alarm that will carr
 </p>
 
 <div class="title-menu" style="margin: 0 auto;">
+    <<link "Continue to Release 3" "R3_TitleCard">><</link>>
     <<link "Return to Title" "Start">><</link>>
 </div>
