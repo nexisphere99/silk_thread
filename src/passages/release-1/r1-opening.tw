@@ -1,0 +1,54 @@
+:: R1_Opening [r1 story]
+<<scene "Daniel & Lena's Apartment, Bedroom" "files/images/locations/apartment_bedroom_morning.png">>
+<<set $time = { day: "monday", period: "morning", week: 1 }>>
+
+The alarm goes off at 5:45 AM. Fifteen minutes early, the way it always does, the way I set it three years ago when I decided that being early was the same thing as being in control. It isn't. But the alarm doesn't know that and neither do I, most mornings.
+
+I lie there for eleven seconds. I know it's eleven because I count them. Some men pray. Some men reach for their wives. I count to eleven and then I swing my legs off the mattress and plant my feet on the hardwood and that's it, that's the beginning, every single weekday for the last four years.
+
+Lena's hair is fanned across her pillow like something from a shampoo commercial, auburn catching the thin line of streetlight that leaks through the blinds. She used to get up with me. We'd make coffee together, bump hips at the kitchen counter, her in my old college t-shirt, me in boxers, and the apartment would smell like dark roast and sleep-warm skin. That was year one. Maybe early year two. Now she sleeps until I leave, and I kiss her forehead on the way out, and she doesn't stir, and neither of us mentions the change because naming it would make it real.
+
+I kiss her forehead. She doesn't stir.
+
+The apartment is quiet in the way that expensive mid-rise apartments are quiet. Insulated. Sealed. The furniture is from West Elm and CB2 and one piece from Restoration Hardware that cost more than it should have because Lena's mother was visiting and I wanted the living room to say something about me. I'm not sure what it says. Probably "adequate." Probably "trying."
+
+<div class="choice-container">
+    <<link "Get up. Start the ritual." "R1_MorningRoutine">><</link>>
+    <<link "Lie here a moment longer." "R1_LingerBed">><</link>>
+</div>
+
+:: R1_LingerBed [r1 story]
+<<location "Bedroom">>
+
+I stay. Ten more seconds. The sheets smell like her shampoo, something with coconut, and the pillow holds the shape of her head and for a moment the bed feels like what it used to feel like. A shared space. A warm country with a population of two.
+
+Then the moment passes. Moments always pass. I swing my legs off the mattress.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_MorningRoutine">><</link>>
+</div>
+
+:: R1_MorningRoutine [r1 story]
+<<location "Bathroom">>
+
+The shower takes exactly seven minutes. I've timed it. Water at 102 degrees because I read somewhere that's the optimal temperature for circulation without damaging your skin, and I filed that fact away the same way I file everything: neatly, permanently, uselessly.
+
+Shaving. Jawline first, then cheeks, then upper lip, then the neck in careful downward strokes. My father taught me to shave when I was fourteen. He stood behind me in the bathroom mirror, his hand over mine on the razor, guiding the angle.
+
+<<say "Daniel's Father">>A man's face is his handshake with the world, Danny.<</say>>
+
+He said things like that. Declarations that sounded carved from granite but meant nothing when you held them up to light. He was career military. He could field-strip a rifle but not a conversation. He could command a room but not a marriage. My mother left when I was nine and he blamed softness. Everything after that was about making me hard enough to keep.
+
+I pick the shirt I selected last night. Light blue, Egyptian cotton, pressed on Sunday along with four others while football played in the background. I don't care about football. I care about the appearance of caring about football, which is its own exhausting sport.
+
+Tie. Windsor knot, the only one my father showed me, the only one I've ever tied. Shoes by the door, polished to a mirror sheen. I can see my own face in the toe cap, distorted, smaller than it should be.
+
+I grab my briefcase. Keys. Phone. Wallet. The same four objects in the same four pockets every morning, a ritual so ingrained it's closer to prayer than habit.
+
+At the door, I stop. Look back at the hallway leading to our bedroom where Lena is still sleeping. The distance between the front door and that bedroom is twenty-three feet. It feels longer every month.
+
+I leave.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Hub_Morning">><</link>>
+</div>

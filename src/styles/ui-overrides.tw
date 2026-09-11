@@ -1,0 +1,54 @@
+:: 04_UiOverridesStylesheet [stylesheet]
+/* Structural width/margin/position for #ui-bar and #story, and the stow/unstow
+   transition, are left to SugarCube's native (already-correct) CSS. Earlier
+   overrides here fought that math and made the collapse toggle unreliable.
+   Only theme colors are customized below. */
+
+#ui-bar-tray { border-bottom: 1px solid var(--border-subtle); padding-bottom: 0.5em; }
+#history-backward:disabled,
+#history-forward:disabled {
+    color: var(--text-dim);
+    border-color: var(--border-subtle);
+    opacity: 0.5;
+}
+
+#menu-core li a,
+#saves-list button,
+.dropdown-item {
+    font-family: var(--font-ui);
+    color: var(--text-secondary);
+}
+#menu-core li a:hover { color: var(--accent-gold); }
+
+#ui-dialog {
+    background: var(--bg-secondary);
+    border: 1px solid var(--border-subtle);
+    box-shadow: var(--shadow-deep);
+}
+#ui-dialog-title {
+    font-family: var(--font-display);
+    color: var(--accent-gold);
+    border-bottom: 1px solid var(--border-subtle);
+}
+#ui-dialog-body { font-family: var(--font-ui); color: var(--text-primary); }
+#ui-dialog-close { color: var(--text-dim); }
+#ui-dialog-close:hover { color: var(--accent-gold); }
+
+.buttonbar button,
+#ui-bar button,
+button.ui-close {
+    font-family: var(--font-ui);
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    color: var(--text-secondary);
+    border-radius: 3px;
+    transition: all var(--speed) var(--ease);
+}
+.buttonbar button:hover,
+#ui-bar button:hover {
+    border-color: var(--border-gold);
+    color: var(--accent-gold-bright);
+    background: var(--bg-card-hover);
+}
+
+#saves-list .saves-list-row { border-color: var(--border-subtle); }

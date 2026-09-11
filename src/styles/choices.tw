@@ -1,0 +1,133 @@
+:: 02_ChoicesStylesheet [stylesheet]
+.choice-container {
+    margin: 2.5rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.85rem;
+}
+
+.choice-container a,
+.choice-btn,
+macro-link a {
+    position: relative;
+    display: block;
+    padding: 1.05rem 1.4rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: 3px;
+    color: var(--text-primary) !important;
+    text-decoration: none !important;
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 0.98rem;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: background var(--speed) var(--ease),
+                border-color var(--speed) var(--ease),
+                transform var(--speed) var(--ease),
+                box-shadow var(--speed) var(--ease),
+                padding-left var(--speed) var(--ease);
+    overflow: hidden;
+}
+
+.choice-container a::before,
+.choice-btn::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 2px;
+    background: var(--accent-gold);
+    transform: scaleY(0);
+    transform-origin: center;
+    transition: transform var(--speed) var(--ease);
+}
+
+.choice-container a:hover,
+.choice-btn:hover {
+    background: var(--bg-card-hover);
+    border-color: var(--border-gold);
+    color: var(--accent-gold-bright) !important;
+    transform: translateX(3px);
+    padding-left: 1.65rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.35), inset 0 0 24px rgba(196,163,90,0.06);
+}
+
+.choice-container a:hover::before,
+.choice-btn:hover::before { transform: scaleY(1); }
+
+.choice-container a:active { transform: translateX(1px) scale(0.995); }
+
+/* Sidequest / optional choices get a quieter, dashed treatment.
+   These are <span class="sidequest"> wrappers around a <<link>> macro,
+   since SugarCube's <<link>> macro has no native class argument. */
+.choice-container span.sidequest a {
+    border-style: dashed;
+    font-style: normal;
+    font-family: var(--font-ui);
+    font-size: 0.82rem;
+    letter-spacing: 0.02em;
+    color: var(--text-secondary) !important;
+    padding: 0.85rem 1.2rem;
+}
+.choice-container span.sidequest a::after {
+    content: '◇ explore';
+    float: right;
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+}
+.choice-container span.sidequest a:hover { color: var(--accent-ice) !important; border-color: rgba(90,122,154,0.4); }
+.choice-container span.sidequest a:hover::before { background: var(--accent-ice); }
+
+/* Pacing continues (no real decision, just "keep reading") get a quiet,
+   centered link instead of a full choice button, so they read as distinct
+   from actual choices. Used wherever a passage would otherwise end on a
+   bare <<goto>>, which SugarCube executes synchronously mid-render, before
+   the browser ever paints that passage's own text, silently skipping it. */
+.continue-wrap {
+    margin: 2.25rem 0 1rem;
+    text-align: center;
+}
+.continue-wrap a {
+    display: inline-block;
+    font-family: var(--font-ui);
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--text-dim) !important;
+    text-decoration: none !important;
+    padding: 0.6rem 1.1rem;
+    border-bottom: 1px solid transparent;
+    transition: color var(--speed) var(--ease), border-color var(--speed) var(--ease);
+}
+.continue-wrap a::after { content: '\2192'; margin-left: 0.5em; }
+.continue-wrap a:hover {
+    color: var(--accent-gold-bright) !important;
+    border-bottom-color: var(--border-gold);
+}
+
+/* End-of-release panel */
+.release-end {
+    margin-top: 3.5rem;
+    padding: 2.5rem 1.5rem;
+    text-align: center;
+    border-top: 1px solid var(--border-subtle);
+    border-bottom: 1px solid var(--border-subtle);
+}
+.release-title {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+    color: var(--accent-gold);
+    margin-bottom: 2rem;
+}
+.release-title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 1px;
+    background: var(--accent-gold);
+    margin: 0.9rem auto 0;
+    opacity: 0.6;
+}

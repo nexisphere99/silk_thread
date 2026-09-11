@@ -1,0 +1,160 @@
+:: R1_Bedroom_Approach [r1 story]
+<<set $time.period = "night">>
+<<scene "Bedroom" "files/images/locations/apartment_bedroom_night.png">>
+
+The bedroom is dark except for the glow of Lena's phone. She's lying on her side, scrolling. Her face in that blue light looks younger, softer, like the Lena I met at that gallery opening five years ago, the one who argued with me about Rothko for twenty minutes and then kissed me in the parking lot.
+
+I undress in the dark. Fold my shirt. Hang my slacks. Place my shoes side by side near the closet. Every night, the same geometry of removal.
+
+I slide into bed. The sheets are cool on my side because no one has been warming them. Her side radiates heat. The distance between us is maybe eighteen inches but I have to build up to crossing it the way someone builds up to jumping off a diving board. Not because I'm afraid of her. Because I'm afraid of the answer if the answer is no.
+
+I put my hand on her thigh. Over the blanket. Tentative. The opening move of a chess game I already know the outcome of.
+
+She puts her phone down.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_SexScene">><</link>>
+</div>
+
+:: R1_SexScene [r1 story intimate]
+<<location "Bedroom">>
+
+The sigh. She doesn't know she does it. This small exhalation through her nose, barely audible, that happens every time I touch her with intent. It isn't desire. It isn't refusal. It's something in between, something that sounds like a woman bracing herself for a task she doesn't resent but doesn't want, either.
+
+The lights are off. They're always off. I don't remember who started that. It might have been me, early on, self-conscious about my body. Slender in the way that photographs well but looks unremarkable naked. No definition, no breadth, just a functional frame that does its job and nothing more. Or it might have been her, wanting the privacy of darkness to feel whatever she felt without me watching. Either way, the darkness is ours now, mutually owned, and what happens inside it has all the heat of a scheduled appointment.
+
+I move on top of her. She parts her legs. Not wide. Just enough. Her hands settle on my shoulders with the weight of something already familiar, already catalogued, already filed under "Monday, probably, or Thursday."
+
+I'm inside her. She's warm and technically ready and the mechanics are fine, they've always been fine, mechanics have never been the problem. I move. She responds. The sounds are quiet, polite. Almost professional. A small "mm" on my third thrust. A shift of her hips on the fifth that could be adjustment or encouragement or simply repositioning for comfort.
+
+I think about the Henderson account. I think about whether I responded to Greg's third email. I think about the look on Martin Crane's face when he said "keep it tight" and then I stop thinking about Martin Crane because that's not where I want my head right now, and then I realize the fact that my head went there at all is its own kind of answer.
+
+Four minutes. I finish. The orgasm is functional. A release valve, not a crescendo. My body tightens, empties, relaxes. I exhale against her neck and she pats my shoulder blade the way you pat a dog that just brought back a ball.
+
+I roll off.
+
+<<say "Lena">>Mm.<</say>>
+
+The same sound from before. I can't parse it. Pleasure? Patience? Relief?
+
+She reaches for her phone. The screen blooms to life in the dark room and her face reappears in that blue glow, scrolling, already somewhere else, already past whatever just happened between us.
+
+I stare at her nightstand.
+
+There's a chip in the paint at the corner of it, small, pale wood showing through where something metal clipped it once. I've been tracking it for two years. It hasn't grown. It hasn't been touched up, either. Just sits there, small and unfixed, more honest than my marriage, which calls the same thing maintenance.
+
+//I used to make her scream.//
+
+The thought surfaces like a body from deep water, bloated and unwelcome. Year one. That studio apartment with the thin walls and the neighbor who'd bang on the shared surface at 2 AM. Lena on top of me, riding, biting her lip, failing to stay quiet. Her fingernails leaving crescents on my chest. Her head thrown back, throat exposed, the sound she made when she came, this broken, gorgeous, animal sound that I carried in my chest for days afterward like a trophy.
+
+When did she stop? When did I stop trying to make her?
+
+I turn my head. She's smiling at her phone. Not at me. At something on the screen. Whatever it is, it's funnier than I've been in months.
+
+I look at the nightstand.
+
+The chip is still there.
+
+<div class="choice-container">
+    <<link "Try to go down on her" "R1_Choice_A">><<set $choices.r1.bedChoice = "godown">><</link>>
+    <<link "Suggest something different" "R1_Choice_B">><<set $choices.r1.bedChoice = "suggest">><</link>>
+    <<link "Say nothing. Accept the routine." "R1_Choice_C">><<set $choices.r1.bedChoice = "accept">><</link>>
+</div>
+
+:: R1_Choice_A [r1 story]
+<<modstat "marriageBond" -2>>
+<<set $flags.triedGoDown = true>>
+
+<<sayself>>Hey. Let me...<</sayself>>
+
+I start to move down, pulling the blanket. She puts her hand on my shoulder. Gentle, but firm.
+
+<<say "Lena">>I'm tired, babe.<</say>>
+
+The word "babe" is a closed door with a welcome mat in front of it. It sounds like affection. It functions as a perimeter.
+
+I stop. Move back up. Lie beside her.
+
+<<sayself>>Okay.<</sayself>>
+
+<<say "Lena">>Long day.<</say>>
+
+She adds it, and I can't tell if she's explaining or apologizing or just narrating so the silence doesn't settle too thick.
+
+<<sayself>>Yeah.<</sayself>>
+
+She rolls to her side, facing away. Phone light disappearing under the pillow. I lie on my back and feel the rejection like a small, cold stone in my stomach. Not painful. Worn smooth. I've swallowed this stone before.
+
+The chip in the nightstand holds no answers. I check anyway.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_PostSex">><</link>>
+</div>
+
+:: R1_Choice_B [r1 story]
+<<modstat "marriageBond" -3>>
+<<set $flags.suggestedNew = true>>
+
+<<sayself>>We could try something different.<</sayself>>
+
+She turns her head on the pillow. In the dark I can't read her expression but I can feel it. That slight tension in the air between two people when one of them has said something unexpected.
+
+<<say "Lena">>Different how?<</say>>
+
+I don't have a good answer. I don't even know what I mean. Something. Anything that doesn't feel like photocopying the same act and filing it under "marriage maintenance." But the words don't organize themselves fast enough, and into the gap, her discomfort flows like water.
+
+<<say "Lena">>Daniel, I'm really tired.<</say>>
+
+<<sayself>>No, I know. Forget it.<</sayself>>
+
+<<say "Lena">>It's not that I don't want to, it's just...<</say>>
+
+<<sayself>>It's fine.<</sayself>>
+
+She adjusts her pillow. The conversation curls up and dies between us like a cigarette nobody's smoking. I lie there and listen to her breathing slow down and I wonder what "different" would even look like. I don't have the imagination for it. My father didn't raise me to have imagination. He raised me to have routines.
+
+I look at the nightstand in the dark, at the chip in its paint, small and unfixed and completely indifferent to any of this.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_PostSex">><</link>>
+</div>
+
+:: R1_Choice_C [r1 story]
+<<set $flags.acceptedRoutine = true>>
+
+I don't say anything. She picks up her phone. The blue light returns. The chip in the nightstand is right where I left it.
+
+This is what marriage becomes. This is what everyone says and what nobody questions and what I tell myself on nights like this when the distance between her side of the bed and mine feels measured in years rather than inches. This is normal. This is fine. People who've been married for four years don't rip each other's clothes off. They perform maintenance. They check the box. They stare at a chip in the paint and call it enough.
+
+I close my eyes. Sleep takes a long time to arrive, and when it does, it brings no dreams worth remembering.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_PostSex">><</link>>
+</div>
+
+:: R1_PostSex [r1 story]
+<<scene "Kitchen, Late Night" "files/images/locations/kitchen_window_late_night.png">>
+
+The night settles. The apartment ticks with the sounds buildings make when no one's listening. Refrigerator hum. Heat cycling. The faint murmur of traffic forty feet below.
+
+Lena is asleep now. Her breathing is even, rhythmic, the soundtrack of a thousand identical nights. I should find it comforting. I used to find it comforting. Now it sounds like white noise, and white noise is just silence wearing a disguise.
+
+I get up. Quietly. Pad to the kitchen in bare feet. Pour a finger of whiskey from the bottle on the counter. Not enough to matter. Just enough to feel something other than the flat hum of a day lived exactly the way it was supposed to be lived.
+
+I stand at the kitchen window. The city is out there, lit up, alive with the chaos and ambition and mess of a million people doing things that matter to them. And I'm in here, in my nice apartment, with my nice wife, with my nice career, drinking nice whiskey, and the word "nice" is a prison sentence served in a room with no bars.
+
+My phone is on the counter. I pick it up. No new emails. No messages. No one reaching for me in the digital dark. I am exactly as needed as the day requires and not a degree more.
+
+I finish the whiskey. Rinse the glass. Place it in the dishwasher beside Lena's wineglass.
+
+<<moodimage "files/images/mood/wine_glasses_dishwasher.png" "">>
+
+I go back to bed. Lie down carefully, not touching her, not touching anything. Close my eyes.
+
+Tomorrow will be the same.
+
+I count to eleven.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Morning2">><</link>>
+</div>

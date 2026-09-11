@@ -1,0 +1,242 @@
+:: R2_Elevator_Silence [r2 story]
+<<scene "Elevator, Descending" "files/images/locations/elevator_steel.png">>
+
+The elevator takes forty floors to reach the lobby. I know this because I count them. Not the numbers on the display. The seconds. The small mechanical sounds. The hum of cables doing their honest work, transporting the weight of a man whose career is a flatline.
+
+My reflection stares back from the polished steel doors. Tie still straight. Shirt still pressed. Shoes still holding their Sunday shine. I look like a man who went to a meeting and came back. I look like every other person in this elevator on every other day. The collapse is entirely internal, which means it is entirely invisible, which means I will walk through the lobby and the security guard will nod and I will nod back and the lilies will smell exactly the same as they did this morning and nothing in the physical world will register that Daniel Ashford just cratered the biggest account on his portfolio and is now actively being processed for removal like a tumor that the body has decided to excise.
+
+I do not cry. Daniel Ashford does not cry. My father did not cry. My father's father, from what I was told, also did not cry, and they both died early of heart-related complications which I am certain is unrelated.
+
+I breathe. Carefully. The controlled breathing from the men's health article. In through the nose, hold, out through the mouth. The elevator descends. Thirty-two. Thirty-one. Thirty. I watch the numbers and I breathe and I do not cry and I do not scream and I do not punch the polished steel because that would leave a mark and Daniel Ashford does not leave marks. Daniel Ashford is a man who passes through rooms like clean water through a filter.
+
+No residue. No trace. Nothing that says I was here.
+
+The lobby doors open. The security guard nods. I nod back.
+
+<div class="choice-container">
+    <<link "Go back up to your desk" "R2_Afternoon_Hub">><</link>>
+</div>
+
+:: R2_Afternoon_Hub [r2 hub]
+<<set $time.period = "afternoon">>
+<<location "Meridian Consulting, Floor 39">>
+
+I don't leave the building. That would be an admission. Instead I go back to my desk and sit in front of my laptop and stare at the Henderson binders, which are still arranged in their neat little row, blue red green, a color-coded monument to inadequacy. I should throw them away. I leave them there.
+
+The office continues around me. People work. Phones ring. The Henderson disaster is mine alone.
+
+<div class="choice-container">
+    <<if !$flags.r2HarperExtended>>
+        <span class="sidequest"><<link "Visit Harper's desk" "R2_SQ_HarperExtended">><</link>></span>
+    <</if>>
+    <<if !$flags.r2MartinExtended>>
+        <span class="sidequest"><<link "Take the elevator to Martin's office, Floor 41" "R2_SQ_MartinExtended">><</link>></span>
+    <</if>>
+    <<link "Sit with it. Wait out the day." "R2_Afternoon_Fog">><</link>>
+</div>
+
+:: R2_SQ_HarperExtended [r2 sidequest]
+<<set $flags.r2HarperExtended = true>>
+<<location "Harper's Desk, Floor 39">>
+<<portrait "files/images/characters/harper_quinn_office_r2.png" "Harper Quinn">>
+
+Harper is back from lunch. She has a salad in a clear container and she eats it while reading a report, which is the most Harper Quinn thing I have ever witnessed. Multitasking her nutrition.
+
+<<sayself>>Hey.<</sayself>>
+
+She looks up. Pauses with a forkful of arugula suspended between the container and her mouth.
+
+<<say "Harper Quinn">>Hey yourself. You look like you swallowed a coat hanger.<</say>>
+
+<<sayself>>That bad?<</sayself>>
+
+<<say "Harper Quinn">>Worse. You look like the coat hanger swallowed you.<</say>>
+
+She sets down the fork.
+
+<<say "Harper Quinn">>Sit.<</say>>
+
+I pull a chair from the empty desk beside hers. She watches me the way she watches everything. With patience and attention and something that might be affection if she ever let it fully surface.
+
+<<sayself>>Henderson tanked.<</sayself>>
+
+<<say "Harper Quinn">>I know.<</say>>
+
+<<sayself>>How?<</sayself>>
+
+<<say "Harper Quinn">>Because Greg's door has been closed all afternoon and you've been walking through the office like a ghost who forgot which room he died in.<</say>>
+
+She takes a bite of salad. Chews.
+
+<<say "Harper Quinn">>Also Tanaka looked like he wanted to throw his laptop off the building, which is a very specific expression I've only seen twice.<</say>>
+
+<<sayself>>I messed up, Harper. I pushed growth when she wanted risk mitigation and I didn't have the regulatory model ready and I doubled down instead of pulling back.<</sayself>>
+
+<<say "Harper Quinn">>I know.<</say>>
+
+<<sayself>>You left a note on your monitor. Page 14.<</sayself>>
+
+She stops chewing.
+
+<<say "Harper Quinn">>You saw that?<</say>>
+
+<<sayself>>Just now. After the meeting.<</sayself>>
+
+She swallows. Looks at her salad. Looks at me. In her eyes I see something complicated. The frustration of a woman who saw the train coming and waved and wasn't seen. The tenderness of a colleague who has been quietly catching my mistakes for months without keeping score. And underneath both, something else entirely. A warmth that has nothing to do with mentorship.
+
+<<say "Harper Quinn">>I should have been louder about it.<</say>>
+
+<<sayself>>No. I should have listened.<</sayself>>
+
+We sit in silence for a moment. The office hums around us. Fluorescent lights. Keyboard clicks. The world continuing without the Henderson account, as worlds do.
+
+<<say "Harper Quinn">>Whatever happens with this, I've got your back on the portfolio review. Just so you know.<</say>>
+
+<<sayself>>Why?<</sayself>>
+
+She shrugs.
+
+<<say "Harper Quinn">>Because you'd do it for me. And because someone should.<</say>>
+
+She picks up her fork.
+
+<<say "Harper Quinn">>Now go away. You're making my lunch depressing.<</say>>
+
+I stand. At her desk, among the orbiting notebooks and the cat-shaped cactus and the dog-eared paperback, I see another sticky note, half-hidden under a file folder. In Harper's sharp handwriting: //"DA, tell him about the gap??"//
+
+Two question marks. She debated it. She chose the note on her monitor instead of the conversation. She was trying to help without overstepping. She was navigating the politics of being a 26-year-old woman correcting a 31-year-old man's work in a firm that runs on hierarchy and ego.
+
+I walk back to my desk with the knowledge that Harper Quinn saw me failing in slow motion and tried to catch me without being seen trying. And the knowledge that I was so busy preparing that I never once looked in her direction.
+
+<<npc "harper" "attraction" 4>>
+<div class="choice-container">
+    <<link "Back to your desk" "R2_Afternoon_Hub">><</link>>
+</div>
+
+:: R2_SQ_MartinExtended [r2 sidequest]
+<<set $flags.r2MartinExtended = true>>
+<<location "Martin Crane's Office, Floor 41">>
+<<portrait "files/images/characters/martin_crane_portrait_r2.png" "Martin Crane">>
+
+Martin's office is on 41. I shouldn't be up here. My floor is 39 and the two-floor difference is a border crossing, a class distinction written in carpet and square footage.
+
+His door is open. Martin Crane's door is always open because Martin Crane has nothing to hide and wants you to know it. Or wants you to think it. These might be different things.
+
+<<say "Martin Crane">>Ashford. Come in.<</say>>
+
+His office has a skyline view. The city stretches to the horizon and the late afternoon sun turns the glass towers into columns of gold. Martin sits behind a desk made of wood that predates the building. There are awards on the wall. Framed articles. A photo of him shaking hands with a senator.
+
+<<say "Martin Crane">>Sit. Drink?<</say>>
+
+It is 4 PM on a Tuesday and he is offering me liquor from a crystal decanter that lives on his credenza. This is either a mentorship gesture or a wake. I accept because declining a drink from Martin Crane is something my father would never do.
+
+Scotch. Single malt. It burns differently than the bourbon at home. Cleaner. More expensive.
+
+<<say "Martin Crane">>I've been at this firm twenty-three years.<</say>>
+
+He doesn't look at me when he speaks. He looks at the skyline.
+
+<<say "Martin Crane">>Came in as an associate. Younger than your girl Quinn. Built this client base from a Rolodex and a firm handshake.<</say>>
+
+He turns the glass in his hand. The scotch catches the light.
+
+<<say "Martin Crane">>You know what kills a career here, Daniel? Not failure. Failure is Tuesday. What kills a career is panic. The man who loses a client and starts sweating, starts scrambling, starts looking like he's drowning. That man is finished. Not because of the loss. Because of the optics.<</say>>
+
+He looks at me now. Full attention. Martin Crane's full attention is like standing in a searchlight.
+
+<<say "Martin Crane">>You lost Henderson. Fine. It's gone. Stop carrying the body. Put it down. Walk forward.<</say>>
+
+<<sayself>>Greg is drafting paperwork.<</sayself>>
+
+<<say "Martin Crane">>Greg drafts a lot of things. Greg drafted my termination paperwork in 2009 when I lost the Comstock account. You know what happened?<</say>>
+
+<<sayself>>What?<</sayself>>
+
+<<say "Martin Crane">>Someone with authority picked up the phone and told Greg to put the paperwork in the shredder.<</say>>
+
+He finishes his scotch.
+
+<<say "Martin Crane">>The question isn't whether someone will make that call for you. The question is whether you're worth the call.<</say>>
+
+He pours another measure. Doesn't offer me a second. One drink is mentorship. Two drinks is indulgence.
+
+<<say "Martin Crane">>Go home, Ashford. Sleep. Come back tomorrow looking like a man who still belongs here.<</say>>
+
+I stand. My glass is empty.
+
+<<say "Martin Crane">>And Daniel?<</say>>
+
+<<sayself>>Sir?<</sayself>>
+
+<<say "Martin Crane">>For God's sake. Stop ironing your shirts so precisely. It makes you look like you're trying.<</say>>
+
+He turns back to the skyline. I'm dismissed. But not unkindly. Martin Crane operates on the same emotional bandwidth as a lighthouse. Steady. Bright. Visible from a great distance. Never warm.
+
+<<npc "martin" "respect" 3>>
+<div class="choice-container">
+    <<link "Head back down to 39" "R2_Afternoon_Hub">><</link>>
+</div>
+
+:: R2_Afternoon_Fog [r2 story]
+<<location "Meridian Consulting, Floor 39">>
+<<portrait "files/images/characters/martin_crane_portrait_r2.png" "Martin Crane">>
+
+The afternoon passes in a fog. I answer emails. I attend a team check-in and contribute nothing. I nod when people speak. I drink three cups of coffee that taste like hot brown water. At 2:15 I go to the men's room and stand in front of the mirror and look at my face and try to identify the exact moment I became the kind of man who loses twelve-million-dollar accounts.
+
+It's not a moment. That's the problem. It's a gradient. A slow downward slope so gentle you don't notice you're descending until you look up and the summit is gone. I wasn't sharp enough. I wasn't bold enough. I prepared more than anyone and understood less than most. I built buffers and binders and backup plans and none of it mattered because the core product, the man himself, was average. And average, in a building like this, is a death sentence delivered on a long enough timeline.
+
+<<if !$flags.r2MartinHallway>>
+Martin Crane catches me in the corridor between the kitchenette and my office. This is not an accident. Martin Crane does not have accidental encounters. He occupies space with intention, a 55-year-old continent of tailored wool and aftershave that smells like old money and diesel.
+
+<<say "Martin Crane">>Ashford.<</say>>
+
+The handshake is automatic. My hand disappears into his like a letter into a mailbox.
+
+<<say "Martin Crane">>Heard Henderson went sideways.<</say>>
+
+Word travels fast. Word travels at the speed of failure. Success is a rumor. Failure is breaking news.
+
+<<sayself>>It's being handled.<</sayself>>
+
+<<say "Martin Crane">>Is it.<</say>>
+
+This is not a question. Martin Crane does not ask questions. He makes statements and inflects them upward to give you the illusion of agency.
+
+He studies me. Brown eyes behind glasses that cost more than my monthly car payment. Martin is the old guard. He built Meridian's client base through handshakes and golf games and the unshakeable certainty of a man who has never once doubted his place in any room. He is everything my father wanted me to be. Tall, broad, certain, occupying space like it owes him rent.
+
+<<say "Martin Crane">>You need to be careful, Daniel. This firm remembers. People forgive mistakes. Institutions don't.<</say>>
+
+He claps my shoulder. The same half-approval, half-ownership gesture from every other time. But today it feels like he's checking if I'm still standing. Or checking if I'm worth catching.
+
+<<say "Martin Crane">>Henderson can be recovered. If someone with enough weight picks up the phone.<</say>>
+
+<<sayself>>Someone like who?<</sayself>>
+
+He smiles. The kind of smile that contains information but doesn't release it.
+
+<<say "Martin Crane">>Just keep your head down. And for God's sake, stop looking like the world ended. Even when it did.<</say>>
+
+He walks away. His shoes make no sound on the carpet. Men like Martin Crane have been absorbing the impact of their own footsteps for so long the floor has given up registering them.
+
+<<set $flags.r2MartinHallway = true>>
+<</if>>
+
+Harper stops by my desk at 4:30.
+
+<<say "Harper Quinn">>How'd Henderson go?<</say>>
+
+<<sayself>>Fine.<</sayself>>
+
+She stands there. Does not leave. Harper does not accept "fine" from anyone, least of all from a man whose face is doing whatever mine is doing right now.
+
+<<say "Harper Quinn">>Fine like it went well, or fine like you don't want to talk about it?<</say>>
+
+<<sayself>>The second one.<</sayself>>
+
+She nods. Doesn't push. But she sets a granola bar on my desk before she walks away, the kind with chocolate chips that she keeps in her drawer for long days, and the small kindness almost breaks the seal on something I am holding shut with every muscle in my chest.
+
+I eat the granola bar. It tastes like chocolate and pity.
+
+<div class="choice-container">
+    <<link "Head home" "R2_Dinner_Silence">><<set $time.period = "evening">><</link>>
+</div>

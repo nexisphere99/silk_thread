@@ -1,0 +1,126 @@
+:: R1_SQ_HarperCoffee [r1 sidequest]
+<<set $flags.harperCoffee = true>>
+<<scene "Break Room, Floor 39" "files/images/locations/break_room.png">>
+
+The break room on 39 is a liminal space. Half kitchen, half purgatory. A Keurig machine that makes sounds like a dying animal. A motivational poster someone hung ironically three years ago that everyone's forgotten was ironic. A bowl of miniature candy bars that gets emptied every Monday and refilled every Wednesday by someone no one has identified.
+
+Harper is at the counter when I walk in, pouring hot water over a pour-over setup she brought from home.
+
+<<sayself>>You bring your own coffee equipment to the office?<</sayself>>
+
+<<say "Harper Quinn">>The Keurig is an affront to human dignity.<</say>>
+
+She adjusts the pour.
+
+<<say "Harper Quinn">>Also, I like ritual. The weighing, the temperature, the timing. It's meditative.<</say>>
+
+<<sayself>>That sounds like something Martin Crane would say about golf.<</sayself>>
+
+<<say "Harper Quinn">>Except coffee doesn't require ugly pants and a massive carbon footprint.<</say>>
+
+She looks at me. Direct.
+
+<<say "Harper Quinn">>You're wound tight today.<</say>>
+
+<<sayself>>I'm always wound tight.<</sayself>>
+
+<<say "Harper Quinn">>Yeah, but today it's showing. Your jaw's been clenched since you sat down this morning. I can see the muscle from across the bullpen.<</say>>
+
+I consciously relax my jaw. She smiles.
+
+<<say "Harper Quinn">>Better. Want some?<</say>>
+
+She tilts the kettle toward a second mug.
+
+<<sayself>>Yeah. Thanks.<</sayself>>
+
+She pours. The coffee is better than anything the building has ever produced. We stand there in the break room sipping from ceramic mugs she brought from home, and for about ninety seconds, the office is almost bearable.
+
+<<say "Harper Quinn">>You're going to be fine Thursday.<</say>>
+
+She says it without context, because she doesn't need it. She already knows what's on my mind. She always does.
+
+I nod. Drink the coffee. Don't say thank you because she doesn't need that either.
+
+<<npc "harper" "trust" 5>>
+<div class="choice-container">
+    <<link "Back to the bullpen" "R1_Hub_Office">><</link>>
+</div>
+
+:: R1_SQ_MartinMentorship [r1 sidequest]
+<<set $flags.martinElevator = true>>
+<<scene "Martin Crane's Office, Floor 42" "files/images/locations/martin_crane_office.png">>
+
+I catch up to Martin at the elevator bank. He's going up. Floor 42. The penthouse. Where the gods live.
+
+<<say "Martin Crane">>Ashford.<</say>>
+
+He seems mildly surprised.
+
+<<say "Martin Crane">>Need something?<</say>>
+
+<<sayself>>Just wanted to ask about the Q4 restructuring. How it affects my team's bandwidth.<</sayself>>
+
+It's a legitimate question, but I'm really here because Martin Crane is the closest thing I have to a father figure in this building and the closest thing my father had to a personality, and I'm drawn to that combination the way a moth is drawn to a porch light: instinctively, hopelessly, with total disregard for whether the heat will burn.
+
+<<say "Martin Crane">>Ride up with me.<</say>>
+
+Martin holds the elevator door.
+
+The elevator to 42 is different from the one to 39. Same steel box, but the air feels different. Charged. Important. The doors open on a floor with actual carpet and actual art and actual windows facing the actual skyline.
+
+<<say "Martin Crane">>Sit.<</say>>
+
+Martin walks me to his office. Corner. Glass on two sides. The city spread out below like something he built.
+
+I sit. The chair is leather. Real leather, the kind that came from an animal that had a good life and a bad day.
+
+He talks for twelve minutes about Q4, restructuring, the new vertical Victoria Cross is building, the old guard versus the new, the way firms evolve or calcify. I listen. Take notes. Nod at the right intervals. The conversation is 30% information and 70% proximity. He's letting me be near him. In Martin's world, that's mentorship.
+
+<<say "Martin Crane">>You've got potential, Ashford. Raw, unrefined, but it's there. Don't waste it on safe plays.<</say>>
+
+<<sayself>>Yes, sir.<</sayself>>
+
+He leans back. Studies me the way you study a horse you're thinking about betting on.
+
+<<say "Martin Crane">>Your father was military, right?<</say>>
+
+<<sayself>>Yes, sir. Twenty-two years.<</sayself>>
+
+<<say "Martin Crane">>Shows. Discipline. Posture. The way you say 'sir.'<</say>>
+
+He almost smiles.
+
+<<say "Martin Crane">>Some of that's worth keeping. Some of it'll hold you back. Figure out which is which.<</say>>
+
+The meeting ends. I ride the elevator back to 39. The descent takes eleven seconds. I count them.
+
+<<npc "martin" "respect" 5>>
+<div class="choice-container">
+    <<link "Back to work" "R1_Afternoon">><</link>>
+</div>
+
+:: R1_SQ_PhoneGlimpse [r1 sidequest]
+<<set $flags.lenaPhoneGlimpse = true>>
+<<location "Living Room">>
+
+She's in the bathroom. Her phone is on the coffee table. The screen is face-up and it lights up with a notification.
+
+<<moodimage "files/images/mood/phone_adrian_follow_request.png" "">>
+
+Instagram. A follow request from someone named "adrianwolfe" with a profile photo of a jawline and a sunset.
+
+I don't know who that is. I don't think about it. I pick up my own phone and open the news app and read a headline I'll forget in thirty seconds.
+
+When she comes back, she picks up her phone, swipes, pauses for a moment, and then her thumb taps "Accept."
+
+She doesn't mention it.
+
+I don't ask.
+
+The chip in the nightstand's paint hasn't changed.
+
+<<modstat "npc.lena.adrianInterest" 3>>
+<div class="choice-container">
+    <<link "Head down the hall" "R1_Bedroom_Approach">><</link>>
+</div>

@@ -1,0 +1,76 @@
+:: R1_Morning2 [r1 story]
+<<set $time = { day: "tuesday", period: "morning", week: 1 }>>
+<<location "Bedroom">>
+
+Tuesday. The alarm. The count. The swing. The feet on the floor.
+
+Lena is already gone this time. Yoga at 5:30, the morning class she started three months ago. Her side of the bed is cold. She left a note on the kitchen counter: "Greek yogurt's expired, can you grab some? xo L"
+
+The "xo" is habit, not affection. I know this. I grab the note, fold it, place it in the recycling. The small domesticities of a marriage on autopilot.
+
+Same shower. Same shave. Same shirt. Same tie. Same shoes. Same four pockets, four objects.
+
+The drive is twenty-six minutes today. I don't listen to the podcast. I drive in silence and think about nothing, which takes more effort than it should.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Office_Day2">><</link>>
+</div>
+
+:: R1_Office_Day2 [r1 story]
+<<location "Meridian Consulting, Floor 39">>
+
+Meridian is the same building doing the same things with the same people inside it. The only difference is the day printed on Greg Tanaka's calendar and the flavor of coffee in the machine. Yesterday was "Bold Roast." Today is "Smooth Morning." Both taste like hot brown disappointment.
+
+I work through the Henderson prep. Three scenarios: baseline, bullish, regulatory headwind. I build slides with the precision of a man constructing a bomb shelter, every data point reinforced, every assumption cited. If something goes wrong Thursday, it won't be because I wasn't ready. That's my brand. Not "brilliant." Not "creative." Ready. Prepared. The guy who triple-checks.
+
+At 11 AM I pass Harper in the break room. She's eating an orange, peeling it in one continuous spiral, the way some people can do and I absolutely cannot.
+
+<<sayself>>Talent.<</sayself>>
+
+I say it, nodding at the peel.
+
+<<say "Harper Quinn">>Practice. I eat an orange every day. Takes about three weeks to learn the one-strip technique.<</say>>
+
+She bites a section. Juice on her chin. She wipes it with the back of her hand.
+
+<<say "Harper Quinn">>You're over-indexing on Henderson.<</say>>
+
+<<sayself>>What?<</sayself>>
+
+<<say "Harper Quinn">>I can see it on your face. You've done the work. Stop revising. You'll start second-guessing the good stuff if you keep touching it.<</say>>
+
+She tosses the peel in the compost bin, a small gesture of environmental optimism in a building that burns enough electricity to power a small town.
+
+<<say "Harper Quinn">>Trust the prep.<</say>>
+
+She walks out. I stand there holding my mug of Smooth Morning, which has gone tepid, and I think about the fact that Harper Quinn, who is five years younger than me and two rungs lower on the org chart, just told me to relax, and she was right, and the fact that she was right bothers me less than the fact that she could tell.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Closing_Evening">><</link>>
+</div>
+
+:: R1_Closing_Evening [r1 story]
+<<set $time = { day: "thursday", period: "evening", week: 1 }>>
+<<location "Multiple, Rest of the Week">>
+
+Wednesday and Thursday pass in a smear of meetings and decks and lunches I don't taste. The Henderson meeting is Thursday and it goes well. Not brilliantly. Not catastrophically. The client nods. Greg Tanaka nods. Martin Crane doesn't attend, which either means he trusts me or he doesn't consider it worth his time, and I choose to believe the former because the latter would keep me up at night.
+
+Thursday evening. I get home at 6:40. Lena is on the couch in yoga pants, laptop open, something for her freelance graphic design work. She's good at it. Better than she gives herself credit for. When we met, she talked about starting her own studio. Now she takes small contracts and talks about it less.
+
+<<sayself>>Pizza or Thai?<</sayself>>
+
+<<say "Lena">>Thai. Get the pad see ew.<</say>>
+
+<<sayself>>Same as always?<</sayself>>
+
+She glances up. Holds my gaze for a half-second longer than usual. There's something there, some flicker behind the warmth of her brown eyes. Not dissatisfaction, exactly. Something quieter. A question she's not asking.
+
+<<say "Lena">>Same as always.<</say>>
+
+She says it, and looks back at her screen.
+
+I order the Thai. We eat on the couch. Her feet in my lap. I rub her arches absentmindedly while she eats and scrolls and occasionally shows me a design mockup for a local bakery's website. The lavender is too muted, I say. She squints at the screen, says maybe, changes it to something slightly brighter. This is us at our best: functional, cooperative, two people sharing a couch and a pad see ew and the comfortable lie that this is enough.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Sunday">><</link>>
+</div>

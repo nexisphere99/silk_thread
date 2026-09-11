@@ -1,0 +1,137 @@
+:: 05_PhoneStylesheet [stylesheet]
+.phone-notif {
+    margin-top: 1rem;
+    padding: 0.6rem 0.85rem;
+    background: rgba(196, 163, 90, 0.08);
+    border: 1px solid var(--border-gold);
+    border-radius: 4px;
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    color: var(--accent-gold-bright);
+    cursor: pointer;
+}
+
+.phone-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(6, 6, 8, 0.88);
+    backdrop-filter: blur(3px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeOverlay 0.25s var(--ease);
+}
+@keyframes fadeOverlay { from { opacity: 0; } to { opacity: 1; } }
+
+.phone-device {
+    width: 320px;
+    max-height: 82vh;
+    background: #0d0d11;
+    border: 1px solid var(--border-subtle);
+    border-radius: 28px;
+    padding: 1.75rem 1rem 1.25rem;
+    overflow-y: auto;
+    box-shadow: var(--shadow-deep);
+}
+
+.phone-device-header {
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--text-dim);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.message-bubble {
+    padding: 0.65rem 0.95rem;
+    margin: 0.4rem 0;
+    border-radius: 14px;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    line-height: 1.4;
+    max-width: 82%;
+}
+.message-bubble.incoming {
+    background: #212129;
+    color: var(--text-primary);
+    margin-right: auto;
+    border-bottom-left-radius: 4px;
+}
+.message-bubble.outgoing {
+    background: var(--accent-ice);
+    color: #fff;
+    margin-left: auto;
+    border-bottom-right-radius: 4px;
+}
+.message-meta {
+    font-size: 0.6rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    margin: 0.2rem 0.3rem;
+}
+
+.phone-close {
+    display: block;
+    margin: 1.25rem auto 0;
+    text-align: center;
+    font-family: var(--font-ui);
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+    cursor: pointer;
+}
+.phone-close:hover { color: var(--accent-gold); }
+
+/* Inline mini phone-screen mockup used inside prose (e.g. Instagram glimpse) */
+.phone-mockup {
+    width: 240px;
+    margin: 1.5rem auto;
+    background: #0d0d11;
+    border: 1px solid var(--border-subtle);
+    border-radius: 20px;
+    padding: 1rem 0.9rem;
+    box-shadow: var(--shadow-deep);
+}
+.phone-mockup-status {
+    font-family: var(--font-ui);
+    font-size: 0.6rem;
+    color: var(--text-dim);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+}
+.phone-mockup-notif {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    background: #1a1a22;
+    border-radius: 10px;
+    padding: 0.6rem;
+}
+.phone-mockup-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #c47a4a, #4a3a6a);
+    flex-shrink: 0;
+    position: relative;
+}
+.phone-mockup-avatar::after {
+    content: '';
+    position: absolute;
+    top: -2px; right: -2px;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--accent-ice);
+    border: 2px solid #1a1a22;
+}
+.phone-mockup-text { font-family: var(--font-ui); font-size: 0.72rem; color: var(--text-secondary); }
+.phone-mockup-text strong { color: var(--text-primary); }

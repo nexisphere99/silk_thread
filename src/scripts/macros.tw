@@ -1,0 +1,193 @@
+:: 01_Macros [script]
+/* --- helpers for dotted-path stat access, e.g. "npc.harper.trust" --- */
+window.Silk = window.Silk || {};
+
+Silk.getPath = function (obj, path) {
+    var parts = path.split('.');
+    var cur = obj;
+    for (var i = 0; i < parts.length; i++) {
+        if (cur == null) return undefined;
+        cur = cur[parts[i]];
+    }
+    return cur;
+};
+
+Silk.setPath = function (obj, path, value) {
+    var parts = path.split('.');
+    var cur = obj;
+    for (var i = 0; i < parts.length - 1; i++) {
+        if (cur[parts[i]] == null) cur[parts[i]] = {};
+        cur = cur[parts[i]];
+    }
+    cur[parts[parts.length - 1]] = value;
+};
+
+/* <<modstat "path" delta>>   adjusts a $stats or $npc value by delta, clamped 0-100 */
+Macro.add('modstat', {
+    handler: function () {
+        var path = this.args[0];
+        var delta = this.args[1];
+        var root = State.variables.stats.hasOwnProperty(path.split('.')[0]) &&
+            path.indexOf('.') === -1 ? State.variables.stats : State.variables;
+        var current = Silk.getPath(root, path);
+        if (typeof current !== 'number') return;
+        var next = Math.max(0, Math.min(100, current + delta));
+        Silk.setPath(root, path, next);
+    }
+});
+
+/* <<setstat "path" value>>   sets a $stats or $npc value directly, clamped 0-100 */
+Macro.add('setstat', {
+    handler: function () {
+        var path = this.args[0];
+        var value = Math.max(0, Math.min(100, this.args[1]));
+        var root = State.variables.stats.hasOwnProperty(path.split('.')[0]) &&
+            path.indexOf('.') === -1 ? State.variables.stats : State.variables;
+        Silk.setPath(root, path, value);
+    }
+});
+
+/* <<addmessage "sender" "text">>   pushes a phone message and bumps unread count */
+Macro.add('addmessage', {
+    handler: function () {
+        var sender = this.args[0];
+        var text = this.args[1];
+        var time = this.args[2] || State.variables.time.period;
+        State.variables.phone.messages.push({
+            sender: sender,
+            text: text,
+            time: time,
+            day: State.variables.time.day,
+            read: false
+        });
+        State.variables.phone.unread++;
+    }
+});
+
+/* <<advancetime>>   steps the day/period clock forward */
+Macro.add('advancetime', {
+    handler: function () {
+        var periods = ['morning', 'afternoon', 'evening', 'night'];
+        var days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday'];
+        var pIdx = periods.indexOf(State.variables.time.period);
+        if (pIdx < periods.length - 1) {
+            State.variables.time.period = periods[pIdx + 1];
+        } else {
+            State.variables.time.period = 'morning';
+            var dIdx = days.indexOf(State.variables.time.day);
+            State.variables.time.day = days[(dIdx + 1) % 7];
+            if (State.variables.time.day === 'monday') State.variables.time.week++;
+        }
+    }
+});
+
+/* <<ifstat "path" threshold>> ... <<else>> ... <</ifstat>> */
+Macro.add('ifstat', {
+    tags: ['else'],
+    handler: function () {
+        var path = this.args[0];
+        var threshold = this.args[1];
+        var root = State.variables.stats.hasOwnProperty(path.split('.')[0]) &&
+            path.indexOf('.') === -1 ? State.variables.stats : State.variables;
+        var value = Silk.getPath(root, path) || 0;
+        if (value >= threshold) {
+            new Wikifier(this.output, this.payload[0].contents);
+        } else if (this.payload.length > 1) {
+            new Wikifier(this.output, this.payload[1].contents);
+        }
+    }
+});
+
+/* <<location "Label">>   small uppercase location header */
+Macro.add('location', {
+    handler: function () {
+        var loc = this.args[0];
+        $(this.output).wiki('<div class="location-header">' + loc.replace(/</g, '&lt;') + '</div>');
+    }
+});
+
+/* <<scene "Label" "files/images/locations/x.png">>   header + hero background image */
+Macro.add('scene', {
+    handler: function () {
+        var loc = this.args[0];
+        var img = this.args[1];
+        var safeLoc = loc.replace(/</g, '&lt;');
+        var html = '<div class="location-header">' + safeLoc + '</div>';
+        if (img) {
+            html += '<div class="scene-image"><img src="' + img + '" alt="" ' +
+                'onerror="this.closest(\'.scene-image\').classList.add(\'is-missing\')"></div>';
+        }
+        $(this.output).wiki(html);
+    }
+});
+
+/* <<portrait "files/images/characters/x.png" "Name">>   right-floated character inset */
+Macro.add('portrait', {
+    handler: function () {
+        var img = this.args[0];
+        var name = this.args[1] || '';
+        var html = '<div class="portrait-inset"><img src="' + img + '" alt="' + name + '" ' +
+            'onerror="this.closest(\'.portrait-inset\').classList.add(\'is-missing\')">' +
+            (name ? '<div class="portrait-caption">' + name + '</div>' : '') +
+            '</div>';
+        $(this.output).wiki(html);
+    }
+});
+
+/* <<statbar "Label" value "cssClass">> or <<statbar "Label" value "cssClass" "display text">>
+   renders one stat-group row (label + percentage/text + fill bar).
+   Values are interpolated in JS, not inside a raw HTML attribute, because
+   SugarCube does not evaluate <<= >> macros written literally inside an
+   HTML tag's attribute string (it only evaluates top-level wiki markup)
+   a style="width:<<= $x>>%" attribute renders that text verbatim, which
+   browsers ignore, leaving the div at its default width: 100%. */
+Macro.add('statbar', {
+    handler: function () {
+        var label = this.args[0];
+        var value = Number(this.args[1]) || 0;
+        var cls = this.args[2];
+        var display = this.args.length > 3 ? this.args[3] : (value + '%');
+        var pct = Math.max(0, Math.min(100, value));
+        var html = '<div class="stat-group"><div class="stat-label"><span>' + label +
+            '</span><span class="stat-num">' + display + '</span></div>' +
+            '<div class="stat-bar"><div class="stat-fill ' + cls + '" style="width:' + pct + '%"></div></div></div>';
+        $(this.output).wiki(html);
+    }
+});
+
+/* <<say "Speaker Name">>Dialogue text.<</say>> and <<sayself>>Dialogue text.<</sayself>>
+   render a speaker-labeled dialogue block (name + left-border quote), pulling
+   spoken lines out of the surrounding narration paragraph. <<sayself>> labels
+   the block with $player.currentIdentity (Daniel, or Danielle later) instead
+   of taking a name argument, and gets the ice-blue accent instead of gold. */
+Macro.add(['say', 'sayself'], {
+    tags: null,
+    handler: function () {
+        var isSelf = this.name === 'sayself';
+        var name = isSelf ? State.variables.player.currentIdentity : this.args[0];
+        var wrapper = document.createElement('div');
+        wrapper.className = 'npc-dialogue' + (isSelf ? ' is-player' : '');
+        var nameEl = document.createElement('div');
+        nameEl.className = 'npc-name';
+        nameEl.textContent = name;
+        var lineEl = document.createElement('div');
+        lineEl.className = 'npc-line';
+        wrapper.appendChild(nameEl);
+        wrapper.appendChild(lineEl);
+        this.output.appendChild(wrapper);
+        new Wikifier(lineEl, this.payload[0].contents.trim());
+    }
+});
+
+/* <<moodimage "files/images/mood/x.png" "optional caption">>   centered set-piece image */
+Macro.add('moodimage', {
+    handler: function () {
+        var img = this.args[0];
+        var caption = this.args[1] || '';
+        var html = '<figure class="mood-image"><img src="' + img + '" alt="" ' +
+            'onerror="this.closest(\'.mood-image\').classList.add(\'is-missing\')">' +
+            (caption ? '<figcaption>' + caption + '</figcaption>' : '') +
+            '</figure>';
+        $(this.output).wiki(html);
+    }
+});

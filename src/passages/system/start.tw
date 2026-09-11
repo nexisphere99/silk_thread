@@ -1,0 +1,55 @@
+:: StoryTitle
+Silk Thread
+
+:: StorySubtitle [nobr]
+<<if $currentRelease === 2>>Release 2 &middot; The Mistake<<else>>Release 1 &middot; The Ordinary Life<</if>>
+
+:: Start [system]
+<<set $currentRelease = 1>>
+<div class="title-screen">
+    <div class="title-image">
+        <img src="files/images/ui/title_card.png" alt="Silk Thread"
+             onload="this.closest('.title-screen').classList.add('has-title-image')"
+             onerror="this.closest('.title-image').classList.add('is-missing')">
+    </div>
+    <div class="title-text-fallback">
+        <p class="title-wordmark">SILK&nbsp;THREAD</p>
+        <div class="title-rule"></div>
+        <p class="title-subtitle">Release One &middot; The Ordinary Life</p>
+    </div>
+
+    <div class="title-menu">
+        <<link "Begin" "R1_Opening">><</link>>
+        <<link "Settings" "Settings">><</link>>
+        <<link "Credits" "Credits">><</link>>
+    </div>
+
+    <p class="title-footer">A literary interactive fiction &middot; 18+</p>
+</div>
+
+:: Settings [system nobr]
+<div class="title-screen">
+    <p class="title-wordmark" style="font-size:2rem;">Settings</p>
+    <div class="title-rule"></div>
+    <p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin-bottom:2rem;">
+        Use the menu in the left sidebar to manage saves. Text size and other display preferences follow your browser's defaults.
+    </p>
+    <div class="title-menu">
+        <<link "Back" "Start">><</link>>
+    </div>
+</div>
+
+:: Credits [system nobr]
+<div class="title-screen">
+    <p class="title-wordmark" style="font-size:2rem;">Credits</p>
+    <div class="title-rule"></div>
+    <p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin-bottom:0.5rem;">
+        Silk Thread - Release 1: The Ordinary Life
+    </p>
+    <p style="font-family:var(--font-ui); color:var(--text-dim); font-size:0.75rem; max-width:360px; margin-bottom:2rem;">
+        Written in the literary minimalist tradition. Built in Twine / SugarCube.
+    </p>
+    <div class="title-menu">
+        <<link "Back" "Start">><</link>>
+    </div>
+</div>

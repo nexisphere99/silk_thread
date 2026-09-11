@@ -1,0 +1,109 @@
+:: R1_Sunday [r1 story]
+<<set $time = { day: "sunday", period: "afternoon", week: 1 }>>
+<<location "Daniel's Apartment, Sunday">>
+
+Sunday. The ritual.
+
+I lay out five shirts on the bed, still warm from the iron. Each one pressed along the seams, collar stiffened, placket smooth. I hang them in the closet, organized by color: white, white, light blue, light blue, lavender. Monday through Friday. No decisions required.
+
+<<moodimage "files/images/mood/five_pressed_shirts.png" "">>
+
+The shoes come next. Polish, brush, buff. The repetition is meditative, almost religious. My hands move without instruction. I've been doing this since I was sixteen, when my father stood over me and watched until the leather shone and then said nothing, which was his version of approval.
+
+<<moodimage "files/images/mood/polished_shoes.png" "">>
+
+Football is on the TV. I don't look at it. The sounds wash over me: crowd noise, commentary, the particular violence of bodies colliding at speed. Male sounds. Weekend sounds. The sounds of a man who has his life in order.
+
+Lena is at brunch with friends. She left at 10 and said she'd be back by 2. It's 1:45. The apartment is clean. The shirts are pressed. The shoes are polished.
+
+I sit on the couch and wait for my wife to come home and I think about nothing and I think about everything and the two are somehow the same thing, a white noise hum of a life lived inside lines I drew myself.
+
+She comes home at 2:15. Flushed from mimosas. Happy in the way she gets around other people, a particular brightness that dims slightly when she walks through our door. I notice it. I always notice it. I never say anything.
+
+<<sayself>>Fun?<</sayself>>
+
+<<say "Lena">>So fun. We should do a couples thing. Sarah and Jake are into it.<</say>>
+
+<<sayself>>Sure. Set it up.<</sayself>>
+
+She will. She won't. This conversation has happened before. The couples thing will be discussed, tentatively planned, and then quietly abandoned when scheduling gets complicated or one of us doesn't feel like it or the fundamental truth reasserts itself: we are two people who are better at being married than at being together.
+
+She changes out of her brunch dress. Puts on the oversized sweater. Curls up on the couch with her phone.
+
+The evening arrives without announcement. We eat leftovers. We watch a show. We go to bed.
+
+I do not reach for her.
+
+She does not reach for me.
+
+The chip in the paint on her nightstand is exactly the same as it was last week. I check it anyway. I count to eleven.
+
+I sleep.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Closing">><</link>>
+</div>
+
+:: R1_Closing [r1 story]
+<<location "Bedroom, Late Night">>
+
+This is my life.
+
+These are my shirts. This is my tie. These are my shoes.
+
+This is my wife, who is beautiful and kind and slowly becoming a stranger I share a mortgage with.
+
+This is my office, mid-level, interior-facing, no view.
+
+This is my routine. My armor. My cage.
+
+Everything is fine.
+
+Everything is exactly, precisely, suffocatingly fine.
+
+The alarm is set for 5:45 AM. Fifteen minutes early. Because Daniel Ashford is a man who builds buffers into everything, and one day, maybe, that buffer will be the thing that saves him.
+
+Or maybe it'll be the thing that keeps him from ever needing to be saved at all.
+
+<div class="release-end">
+    <div class="release-title">End of Release 1<br>The Ordinary Life</div>
+    <div class="title-menu" style="margin: 0 auto;">
+        <<link "Continue to Release 2" "R2_TitleCard">><</link>>
+        <<link "View Stats" "R1_StatsScreen">><</link>>
+        <<link "Return to Title" "Start">><</link>>
+    </div>
+</div>
+
+:: R1_StatsScreen [r1 system]
+<<location "Release 1, Complete">>
+
+<div class="stats-full">
+
+<h3>Final Stats</h3>
+
+|Stat|Value|
+|Identity|<<= $stats.selfIdentity>>% (<<= Silk.identityLabel($stats.selfIdentity)>>)|
+|Marriage Bond|<<= $stats.marriageBond>>%|
+|Feminization|<<= $stats.feminization>>%|
+|Submission|<<= $stats.submission>>%|
+
+<h3>The Choice</h3>
+<<if $choices.r1.bedChoice === "godown">>You tried to go down on Lena. She declined, gently, and the distance held.
+<<elseif $choices.r1.bedChoice === "suggest">>You suggested something different. She wasn't interested, and neither of you found the words for what "different" meant.
+<<else>>You said nothing, and accepted the routine.
+<</if>>
+
+<h3>Side Quests</h3>
+<p>
+<<if $flags.harperCoffee>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Harper's Pour-Over<br>
+<<if $flags.martinElevator>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Martin's Mentorship<br>
+<<if $flags.lenaPhoneGlimpse>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> The Follow Request<br>
+<<if $flags.lookedAround>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Looked Around the Apartment
+</p>
+
+</div>
+
+<div class="title-menu" style="margin: 2rem auto 0;">
+    <<link "Continue to Release 2" "R2_TitleCard">><</link>>
+    <<link "Return to Title" "Start">><</link>>
+</div>

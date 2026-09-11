@@ -1,0 +1,13 @@
+:: 02_NpcTracker [script]
+/* <<npc "harper" "trust" 5>>   bump an NPC stat by delta and stamp lastInteraction */
+Macro.add('npc', {
+    handler: function () {
+        var who = this.args[0];
+        var stat = this.args[1];
+        var delta = this.args[2];
+        var entry = State.variables.npc[who];
+        if (!entry || typeof entry[stat] !== 'number') return;
+        entry[stat] = Math.max(0, Math.min(100, entry[stat] + delta));
+        entry.lastInteraction = State.variables.time.day + ' ' + State.variables.time.period;
+    }
+});

@@ -1,0 +1,10 @@
+:: 04_Stats [script]
+/* Small formatting helpers used by the stats sidebar and end-of-release screen */
+window.Silk = window.Silk || {};
+Silk.identityLabel = function (value) {
+    if (value >= 90) return 'Daniel';
+    if (value >= 60) return 'Mostly Daniel';
+    if (value >= 40) return 'Uncertain';
+    if (value >= 15) return 'Slipping';
+    return 'Danielle';
+};

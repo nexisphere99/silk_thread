@@ -1,0 +1,67 @@
+:: StoryInit
+<<set $player = {
+    name: "Daniel",
+    alterName: "Danielle",
+    currentIdentity: "Daniel"
+}>>
+
+<<set $stats = {
+    feminization: 0,
+    submission: 0,
+    arousalRewiring: 0,
+    marriageBond: 70,
+    ntrAwareness: 0,
+    victoriaTrust: 0,
+    officeSuspicion: 0,
+    selfIdentity: 100
+}>>
+
+<<set $currentRelease = 1>>
+<<set $releaseProgress = 0>>
+
+<<set $npc = {
+    lena: { affection: 50, suspicion: 0, adrianInterest: 0, lastInteraction: "" },
+    victoria: { trust: 0, control: 0, arousal: 0, lastInteraction: "" },
+    adrian: { awareness: 0, lenaProgress: 0, danielleAwareness: 0, lastInteraction: "" },
+    harper: { trust: 10, suspicion: 0, attraction: 0, lastInteraction: "" },
+    martin: { respect: 40, suspicion: 0, lastInteraction: "" },
+    celeste: { introduced: false, trust: 0, lastInteraction: "" }
+}>>
+
+<<set $wardrobe = {
+    owned: ["boxer-briefs", "dress-shirts", "suits", "leather-shoes"],
+    wearing: ["boxer-briefs", "dress-shirt-blue", "charcoal-suit", "leather-shoes"],
+    hidden: []
+}>>
+
+<<set $phone = {
+    messages: [],
+    unread: 0
+}>>
+
+<<set $choices = {
+    r1: { bedChoice: "", sideQuests: [] },
+    r2: { lenaChoice: "" }
+}>>
+
+<<set $time = {
+    day: "monday",
+    period: "morning",
+    week: 1
+}>>
+
+<<set $flags = {
+    harperCoffee: false,
+    martinElevator: false,
+    lenaPhoneGlimpse: false,
+    lookedAround: false,
+    triedGoDown: false,
+    suggestedNew: false,
+    acceptedRoutine: false,
+    r2HarperSticky: false,
+    r2HarperExtended: false,
+    r2MartinHallway: false,
+    r2MartinExtended: false,
+    r2PhoneChecked: false,
+    r2StayedUpLate: false
+}>>

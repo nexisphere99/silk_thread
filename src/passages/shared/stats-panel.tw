@@ -1,0 +1,14 @@
+:: StoryCaption [nobr]
+<div class="stats-sidebar">
+<<if $currentRelease === 2>><div class="sidebar-portrait"><img src="files/images/characters/daniel_suit_morning.png" alt="Daniel Ashford" onerror="this.closest('.sidebar-portrait').classList.add('is-missing')"></div><<else>><div class="sidebar-portrait"><img src="files/images/characters/daniel_office.png" alt="Daniel Ashford" onerror="this.closest('.sidebar-portrait').classList.add('is-missing')"></div><</if>>
+<<statbar "Self-Identity" $stats.selfIdentity "identity" `Silk.identityLabel($stats.selfIdentity)`>>
+<<statbar "Marriage Bond" $stats.marriageBond "marriage">>
+<<statbar "Submission" $stats.submission "submission">>
+<<statbar "Feminization" $stats.feminization "feminization">>
+<<statbar "Arousal Rewiring" $stats.arousalRewiring "arousal">>
+<<statbar "NTR Awareness" $stats.ntrAwareness "ntr">>
+<<statbar "Victoria Trust" $stats.victoriaTrust "victoria">>
+<<statbar "Office Suspicion" $stats.officeSuspicion "suspicion">>
+<div class="time-chip"><span class="time-day"><<= $time.day.toUpperCase()>></span><span><<= $time.period>></span></div>
+<<if $phone.unread > 0>><div class="phone-notif" data-passage="PhoneUI"><<link "&#128241; " + $phone.unread + " unread">><<openphone>><</link>></div><</if>>
+</div>

@@ -1,0 +1,109 @@
+:: R2_Dinner_Silence [r2 story]
+<<scene "Daniel & Lena's Apartment, Dinner" "files/images/locations/apartment_dinner.png">>
+
+Lena made stir-fry. The good kind, with the sesame oil and the snap peas she gets from the farmer's market on Saturdays. She used to only make this when she was in a good mood. I don't know what mood she's in tonight. I don't know what mood she's been in for weeks. We coexist in the apartment the way books coexist on a shelf. Side by side. Spines touching. Never opening each other.
+
+<<say "Lena">>How was your day?<</say>>
+
+<<sayself>>Long.<</sayself>>
+
+She nods. Picks up her fork. We eat. The television is on because the television is always on because silence between married people requires management and we have outsourced ours to a flat screen that neither of us is watching.
+
+The stir-fry is good. I eat it mechanically. Each bite is chewed and swallowed and registered by the biological machinery of my body while the psychological machinery replays the Henderson meeting on an infinite loop. Margaret's face closing. Greg's paperwork. The elevator numbers descending. The security guard's nod.
+
+<<say "Lena">>You're quiet tonight.<</say>>
+
+<<sayself>>Just tired.<</sayself>>
+
+She looks at me. Really looks, for the first time in what might be days. Her eyes are hazel. I used to write about her eyes. Early in our relationship, before the wedding, I wrote her a letter that described them as the color of October. I was better at things then. Or I tried harder. I'm not sure those are different statements.
+
+<<say "Lena">>You sure?<</say>>
+
+<<sayself>>Yeah. Just. Big presentation today. Drained me.<</sayself>>
+
+She accepts this. Not because it's convincing but because probing further would require an energy investment in our marriage that neither of us has budgeted for this quarter. We are running on emotional reserves and the reserves are dry. We both know it. Neither of us has called the audit.
+
+We finish dinner. She washes the dishes. I dry. We perform the choreography with the precision of dancers who have rehearsed until the steps are muscle memory and the music is something neither of us can hear anymore.
+
+<<say "Lena">>I'm going to bed early. Headache.<</say>>
+
+<<sayself>>Okay.<</sayself>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R2_Choice_Lena">><</link>>
+</div>
+
+:: R2_Choice_Lena [r2 choice]
+<<location "Bedroom Doorway">>
+<<portrait "files/images/characters/lena_bedroom_doorway.png" "Lena Ashford">>
+
+She pauses at the bedroom door. Turns.
+
+<<say "Lena">>You sure you're okay, Daniel?<</say>>
+
+The way she says my name. Soft. Genuine. For one second she is the woman I married, the one who would sit on the bathroom floor with me when I was anxious and hold my hand and say nothing, which was always the right amount to say. For one second the distance collapses and I could tell her everything. The meeting. Margaret. Greg. The paperwork. The twelve million dollars and the open water.
+
+I could let her in. She's standing right there, hand on the doorframe, waiting. She wants to connect. I can see it in the tilt of her head, the way her fingers curl against the wood. She is offering me a rope and all I have to do is grab it.
+
+This is the moment. The fulcrum. Everything pivots here.
+
+<div class="choice-container">
+    <<link "Tell Lena about the fuckup" "R2_Choice_A">><<set $choices.r2.lenaChoice = "told">><</link>>
+    <<link "Keep it to himself" "R2_Choice_B">><<set $choices.r2.lenaChoice = "kept">><</link>>
+</div>
+
+:: R2_Choice_A [r2 story]
+<<modstat "marriageBond" 3>>
+<<modstat "submission" 2>>
+<<npc "lena" "affection" 3>>
+
+I sit on the edge of the bed. The mattress dips under my weight.
+
+<<sayself>>I lost Henderson today.<</sayself>>
+
+She turns. Full attention. This is already more than I've given her in weeks and we both feel the gravity of it.
+
+<<say "Lena">>What happened?<</say>>
+
+<<sayself>>I misread the room. Pushed the wrong strategy. The CFO walked. Greg's drafting termination paperwork.<</sayself>>
+
+Saying it out loud is like pulling a splinter. The pain comes after. Lena sits next to me. Close. Her hand finds my knee and rests there like a small warm anchor.
+
+<<say "Lena">>Oh, Daniel.<</say>>
+
+She is sympathetic. Genuinely. But I watch her face and I see the calculus happening behind the compassion. She is thinking about the mortgage. The car payments. The life we built on two incomes and Sunday routines. She is worried. Not for me. For us. For the structure.
+
+I came to her for comfort and what I see is concern. Practical concern. The kind that calculates before it consoles.
+
+<<say "Lena">>We'll figure it out.<</say>>
+
+And she means it. But the "we" sounds different now. It sounds like a budget meeting.
+
+I feel something shift inside me. Something small and significant. The seed of a realization that will grow into something I don't have a name for yet: the awareness that being rescued might feel better than rescuing. That someone else holding the wheel might be exactly what I need.
+
+She squeezes my knee. Kisses my cheek. Turns off her lamp.
+
+I lie beside her in the dark, and for the first time in my marriage, the vulnerability feels like a door opening instead of a wall falling down.
+
+<div class="continue-wrap">
+    <<link "Continue" "R2_Whiskey_Alone">><</link>>
+</div>
+
+:: R2_Choice_B [r2 story]
+<<modstat "marriageBond" -3>>
+
+<<sayself>>I'm fine. Just tired.<</sayself>>
+
+She watches me. Weighing. Deciding whether to push. I can see the moment she decides not to. The small surrender in her shoulders.
+
+<<say "Lena">>Okay. Night.<</say>>
+
+She turns. I turn. We lie in the same bed facing opposite walls and the three feet between our spines might as well be the Atlantic. She offered a rope. I let it drop. She won't offer it again tonight. Maybe not tomorrow either.
+
+I carry the Henderson disaster alone. I carry it through the whiskey and the dark apartment and the late-night email from Victoria Cross. It sits in my chest like a stone and I hold it there because holding things alone is what I do. It is my only consistent skill. The one thing I never fail at.
+
+The distance widens. I can hear it happening. Not a sound, exactly. More like the absence of a sound that used to be there. A frequency dropping out.
+
+<div class="continue-wrap">
+    <<link "Continue" "R2_Whiskey_Alone">><</link>>
+</div>

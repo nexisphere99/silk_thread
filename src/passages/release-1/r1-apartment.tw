@@ -1,0 +1,61 @@
+:: R1_Hub_Morning [r1 hub]
+<<location "Daniel's Apartment">>
+
+The apartment is quiet. Lena is still sleeping. The kitchen counter is clean, the coffee maker untouched.
+
+<div class="choice-container">
+    <<link "Make coffee alone" "R1_Kitchen_Solo">><</link>>
+    <span class="sidequest"><<link "Look around the apartment" "R1_LookAround">><</link>></span>
+    <<link "Head out the door" "R1_Commute">><</link>>
+</div>
+
+:: R1_Kitchen_Solo [r1 story]
+<<scene "Kitchen" "files/images/locations/apartment_kitchen_morning.png">>
+
+I make coffee. The machine gurgles and hisses and produces something that tastes like it was brewed by someone going through the motions, which is accurate. I drink it standing at the counter, looking at the spot where Lena used to stand, hip cocked against the drawer, stealing sips from my mug because she was too lazy to pour her own.
+
+The spot is empty. The coffee is adequate.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Hub_Morning">><</link>>
+</div>
+
+:: R1_LookAround [r1 sidequest]
+<<set $flags.lookedAround = true>>
+<<location "Around the Apartment">>
+
+A few minutes before I have to leave. Enough time to notice the small architecture of a marriage.
+
+<div class="choice-container">
+    <span class="sidequest"><<link "The bathroom sinks" "R1_Bathroom_Examine">><</link>></span>
+    <span class="sidequest"><<link "The bedroom closet" "R1_Closet_Examine">><</link>></span>
+    <span class="sidequest"><<link "The kitchen junk drawer" "R1_JunkDrawer_Examine">><</link>></span>
+    <<link "That's enough. Head out." "R1_Hub_Morning">><</link>>
+</div>
+
+:: R1_Bathroom_Examine [r1 sidequest]
+<<location "Bathroom">>
+
+The bathroom has two sinks but we both use the left one. The right sink is where Lena puts her makeup bag and a cup of bobby pins and a half-empty bottle of perfume she bought in Montreal three years ago. I've never asked her to move any of it. The right sink has become hers by accumulation, the way territory is always claimed: not by declaration but by the slow deposit of personal objects until the space has been colonized.
+
+<div class="choice-container">
+    <<link "Back" "R1_LookAround">><</link>>
+</div>
+
+:: R1_Closet_Examine [r1 sidequest]
+<<location "Bedroom Closet">>
+
+My side of the closet: organized by color, everything evenly spaced, hangers all facing the same direction. Her side: layered chaos. Dresses over jeans over scarves, a system only she understands and probably doesn't. The border between our sides is exactly at the center. Neither of us crosses it.
+
+<div class="choice-container">
+    <<link "Back" "R1_LookAround">><</link>>
+</div>
+
+:: R1_JunkDrawer_Examine [r1 sidequest]
+<<location "Kitchen Junk Drawer">>
+
+The kitchen junk drawer contains: two dead batteries, a wine key, a takeout menu from a restaurant that closed six months ago, a birthday card from Lena's mother written in French, three rubber bands, and a key to something neither of us can identify. Every couple has a drawer like this. It's the domestic equivalent of the subconscious, holding everything you can't throw away but don't know how to use.
+
+<div class="choice-container">
+    <<link "Back" "R1_LookAround">><</link>>
+</div>

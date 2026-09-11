@@ -1,0 +1,93 @@
+:: R1_Office_Arrival [r1 story]
+<<scene "Meridian Lobby" "files/images/locations/meridian_lobby.png">>
+
+7:15 AM. The lobby smells like fresh flowers and carpet cleaner and that particular strain of ambition that coats the inside of buildings where people wear lanyards. The security guard nods. I nod back. We've been nodding at each other for three years and I don't know his name. I am a terrible person in exactly the average way.
+
+Elevator to 39. My office is exactly what you'd expect. Not corner. Not window-facing. Not small enough to complain about, not large enough to take pride in. There's a framed photo of Lena and me from our honeymoon in Santorini on the desk. We're standing on a white balcony, blue water behind us, and she's laughing at something I said. I don't remember the joke. I remember the sound, though. The way her laugh used to hit the air like it was breaking something open.
+
+I boot up my laptop. Emails first. Thirty-seven overnight, twelve flagged, three from Greg Tanaka with the passive-aggressive urgency of a man who sends emails at midnight and expects responses by 6 AM. I scan, reply, file. Scan, reply, file. The rhythm of it is almost soothing, the way treading water is almost swimming.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Hub_Office">><</link>>
+</div>
+
+:: R1_Hub_Office [r1 hub]
+<<scene "Meridian Consulting, Floor 39" "files/images/locations/meridian_office_floor39.png">>
+
+The bullpen hums with Monday. Your desk is a few steps away. So is the break room.
+
+<div class="choice-container">
+    <<if !$flags.harperCoffee>>
+        <span class="sidequest"><<link "Break room for coffee" "R1_SQ_HarperCoffee">><</link>></span>
+    <</if>>
+    <<link "Sit down and get to work" "R1_Desk_Morning">><</link>>
+</div>
+
+:: R1_Desk_Morning [r1 story]
+<<location "Your Office, Floor 39">>
+<<portrait "files/images/characters/harper_office.png" "Harper Quinn">>
+
+<<say "Harper Quinn">>You misspelled 'deliverables' on slide nine.<</say>>
+
+I look up. Harper Quinn is standing at the edge of my desk with a revised deck in her hand, printed and color-coded because she's the kind of person who prints and color-codes things in an age of digital everything. Twenty-six years old. Sharp enough to cut glass. Dark hair pulled back, minimal makeup, the posture of someone who decided early that competence was the only currency worth earning.
+
+<<sayself>>Did I?<</sayself>>
+
+<<say "Harper Quinn">>D-E-L-I-V-E-R-A-B-L-E-S. You had an 'A' where the second 'E' goes. It's fine. I caught it.<</say>>
+
+She doesn't make a big deal of it. That's the thing about Harper. She fixes your mistakes and then moves on, doesn't hold them over you, doesn't file them away for leverage. In a building full of people keeping score, she just plays the game.
+
+<<sayself>>Thanks.<</sayself>>
+
+I say it, and I mean it more than the word carries.
+
+She drops the deck on my desk and leans her hip against the partition.
+
+<<say "Harper Quinn">>Did you read Crane's latest memo? 'Synergistic value alignment across stakeholder touchpoints.' I counted fourteen buzzwords in three paragraphs. That's almost five per paragraph. A record.<</say>>
+
+I laugh. Actually laugh. The sound surprises me. It's been buried under so many layers of professional composure that hearing it feels like finding a twenty-dollar bill in an old jacket.
+
+<<sayself>>Martin wrote that himself?<</sayself>>
+
+<<say "Harper Quinn">>Dictated it, probably. While someone polished his cufflinks.<</say>>
+
+She grins, quick and conspiratorial, and then she's gone, clicking down the hall in her sensible flats, already three steps ahead of whatever conversation comes next.
+
+I watch her go. There's something about the way Harper moves through this building. Like she's mapping it. Like she sees the blueprints behind the drywall. I'm not sure if that makes her an ally or something more dangerous.
+
+I go back to my emails. Scan, reply, file. The building hums with Monday.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Martin_Hallway">><</link>>
+</div>
+
+:: R1_Martin_Hallway [r1 story]
+<<location "Hallway, Floor 39">>
+<<portrait "files/images/characters/martin_corner_office.png" "Martin Crane">>
+
+Martin Crane intercepts me in the hallway at 11:40, which is Martin Crane's way of saying he was waiting for me to walk by. He's fifty-five, six-foot-one, built like a man who played football in college and never entirely stopped believing the world owed him for it. Silver hair swept back. Suit that costs more than my monthly car payment. Handshake like he's testing whether your bones are load-bearing.
+
+<<say "Martin Crane">>Ashford.<</say>>
+
+He grips my hand. I grip back, the way my father taught me: firm, two seconds, eye contact, release.
+
+<<say "Martin Crane">>Henderson account ready for Thursday?<</say>>
+
+<<sayself>>Yes, sir. Three-scenario breakdown, full competitive analysis, updated projections.<</sayself>>
+
+<<say "Martin Crane">>Good.<</say>>
+
+He claps my shoulder. The impact is somewhere between affection and establishing dominance, a gesture he probably picked up from his own father, or from a book about leadership with a wolf on the cover.
+
+<<say "Martin Crane">>You've been solid on this one. Keep it tight.<</say>>
+
+He starts to walk away. Big strides. The hallway parts for him without him noticing because he's never had to notice.
+
+I stand there for a moment. My shoulder warm where his hand was. Martin represents something I'm supposed to want. He's the endgame of the architecture my father built: the commanding voice, the corner office, the certainty. I should admire him. I do, technically, in the way you admire a monument you walk past every day. With distance. With the suspicion that up close it's smaller than it looks.
+
+<div class="choice-container">
+    <<if !$flags.martinElevator>>
+        <span class="sidequest"><<link "Follow him to the elevator bank" "R1_SQ_MartinMentorship">><</link>></span>
+    <</if>>
+    <<link "Let him go. Back to work." "R1_Afternoon">><</link>>
+</div>

@@ -1,0 +1,17 @@
+:: R1_Afternoon [r1 story]
+<<set $time.period = "afternoon">>
+<<location "Meridian Consulting, Floor 39">>
+
+The afternoon is a sludge of meetings and spreadsheets and a lunch I eat at my desk. Turkey on wheat, apple, water. The same lunch four days a week because decisions are a finite resource and I spend mine on things that matter less.
+
+At 2 PM I sit in on a strategy review where Greg Tanaka talks for forty minutes about "leveraging adjacencies" and "right-sizing our go-to-market" and I nod at the appropriate intervals and make notes I'll never read and the whole thing feels like standing in a river of words, waist-deep, waiting for one of them to mean something.
+
+Harper catches my eye from across the table during the phrase "circle back on the bandwidth question" and does something subtle with her left eyebrow that makes me cough-laugh into my coffee. Greg glances at me. I fake a cough. Harper's face is perfectly neutral. She's dangerous.
+
+By 5 PM the building is thinning out. People streaming toward elevators with their coats and their bags and their relief. I stay until 6:15 because that's what Daniel Ashford does. He doesn't leave on time. He leaves late enough to be noticed but not so late that anyone worries.
+
+I shut my laptop. Pack my briefcase. Same four pockets, same four objects.
+
+<div class="choice-container">
+    <<link "Head home" "R1_Commute_Home">><</link>>
+</div>

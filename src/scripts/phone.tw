@@ -1,0 +1,28 @@
+:: 03_Phone [script]
+/* <<openphone>>   renders $phone.messages into the themed SugarCube dialog */
+Macro.add('openphone', {
+    handler: function () {
+        var messages = State.variables.phone.messages;
+        var html = '<div class="phone-device" style="box-shadow:none;border:none;padding:0;max-height:60vh;">';
+        html += '<div class="phone-device-header">Messages</div>';
+        if (!messages.length) {
+            html += '<div class="message-meta" style="text-align:center;">Nothing yet.</div>';
+        } else {
+            messages.forEach(function (m) {
+                var cls = m.sender === 'me' ? 'outgoing' : 'incoming';
+                if (m.sender !== 'me') {
+                    html += '<div class="message-meta">' + m.sender + ' &middot; ' + m.day + '</div>';
+                }
+                html += '<div class="message-bubble ' + cls + '">' + m.text + '</div>';
+            });
+        }
+        html += '</div>';
+
+        Dialog.setup('Phone');
+        Dialog.wiki(html);
+        Dialog.open();
+
+        State.variables.phone.messages.forEach(function (m) { m.read = true; });
+        State.variables.phone.unread = 0;
+    }
+});

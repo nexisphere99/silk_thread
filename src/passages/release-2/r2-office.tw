@@ -1,0 +1,111 @@
+:: R2_Henderson_Meeting [r2 story]
+<<scene "Conference Room A, Floor 41" "files/images/locations/conference_room_floor41.png">>
+<<portrait "files/images/characters/margaret_walsh_meeting.png" "Margaret Walsh">>
+
+The Henderson team arrives at 9:58. Four of them. Margaret Walsh leads. She is the CFO and she smiles like she's auditing your soul and finding the balance short. Gray suit, reading glasses she doesn't need but wears because they make people underestimate her for the three seconds before she asks a question that makes them sweat through their shirts.
+
+Two junior analysts flank her. They carry tablets and say nothing. The fourth is their legal counsel, a man named Braddock who sits with his arms crossed for the entire meeting like a bouncer at the door of a club I am about to be thrown out of.
+
+I begin the presentation. I am polished. I am prepared. For ten minutes I am the version of myself that my father would approve of. Controlled. Certain. Direct.
+
+Then Margaret asks about Q3 projections under a regulatory scenario I didn't model.
+
+The question is reasonable. It is the kind of question a competent CFO asks when evaluating strategic risk. It is the question I should have anticipated. It is sitting right there in the gap between my blue binder and my red binder, in the space where a fourth binder should have existed if I had been thorough instead of merely busy.
+
+I pivot. This is the wrong word for what I do. Pivoting implies grace, a dancer changing direction. What I do is lunge. I push a growth-oriented strategy because growth is what I prepared, growth is what I know, growth is the hammer I brought to a meeting that turns out to need a scalpel.
+
+Margaret wants risk mitigation. She says so with her eyes before she says so with her mouth. The room temperature drops. Her smile goes from auditing to foreclosing. I keep talking. I am saying the right words in the wrong order for the wrong audience at the wrong time and I know it and I cannot stop because stopping would mean admitting I don't have the answer and Daniel Ashford always has the answer, that is the deal, that is the contract I signed with the universe when I polished my shoes and ironed my shirts and married a good woman and did everything right.
+
+I double down.
+
+Margaret's face closes like a door. Not slammed. Clicked shut. Quietly, deliberately, with the finality of a lock turning.
+
+The meeting ends fifteen minutes early. She shakes my hand. Her grip is firm and brief and empty of everything that was in it an hour ago.
+
+<<say "Margaret Walsh">>We'll be in touch.<</say>>
+
+We both know what that means. "We'll be in touch" is corporate for "don't call us." It is the business equivalent of a doctor saying "we'll make you comfortable." Terminal. Irrevocable. Kind only in its brevity.
+
+The Henderson team files out. Braddock uncrosses his arms for the first time. The junior analysts don't look at me. Margaret walks through the door and takes twelve million dollars with her.
+
+I stand alone in Conference Room A. The projector is still on. My slide deck glows on the screen, frozen on a bar chart showing projected growth that will never happen now. The bars point upward. Optimistic. Idiotic. The chart of a man who built three binders and forgot to build the one that mattered.
+
+<div class="choice-container">
+    <span class="sidequest"><<link "Stop by Harper's desk first" "R2_SQ_HarperSticky">><</link>></span>
+    <<link "Go straight to Greg's office" "R2_Greg_Office">><</link>>
+</div>
+
+:: R2_SQ_HarperSticky [r2 sidequest]
+<<set $flags.r2HarperSticky = true>>
+<<location "Harper's Desk, Floor 39">>
+
+I find myself at Harper's desk. I don't remember walking here. My legs brought me while my brain was still in Conference Room A, watching Margaret Walsh walk through the door with twelve million of my future tucked under her arm.
+
+Harper's workspace is organized differently from mine. Where my desk is a grid, hers is a solar system. Central monitor anchored in place, with notebooks and tabs and post-its orbiting in what looks like chaos but is actually a system only she understands. There's a small cactus in a pot shaped like a cat. There's a paperback novel with a cracked spine, bookmarked three quarters through with a grocery receipt.
+
+She isn't here. Lunch, probably. I stand at her desk like a ghost visiting a place it used to belong.
+
+<<moodimage "files/images/mood/sticky_note_harper.png" "DA, H deck, check pg 14 reg scenario">>
+
+DA. Daniel Ashford. H deck. Henderson deck.
+
+She flagged the regulatory scenario. Page 14. She saw the gap. She tried to tell me. The note is dated last Thursday. Four days ago. I didn't look at her revisions until Sunday and by then I was already locked into my three-binder approach, already welded to the growth narrative, already driving the car that was going to hit the wall.
+
+Harper saw it. She left me a map and I didn't read it.
+
+I take the sticky note. Fold it. Put it in my pocket. I don't know why. Evidence. Proof. A reminder that someone was paying attention, even if I wasn't.
+
+<<npc "harper" "trust" 3>>
+<div class="choice-container">
+    <<link "Go to Greg's office" "R2_Greg_Office">><</link>>
+</div>
+
+:: R2_Greg_Office [r2 story]
+<<scene "Greg Tanaka's Office" "files/images/locations/gregs_office.png">>
+<<portrait "files/images/characters/greg_tanaka_serious.png" "Greg Tanaka">>
+
+Greg Tanaka is waiting.
+
+Of course he is. Greg Tanaka is my direct superior and he has been watching the Henderson account like a hawk watches a mouse it knows it's going to eat. He just didn't expect to be eating his own team member instead of the revenue.
+
+His office door is already open. This is worse than if it were closed. A closed door means a conversation. An open door means an execution.
+
+<<say "Greg Tanaka">>Sit.<</say>>
+
+I sit.
+
+Greg's office is neat the way an operating room is neat. Everything has a purpose. Nothing is decorative. There is a photo of his family on the desk, turned at an angle that lets visitors see it without letting Greg get distracted by sentiment during working hours. He is efficient even in his affections.
+
+<<say "Greg Tanaka">>Henderson was a twelve-million-dollar relationship, Ashford.<</say>>
+
+He says my name like punctuation. Like a period at the end of a sentence I didn't write.
+
+<<say "Greg Tanaka">>Was.<</say>>
+
+I open my mouth. He holds up one hand.
+
+<<say "Greg Tanaka">>Don't. I watched the recording. You pushed growth on a risk-averse CFO who told you three times what she wanted and you ignored her three times because you only prepared one playbook.<</say>>
+
+He is right. He is precisely, surgically, lethally right.
+
+<<say "Greg Tanaka">>I'm putting in a call to Margaret this afternoon. If I can walk it back, I will. But you should know that I am also drafting the paperwork.<</say>>
+
+<<sayself>>What paperwork?<</sayself>>
+
+He looks at me. The look says: you already know what paperwork.
+
+Termination paperwork. Not a threat. A logistical reality. Greg Tanaka doesn't threaten. He processes. He is already composing the email in his head, the one that begins with "It is with regret" and ends with "effective immediately." I can see the cursor blinking behind his eyes.
+
+<<sayself>>I'll fix this.<</sayself>>
+
+<<say "Greg Tanaka">>No, Daniel. You won't. Because you've been on thin ice since the Beaumont near-miss last year and this isn't thin ice anymore. This is open water.<</say>>
+
+I stand. My legs work fine. My hands are steady. My face is composed. Everything about my exterior is functioning exactly as designed while the interior experiences something between freefall and cardiac arrest.
+
+<<say "Greg Tanaka">>I'll let you know by end of week.<</say>>
+
+I nod. Walk out. His door is still open behind me. I don't close it. Closing it would be an act of agency and I don't have any of that left.
+
+<div class="choice-container">
+    <<link "Take the elevator down" "R2_Elevator_Silence">><</link>>
+</div>

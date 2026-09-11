@@ -1,0 +1,78 @@
+:: R1_Commute_Home [r1 story]
+<<set $time.period = "evening">>
+<<location "In Transit">>
+
+The drive home is twenty minutes. Light traffic. I stop at the grocery store for no particular reason and leave without buying anything.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Hub_Evening">><</link>>
+</div>
+
+:: R1_Hub_Evening [r1 hub]
+<<scene "Daniel's Apartment, Evening" "files/images/locations/apartment_living_room_evening.png">>
+
+Lena is in the kitchen. The apartment smells like garlic and olive oil, which means she reheated the pasta from two nights ago.
+
+<div class="choice-container">
+    <<link "Join her in the kitchen" "R1_Dinner">><</link>>
+</div>
+
+:: R1_Dinner [r1 story]
+<<location "Kitchen / Living Room">>
+<<portrait "files/images/characters/lena_home_evening.png" "Lena Ashford">>
+
+<<say "Lena">>Hey.<</say>>
+
+She's at the counter, scrolling her phone, wineglass half-empty. She's in leggings and an oversized sweater that slips off one shoulder. She looks good. She always looks good. Petite, auburn hair loose, the kind of face that makes you think of French films and rainy afternoons. She married me because I was safe. I know this. She hasn't said it in those words, but I know it the way you know the weather's changing before you see the clouds.
+
+<<sayself>>Hey. Smells good.<</sayself>>
+
+<<say "Lena">>It's the same thing from Tuesday.<</say>>
+
+<<sayself>>Still smells good.<</sayself>>
+
+She half-smiles. Doesn't look up from her phone.
+
+We eat at the kitchen table with the TV on in the living room, volume low, some reality show she pretends to watch and I pretend to ignore. I talk about work. The Henderson account. Greg's meeting. She nods at the right moments, asks the right follow-up questions, her fork moving from plate to mouth in a rhythm that mirrors the conversation: steady, practiced, automatic.
+
+I watch her for a moment when she's not looking. The way her jaw moves when she chews. The tiny crease between her eyebrows that appears when she's scrolling. Four years of marriage and I know her face like a map I've memorized but stopped using. I could draw it from memory. I couldn't tell you what she's feeling right now.
+
+<<sayself>>How was your day?<</sayself>>
+
+<<say "Lena">>Fine. Yoga was good. Sarah's pregnant.<</say>>
+
+<<sayself>>Sarah from your studio?<</sayself>>
+
+<<say "Lena">>Mmhm.<</say>>
+
+The conversation dies the way our conversations always die. Not with conflict or silence but with the mutual, silent agreement that we've both said enough to qualify as communication without actually communicating anything. The dinner plates go in the dishwasher. She pours another glass of wine. I loosen my tie. The evening settles around us like dust.
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Evening_Couch">><</link>>
+</div>
+
+:: R1_Evening_Couch [r1 story]
+<<location "Living Room">>
+
+We sit on the couch. Her legs are tucked under her, phone tilted at an angle I can't see. Instagram, probably. Or texting someone. I have my laptop open, pretending to review tomorrow's prep, actually reading the same paragraph for the fourth time because my brain decided to clock out at 7:30 and my body hasn't caught up.
+
+The silence between us has texture. It used to be comfortable, the kind of silence two people share when words aren't necessary. Now it's the other kind. The kind that exists because words have become too much work.
+
+<<say "Lena">>I'm going to bed.<</say>>
+
+She says it at 9:15. She leans over and kisses my cheek. Brief, dry, perfunctory. The kiss of a woman fulfilling a contract.
+
+<<sayself>>I'll be in soon.<</sayself>>
+
+She pads down the hallway. I hear the bathroom door close. Water running. The electric toothbrush. Then nothing. Then the bedroom door.
+
+I sit on the couch and wonder when I became the kind of man who lets his wife go to bed alone four nights a week without feeling anything more than a vague, tired guilt. My father would have called it weakness. My father would have been right, probably, though he'd have been right for the wrong reasons.
+
+I close the laptop. Finish Lena's wine.
+
+<div class="choice-container">
+    <<if !$flags.lenaPhoneGlimpse>>
+        <span class="sidequest"><<link "Her phone just lit up on the coffee table" "R1_SQ_PhoneGlimpse">><</link>></span>
+    <</if>>
+    <<link "Head down the hall" "R1_Bedroom_Approach">><</link>>
+</div>

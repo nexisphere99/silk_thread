@@ -1,0 +1,15 @@
+:: R1_Commute [r1 story]
+<<advancetime>>
+<<scene "Downtown, In Transit" "files/images/locations/city_commute_downtown.png">>
+
+The drive to Meridian takes twenty-two minutes without traffic, thirty-one with. Today it's twenty-eight. I listen to a podcast about market disruption that I'll reference in a meeting to sound current and then immediately forget. The host has the kind of voice that suggests he's never lost sleep over anything, and I envy that, the luxury of certainty.
+
+Downtown materializes through the windshield like a promise I'm not sure I believe anymore. Glass towers, steel bones, the whole city reaching upward because that's what cities do. Meridian Consulting occupies floors 38 through 42 of one of these towers. I work on 39. Interior-facing. No skyline view. I am aware of this hierarchy the way a dog is aware of the fence around its yard. Not with resentment, exactly. More like permanent, low-grade understanding of where the boundary is.
+
+The parking garage is four levels underground. I park in the same spot every day, not because it's assigned but because I'm the kind of person who parks in the same spot every day. That sentence is probably the most honest thing I'll think all morning.
+
+<<moodimage "files/images/mood/commute_parking_spot.png" "">>
+
+<div class="continue-wrap">
+    <<link "Continue" "R1_Office_Arrival">><</link>>
+</div>
