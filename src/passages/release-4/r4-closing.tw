@@ -1,5 +1,5 @@
 :: R4_HomeEvening [r4 story intimate]
-<<scene "Daniel & Lena's Apartment, Kitchen" "files/images/locations/r4-homeevening-kitchen.webp">>
+<<scene "Daniel & Lena's Apartment, Kitchen" "files/images/locations/r4-homeevening-kitchen.png">>
 <<set $time = { day: "thursday", period: "evening", week: 1 }>>
 <<objective "Get through the evening at home.">>
 
@@ -62,7 +62,7 @@ The apartment settles into quiet. Lena's light is still on down the hall, the mu
 
 :: R4_SQ_PhoneCheck [r4 sidequest]
 <<set $flags.r4PhoneCheck = true>>
-<<moodimage "files/images/mood/r4-sq-phone-glow.webp" "">>
+<<moodimage "files/images/mood/r4-sq-phone-glow.png" "">>
 <<objective "Sit with the thought a while.">>
 
 8:47 PM. I'm on the couch. Lena is in the bedroom reading. My phone buzzes. Work email. Nothing important. I swipe it away.
@@ -88,7 +88,7 @@ I watch the game until Lena turns off her light. Then I watch the highlights. Th
 </div>
 
 :: R4_Closing [r4 system]
-<<scene "Daniel & Lena's Bedroom, Night" "files/images/locations/r4-closing-bedroom-distance.webp">>
+<<scene "Daniel & Lena's Bedroom, Night" "files/images/locations/r4-closing-bedroom-distance.png">>
 <<set $objective = "">>
 
 I brush my teeth. Change into pajama pants. The panties stay on underneath. Victoria's instruction. Or my choice. The line between those two things is blurring the way headlights blur in rain, the shapes still visible but the edges gone.

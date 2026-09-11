@@ -1,5 +1,5 @@
 :: R4_AfterHours [r4 story intimate]
-<<scene "Victoria Cross's Office, Floor 42, Dusk" "files/images/locations/r4-afterhours-victoria-office-dusk.webp">>
+<<scene "Victoria Cross's Office, Floor 42, Dusk" "files/images/locations/r4-afterhours-victoria-office-dusk.png">>
 <<objective "Answer Victoria's summons.">>
 
 6:27 PM. The floor is emptying out. The cleaning crew starts at seven. The sunset hits the west-facing windows and paints the carpet orange. I have an email from Victoria. It arrived two minutes ago. One word.
@@ -50,7 +50,7 @@ The threat drops through my stomach and keeps going. Past my gut, past my hips, 
 
 A matching bra. Straps on my shoulders all day. The shape of it under my shirt. Another layer between who I present to the world and what I'm becoming underneath. The thought should horrify me. It does. It also does something else. Something my slacks can't hide and she can definitely see.
 
-<<portrait "files/images/characters/r4-victoria-standing-close.webp" "Victoria Cross">>
+<<portrait "files/images/characters/r4-victoria-standing-close.png" "Victoria Cross">>
 
 She stands. Moves around the desk. Slow. Her heels click on the marble floor. Each click is a period at the end of a sentence I can't read yet. She stops in front of me. Close. Close enough that I can smell her perfume. Tom Ford. Tobacco Vanille. Dark and layered and completely unlike anything Lena wears. It smells like leather and smoke and decisions that have already been made.
 
@@ -85,7 +85,7 @@ She nods. Sits back down. Picks up her pen.
 <<npc "victoria" "trust" 3>>
 <<npc "victoria" "control" 8>>
 
-<<moodimage "files/images/characters/r4-daniel-choice-moment.webp" "">>
+<<moodimage "files/images/characters/r4-daniel-choice-moment.png" "">>
 
 I stand there for three more seconds. She doesn't look up. I am dismissed. The word fits in a way that "excused" or "free to go" would not. Dismissed. Like a servant. Like a student. Like something that exists at the pleasure of someone else.
 
@@ -191,7 +191,7 @@ I leave her office. In the elevator, I think about what I'm learning. I'm not su
 </div>
 
 :: R4_DriveHome [r4 story]
-<<scene "In Transit, Night" "files/images/mood/r4-drivehome-car-night.webp">>
+<<scene "In Transit, Night" "files/images/mood/r4-drivehome-car-night.png">>
 <<objective "Drive home.">>
 
 The drive home takes thirty-one minutes. Traffic on the bridge. I sit in the left lane behind a pickup truck and feel the panties cooling against my skin. The silk is stiff where it dried. Victoria's instruction was clear. Don't wash them. Tomorrow I put these back on, crusted and fragrant, and wear the evidence of today's surrender against my cock for another eight hours.

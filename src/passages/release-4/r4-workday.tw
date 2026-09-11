@@ -1,5 +1,5 @@
 :: R4_Standup [r4 story intimate]
-<<scene "Conference Room B, Floor 39" "files/images/locations/r4-workday-standup.webp">>
+<<scene "Conference Room B, Floor 39" "files/images/locations/r4-workday-standup.png">>
 <<objective "Get through the morning standup.">>
 
 9:00 AM. The team gathers in Conference Room B. Glass walls, whiteboard, the smell of dry-erase markers and ambition. Eight people around the table. I take my usual seat. The chair is firm, corporate ergonomic, and when I sit the lace pulls tight against my cock and I clench my jaw so hard my back teeth ache.
@@ -27,7 +27,7 @@ She moves on. Her eyes don't.
 </div>
 
 :: R4_LunchCrane [r4 story intimate]
-<<scene "Partners' Dining Room" "files/images/locations/r4-workday-lunch-crane.webp">>
+<<scene "Partners' Dining Room" "files/images/locations/r4-workday-lunch-crane.png">>
 <<portrait "files/images/characters/martin_hallway.png" "Martin Crane">>
 <<objective "Get through lunch with Martin.">>
 
@@ -74,7 +74,7 @@ I catch her eye. One raised eyebrow. The faintest curl at the corner of her mout
 
 She knows. Not that I'm wearing them. She told me to. She knows I'm //feeling// them. She can read it on my face like a weather forecast. Temperature rising. Pressure building. Storm incoming.
 
-<<moodimage "files/images/mood/r4-workday-presentation.webp" "">>
+<<moodimage "files/images/locations/r4-workday-presentation.png" "">>
 
 I finish the presentation. Someone asks about the Whitmore timeline. I answer. My voice holds. My cock doesn't soften. The lace is damp. I have been leaking into these panties since the conference room chair and probably before. By the time I sit back down, the silk is wet against the underside of my shaft and the scent of my own arousal rises faintly from my lap and I fold my hands over my crotch and pray to a god I don't believe in that nobody can smell what I smell.
 
@@ -90,7 +90,7 @@ She doesn't need to look. She already saw everything.
 
 :: R4_Harper_Interaction [r4 story]
 <<location "Floor 39, Daniel's Desk">>
-<<portrait "files/images/mood/r4-npc-harper-desk.webp" "Harper Quinn">>
+<<portrait "files/images/locations/r4-npc-harper-desk.png" "Harper Quinn">>
 <<objective "Handle Harper's questions.">>
 
 Harper catches me at my desk an hour later. She's carrying two coffees. Sets one on my desk without asking. Black, no sugar. She knows.
@@ -144,7 +144,7 @@ She walks away. I watch her go. She doesn't look back, but I know she's still wa
 
 :: R4_Martin_Hallway [r4 story]
 <<location "Corridor, Floor 39">>
-<<portrait "files/images/mood/r4-npc-martin-hallway.webp" "Martin Crane">>
+<<portrait "files/images/mood/r4-npc-martin-hallway.png" "Martin Crane">>
 <<objective "Handle Martin's questions.">>
 
 I pass Martin Crane in the corridor on my way back from the bathroom. He's got his coat on. Heading out early, which is rare for a man who treats the office like a second home.
@@ -195,7 +195,7 @@ The afternoon settles into its ordinary shape around me. Emails. A team call. Th
 
 :: R4_SQ_LockerMoment [r4 sidequest intimate]
 <<set $flags.r4LockerMoment = true>>
-<<scene "Executive Washroom, Third Floor" "files/images/locations/r4-sq-washroom-stall.webp">>
+<<scene "Executive Washroom, Third Floor" "files/images/locations/r4-sq-washroom-stall.png">>
 <<objective "Decide what to do with a moment alone.">>
 
 Mid-afternoon. Between the presentation and Victoria's summons. I lock myself in the executive washroom stall. Third floor bathroom, not my own floor. Fewer people. Less chance.
