@@ -2,7 +2,7 @@
 Silk Thread
 
 :: StorySubtitle [nobr]
-<<if $currentRelease === 2>>Release 2 &middot; The Mistake<<else>>Release 1 &middot; The Ordinary Life<</if>>
+<<if $currentRelease === 4>>Release 4 &middot; Silk Against Skin<<elseif $currentRelease === 3>>Release 3 &middot; The Deal<<elseif $currentRelease === 2>>Release 2 &middot; The Mistake<<else>>Release 1 &middot; The Ordinary Life<</if>>
 
 :: Start [system]
 <<set $currentRelease = 1>>
