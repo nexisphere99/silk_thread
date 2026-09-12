@@ -1,0 +1,50 @@
+:: R6_TitleCard [r6 system]
+<<set $currentRelease = 6>>
+<div class="title-screen">
+    <div class="title-image">
+        <img src="files/images/ui/release_6_title_card.png" alt="" onerror="this.closest('.title-image').classList.add('is-missing')">
+    </div>
+    <p class="title-wordmark" style="font-size:2.2rem;">LENA MEETS ADRIAN</p>
+    <div class="title-rule"></div>
+    <p class="title-subtitle">Release Six</p>
+    <div class="title-menu">
+        <<link "Continue" "R6_Opening">><</link>>
+    </div>
+</div>
+
+:: R6_Opening [r6 story intimate]
+<<scene "Daniel & Lena's Apartment, Evening" "files/images/locations/r6-opening-daniel-mirror.png">>
+<<set $time = { day: "saturday", period: "evening", week: 2 }>>
+<<objective "Get dressed for the mixer.">>
+
+The panties go on first. They always go on first now.
+
+I don't think about it anymore, which is maybe the most disturbing part. Two weeks ago I stood naked in this bedroom and held a pair of La Perla lace panties like they were a live grenade. Today I step into them the way I step into my boxer briefs for five years before that. Left leg, right leg, pull, adjust. The lace settles against my cock and my ass and the silk lining whispers against the crease of my thighs. Routine. I have made the abnormal normal in eleven days.
+
+The bra is next. I've gotten faster with it. Reaching behind my back, hooking the clasp on the second try instead of the fifth. The straps settle onto my shoulders with that particular weight I'm starting to crave, the slight pressure across my back reminding me with every breath that I am held. Contained. Shaped.
+
+<<modstat "arousalRewiring" 1>>
+
+I button my dress shirt over both. Check the side profile in the bathroom mirror. Nothing. The bra is nearly flat, designed to disappear. The panties are invisible under my slacks. Daniel Ashford stares back at me from the glass, immaculate, conventional, a man whose Sunday night ritual involves ironing five shirts and polishing two pairs of shoes. Nobody can see anything wrong with this picture.
+
+That's because nobody is looking hard enough.
+
+Tonight is Meridian's quarterly mixer. Floor 40 event space, open bar, the usual political theater of who stands near whom. I knot my navy tie and think about the fact that I will shake hands and eat canapes and discuss client retention strategies while wearing women's underwear. The absurdity should paralyze me. Instead it hums through my body like a low electrical current. Constant. Warm.
+
+Lena comes out of the bedroom.
+
+<<moodimage "files/images/characters/r6-lena-green-dress.png" "">>
+
+Green cocktail dress. Fitted. Low back that shows the architecture of her shoulder blades. The color turns her auburn hair into something from a Botticelli, warm and alive and catching light. She's done her makeup with more care than I've seen in months. Lip color that's new. Earrings I don't recognize.
+
+<<sayself>>You look amazing.<</sayself>>
+
+<<say "Lena Ashford">>Thanks.<</say>>
+
+She's looking at her phone. Half a smile, the kind you give a compliment that registers but doesn't land. She's already somewhere else. I don't know where. She used to be here when I talked. Now my words hit her skin and slide off like water.
+
+I get my jacket. She gets her clutch. We walk to the car together, two people performing the choreography of a couple heading to a party, and the lace shifts against my cock with every step down the hallway.
+
+<div class="continue-wrap">
+    <<link "Continue" "R6_Mixer">><</link>>
+</div>

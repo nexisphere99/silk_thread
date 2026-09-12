@@ -1,0 +1,187 @@
+:: R6_Mixer_Hub [r6 hub]
+<<location "Meridian, Floor 40 Event Space">>
+<<objective "Finish working the room.">>
+
+The party keeps turning around its two new gravitational centers, Adrian on one side of the room and whatever version of me is left on the other.
+
+<div class="choice-container">
+    <<if !$flags.r6HarperObserver>>
+        <span class="sidequest"><<link "Join Harper at the appetizer station" "R6_SQ_HarperObserver">><</link>></span>
+    <</if>>
+    <<if !$flags.r6MartinStandard>>
+        <span class="sidequest"><<link "Get another drink with Martin" "R6_SQ_MartinStandard">><</link>></span>
+    <</if>>
+    <<if !$flags.r6VictoriaCheckIn>>
+        <span class="sidequest"><<link "Let Victoria check in" "R6_SQ_VictoriaCheckIn">><</link>></span>
+    <</if>>
+    <<link "Head to the perimeter" "R6_Perimeter">><</link>>
+</div>
+
+:: R6_SQ_HarperObserver [r6 sidequest]
+<<set $flags.r6HarperObserver = true>>
+<<portrait "files/images/characters/r6-harper-appetizer-sidequest.png" "Harper Quinn">>
+<<objective "See what Harper's noticed.">>
+
+Harper is eating shrimp with the methodical focus of someone who learned to enjoy food alone. She's got a small plate balanced on one palm and a glass of sparkling water in the other, and she's watching the room with the detached interest of a nature documentary narrator.
+
+I join her because the alternative is standing alone while my wife talks to a man who looks like he was designed in a wind tunnel.
+
+<<say "Harper Quinn">>You're doing that thing.<</say>>
+
+<<sayself>>What thing?<</sayself>>
+
+<<say "Harper Quinn">>The thing where you pretend you're casually hanging out but you're actually tracking someone across the room.<</say>>
+
+She eats another shrimp.
+
+<<say "Harper Quinn">>It's very CIA. Very subtle. Except for the part where it's completely obvious.<</say>>
+
+<<sayself>>I'm not tracking anyone.<</sayself>>
+
+<<say "Harper Quinn">>Cool. Then you won't mind that Lena is now touching Adrian Wolfe's arm for the third time in ten minutes.<</say>>
+
+She says it deadpan. No inflection. Just data.
+
+I look. She's right. Lena's fingers on Adrian's forearm. Three times. Harper counted. Harper counts everything.
+
+<<sayself>>She's friendly.<</sayself>>
+
+<<say "Harper Quinn">>She's magnetic. He's the magnet. There's a difference.<</say>>
+
+She finishes her shrimp and sets the plate on a passing tray.
+
+<<say "Harper Quinn">>For what it's worth, he seems decent. Not the predator type. Just the type who walks into a room and everyone's compass resets.<</say>>
+
+<<sayself>>You've met him before?<</sayself>>
+
+<<say "Harper Quinn">>First time tonight. But I've met the type.<</say>>
+
+She looks at me directly.
+
+<<say "Harper Quinn">>Have you?<</say>>
+
+I have. I work for one. I wear her underwear.
+
+<<sayself>>I should circulate.<</sayself>>
+
+<<say "Harper Quinn">>You should.<</say>>
+
+She touches my elbow. Light. Brief.
+
+<<say "Harper Quinn">>Daniel. You're a good guy. Don't forget that when you're busy being whatever else you're becoming.<</say>>
+
+The sentence hits like a bullet I don't feel until I'm three steps away. I turn back to ask what she means but she's already talking to someone from analytics, laughing about something, easy and untouchable.
+
+<<npc "harper" "suspicion" 5>>
+<<modstat "officeSuspicion" 2>>
+
+<div class="continue-wrap">
+    <<link "Back to the room" "R6_Mixer_Hub">><</link>>
+</div>
+
+:: R6_SQ_MartinStandard [r6 sidequest]
+<<set $flags.r6MartinStandard = true>>
+<<scene "The Bar, Floor 40" "files/images/locations/r6-martin-daniel-bar-sidequest.png">>
+<<objective "Hear Martin out.">>
+
+Martin Crane intercepts me at the bar like a battleship cutting off a dinghy.
+
+<<say "Martin Crane">>Ashford. Drink with me.<</say>>
+
+This isn't a request. Martin's invitations are executive orders delivered in casual packaging. I order another red. He orders another bourbon. We stand at the bar together and survey the room.
+
+<<say "Martin Crane">>You know what I see at these things? I see two kinds of people. People who are building something and people who are performing. The builders are easy to spot. They look tired and they talk about their work with a kind of obsession that borders on unhinged. The performers are harder because they've gotten good at the costume. They look polished. They say the right things. They shake the right hands.<</say>>
+
+He drinks. Watches me over the rim.
+
+<<say "Martin Crane">>Which one are you, Ashford?<</say>>
+
+<<sayself>>I'd like to think I'm building.<</sayself>>
+
+<<say "Martin Crane">>You'd like to think.<</say>>
+
+He sets the glass down.
+
+<<say "Martin Crane">>I've been watching you. Not in a creepy way. In a mentorship way. You've been different the last two weeks. Quieter. More inward. You move differently. I can't put my finger on it but there's a change.<</say>>
+
+My stomach drops. The panties tighten against my tensing thighs.
+
+<<sayself>>Big transition. New vertical, new leadership. Just adjusting.<</sayself>>
+
+<<say "Martin Crane">>Victoria Cross.<</say>>
+
+He says her name the way a man says the name of a rival who outflanked him. Respect and resentment and a grudging admiration he'd rather not admit.
+
+<<say "Martin Crane">>She's brilliant. Ruthless. And she has a way of reshaping people around her. Like a black hole. You get close enough and you start orbiting whether you want to or not.<</say>>
+
+<<sayself>>I think she's been a great addition to the leadership team.<</sayself>>
+
+<<say "Martin Crane">>That's a press release, Daniel. I asked you a question.<</say>>
+
+I drink my wine. He drinks his bourbon. The jazz trio transitions to something slower. Across the room, Lena touches Adrian's arm again. Harper is gone.
+
+<<sayself>>I'm building. I'm just not sure what yet.<</sayself>>
+
+Martin stares at me for a long moment. His eyes are the color of old leather and they miss nothing. Then he nods, once, and claps my shoulder with the weight of a man who's decided to believe me against his better judgment.
+
+<<say "Martin Crane">>Keep building. And keep your head on straight. This firm eats confused people alive.<</say>>
+
+He walks away. The bourbon smell hangs in the air behind him. I press my palm against the bar and feel the bra strap shift under my jacket and think: confused doesn't begin to cover it.
+
+<<npc "martin" "suspicion" 4>>
+<<npc "martin" "respect" 3>>
+
+<div class="continue-wrap">
+    <<link "Back to the room" "R6_Mixer_Hub">><</link>>
+</div>
+
+:: R6_SQ_VictoriaCheckIn [r6 sidequest]
+<<set $flags.r6VictoriaCheckIn = true>>
+<<location "By the Windows, Floor 40">>
+<<objective "Answer Victoria honestly, or don't.">>
+
+Victoria materializes at my side. She does this, appears without approaching, as though she occupies space through executive privilege rather than physical movement.
+
+<<say "Victoria Cross">>You're watching very carefully.<</say>>
+
+She's looking at the windows where Lena and Adrian are still talking. Thirty-two minutes now, by my count.
+
+<<sayself>>Should I not be?<</sayself>>
+
+<<say "Victoria Cross">>Observation is a skill. Most people look without seeing. You're seeing.<</say>>
+
+She sips her wine.
+
+<<say "Victoria Cross">>Tell me what you see.<</say>>
+
+I consider the question. It feels like a test. Everything with Victoria feels like a test, and the grading rubric is never shared in advance.
+
+<<sayself>>I see my wife enjoying herself more than she has at any event I've brought her to.<</sayself>>
+
+<<say "Victoria Cross">>What else?<</say>>
+
+<<sayself>>I see Adrian being Adrian. Whatever that means.<</sayself>>
+
+<<say "Victoria Cross">>And what does it mean to you?<</say>>
+
+I'm quiet for a moment. The panties are wet. The bra straps are a constant reminder. Victoria is close enough that I can smell her perfume, that dark expensive scent that I've started associating with obedience and marble floors and the taste of leather.
+
+<<sayself>>It means I'm standing here in your underwear watching another man make my wife happy and I don't know what to do with that.<</sayself>>
+
+Victoria's mouth curves. Not a smile. Something more private.
+
+<<say "Victoria Cross">>You don't have to do anything with it, Daniel. You just have to feel it.<</say>>
+
+<<sayself>>Feel what?<</sayself>>
+
+She turns to me. Her eyes are dark and steady.
+
+<<say "Victoria Cross">>Everything.<</say>>
+
+She walks away. I watch her go and realize my hand is pressed against my thigh, feeling the outline of the garter I'm not wearing tonight, missing it.
+
+<<npc "victoria" "control" 4>>
+
+<div class="continue-wrap">
+    <<link "Back to the room" "R6_Mixer_Hub">><</link>>
+</div>
