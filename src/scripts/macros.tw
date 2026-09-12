@@ -208,8 +208,12 @@ Macro.add('moodimage', {
    <<set $choices.rN.x = ...>> in a later release then throws "Cannot
    set properties of undefined". Save.onLoad patches any missing keys
    into a save's variables before it becomes State.variables, without
-   touching values it already has. Keep the defaults below in sync
-   with StoryInit's $choices/$flags whenever a new release adds fields. */
+   touching values it already has. A save's state is a full moment
+   history (State.marshalForSave() -> {index, history: [...]}), each
+   moment carrying its own variables snapshot, so every moment needs
+   patching, not just the active one, or pressing "Back" later would
+   restore an unpatched snapshot. Keep the defaults below in sync with
+   StoryInit's $choices/$flags whenever a new release adds fields. */
 Silk.fillDefaults = function (target, defaults) {
     for (var key in defaults) {
         if (!Object.prototype.hasOwnProperty.call(defaults, key)) continue;
@@ -223,15 +227,19 @@ Silk.fillDefaults = function (target, defaults) {
 };
 
 Save.onLoad.add(function (save) {
-    var sv = save.state.variables;
-    Silk.fillDefaults(sv.choices, {
+    var history = save && save.state && save.state.history;
+    if (!history) return;
+    history.forEach(function (moment) {
+        var sv = moment && moment.variables;
+        if (!sv) return;
+        Silk.fillDefaults(sv.choices, {
         r1: { bedChoice: "", sideQuests: [] },
         r2: { lenaChoice: "" },
         r3: { dealChoice: "" },
         r4: { afterHoursChoice: "" },
         r5: { afterHoursChoice: "" }
-    });
-    Silk.fillDefaults(sv.flags, {
+        });
+        Silk.fillDefaults(sv.flags, {
         harperCoffee: false,
         martinElevator: false,
         lenaPhoneGlimpse: false,
@@ -253,5 +261,6 @@ Save.onLoad.add(function (save) {
         r5MartinElevator: false,
         r5HarperCoffee: false,
         r5GregTanaka: false
+        });
     });
 });
