@@ -1,0 +1,337 @@
+:: R6_Perimeter [r6 story]
+<<location "Floor 40 Event Space, Near the Bar">>
+<<objective "Get through the rest of the mixer.">>
+
+I circulate. That's the professional word for drifting through a party you're no longer emotionally present at. I shake hands. I discuss the fiscal quarter with people whose names I forget before the handshake ends. I eat a canape that tastes like nothing and put my napkin on a passing tray.
+
+Harper finds me again near the bar. My second glass of red. Or my third. The count has gotten unreliable.
+
+<<say "Harper Quinn">>Your wife's having a good time.<</say>>
+
+Not pointed. Observational. Harper makes observations the way other people make small talk.
+
+I look over. Lena and Adrian have moved to a pair of chairs near the window. Lena's legs are crossed, the green dress riding up to reveal the pale inside of her knee. Adrian is leaned forward, elbows on his thighs, looking up at her. The geometry of their bodies is a sentence that reads: //I am focused entirely on you//.
+
+<<sayself>>She's networking.<</sayself>>
+
+<<say "Harper Quinn">>Uh huh.<</say>>
+
+Harper drinks something clear. Soda water, probably. She doesn't drink at work events. She told me once it's because she doesn't trust herself to keep her mouth shut with a buzz on. I remember thinking that was the most self-aware thing I'd ever heard a twenty-six-year-old say.
+
+<<say "Harper Quinn">>Adrian Wolfe. Victoria's partner. Business and otherwise, if the rumors are right.<</say>>
+
+<<sayself>>I didn't know there were rumors.<</sayself>>
+
+<<say "Harper Quinn">>There are always rumors about Victoria Cross. Some of them are even accurate.<</say>>
+
+She watches me watching Lena.
+
+<<say "Harper Quinn">>You want me to go rescue her?<</say>>
+
+<<sayself>>She doesn't look like she needs rescuing.<</sayself>>
+
+Harper tilts her head. That cataloguing look again.
+
+<<say "Harper Quinn">>No. She doesn't.<</say>>
+
+Silence. The jazz trio plays something by Coltrane. The party chatters around us. Across the room, Adrian puts his hand on the small of Lena's back and her spine straightens, not away from the touch, into it. Like a plant turning toward light.
+
+I feel the bra strap against my shoulder blade and the lace against my cock and I think: this is what vertigo feels like when you're standing on perfectly flat ground.
+
+<div class="continue-wrap">
+    <<link "Continue" "R6_CarRide">><</link>>
+</div>
+
+:: R6_CarRide [r6 story]
+<<scene "In Transit, Night" "files/images/mood/r6-car-ride-night.png">>
+<<objective "Drive home.">>
+
+Lena is electric.
+
+Not the word she'd use, but it's the word my body registers when she slides into the passenger seat. She's buzzing. Flushed. Talking before the doors close.
+
+<<say "Lena Ashford">>That was actually fun. Is it always that fun? Because the last one you dragged me to was like attending a funeral where nobody died.<</say>>
+
+I start the car.
+
+<<sayself>>Glad you enjoyed it.<</sayself>>
+
+<<say "Lena Ashford">>I met the most interesting people. There's a woman from the Lisbon office who spent two years working on development projects in Mozambique before going corporate. Can you imagine? And the partner group seems way less stuffy than I expected.<</say>>
+
+She talks. I drive. She talks about the food and the venue and the jazz trio and a conversation she had with someone from HR about company culture. She talks about everything and everyone except Adrian Wolfe, and his absence from her monologue is louder than everything she says. He's the empty chair at the center of the table. He's the word she's not saying because saying it would make it real.
+
+<<say "Lena Ashford">>I might actually come to the next one.<</say>>
+
+This is significant. She's been declining my work events for two years. She called the last one "a hostage situation with open bar."
+
+<<sayself>>Sure. That would be nice.<</sayself>>
+
+She reaches across the center console and squeezes my hand. Quick. Warm. Gone. The first voluntary physical contact she's initiated in weeks.
+
+I drive with one hand on the wheel and the phantom of her touch on the other, and the lace panties are wet against my cock, and I'm thinking about Adrian Wolfe's hand on the small of my wife's back and the sound she made when she laughed. The sound I used to make her make. The sound I stopped trying to make.
+
+The city slides past the windows. She hums along to the radio. Something by a singer I don't recognize. She knows the words. She's been listening to new music. I didn't know that.
+
+I don't know a lot of things about my wife anymore. That thought arrives like a bill I've been ignoring.
+
+<<modstat "arousalRewiring" 1>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R6_HomeAfterParty">><</link>>
+</div>
+
+:: R6_HomeAfterParty [r6 story intimate]
+<<scene "Daniel & Lena's Apartment, Bedroom" "files/images/locations/r6-bedroom-aftermath.png">>
+<<objective "Get through the night.">>
+
+We get through the front door and the energy doesn't dissipate. It concentrates.
+
+Lena drops her clutch on the entry table and turns to me and there's something in her face I haven't seen in months. Heat. Intention. She puts her hands on my chest, fingers gripping my lapels, and pulls me toward the bedroom.
+
+<<say "Lena Ashford">>Come here.<</say>>
+
+The command in her voice is new. Or maybe it's old. Maybe it's something she used to have and lost and just found again, dusted off and polished by an evening of feeling seen by a man who isn't me.
+
+I don't argue. I follow.
+
+The bedroom. She kicks off her heels. Pulls the green dress over her head in one motion, no hesitation, no self-consciousness. She's in a black bra and matching underwear, nothing fancy, cotton and wire, but her body underneath is the body I've been sleeping next to for four years and tonight it looks different. Not changed. //Activated//. Like someone plugged her back in.
+
+She pushes me onto the bed. Climbs on top and kisses me, hard, her tongue finding mine with an urgency that hasn't existed between us since the first year. She pulls my tie loose. Unbuttons my shirt. I catch her hands before she gets to the third button because the bra is right there, two inches below the placket, and discovery is a cliff I'm not prepared to fall from.
+
+<<sayself>>Leave the shirt. I like it.<</sayself>>
+
+She doesn't question it. She's not operating in question mode. She unzips my slacks and pulls them down and my cock is straining against the lace panties but the room is dark, her preference or mine, and she doesn't see or doesn't register or doesn't care. She wraps her hand around me through the fabric and I bite back a sound.
+
+<<say "Lena Ashford">>God, you're hard.<</say>>
+
+She sounds surprised. And pleased. Like she forgot she could do this to me.
+
+She can't, is the thing. Not like this. Not anymore. The hardness she's holding isn't for her. It's for the lace against my skin and the memory of Victoria's foot against this exact spot and the image of her husband standing across a party watching her bloom under another man's sunlight. The arousal is not from her. It's from everything around her. She's the frame, not the painting.
+
+But the body doesn't distinguish between sources. The body just responds. So I'm hard, and she's wet, and we collide.
+
+I fuck her. It's better than it's been in weeks, maybe months. She's responsive in ways she hasn't been. Her back arches, really arches, spine curving off the mattress. Her hips move with purpose, meeting mine, and the sounds she makes are genuine. Not the polite little sighs of our usual routine. Actual moans. Breathy, escalating, her nails digging into my shoulders hard enough to sting.
+
+I fuck her harder. Some engine inside me is running on fuel I don't want to identify. Jealousy. That's part of it. Adrian's hand on her back. Adrian's green eyes on her face. Adrian remembering the book she mentioned to someone else. The precision of his attention, the contrast with my blunt, routine touch. I fuck her harder because someone else warmed her up and I'm the beneficiary and the victim of that warmth simultaneously.
+
+She moans louder. Wraps her legs around me and pulls me deeper and says "yes" and "there" and "don't stop," and the instruction manual she's reciting sounds like it was written by someone else's hands. She's fucking me but she's responding to the echo of a conversation with a man who didn't touch her. His warmth is still on her skin. His laugh is still in her ears. And she's channeling all of it into me like I'm a lightning rod for desire that started somewhere else.
+
+I come inside her. Four minutes, maybe five. Long for us. An eternity by our usual standard. She comes too, or I think she does. Her body tightens around me and she gasps and her fingers grip the sheets and there's a tremor through her thighs. Real. Physical. Undeniable.
+
+<<say "Lena Ashford">>Nngh, fuck.<</say>>
+
+I roll off her. We lie side by side. The ceiling fan turns slowly. My cock softens inside the panties. The lace is soaked.
+
+<<say "Lena Ashford">>That was nice.<</say>>
+
+//Nice//. The word is a participation trophy. She's already reaching for her phone on the nightstand. The screen illuminates her face in blue-white light and I watch her expression change.
+
+A smile. Small. Private. Involuntary. The kind of smile that arrives before you can organize your face against it. The kind of smile I proposed to, three and a half years ago, when she looked at me across a restaurant table and something in her face opened like a window and I thought: //that. I want to see that every day for the rest of my life.//
+
+She's making that face at her phone.
+
+The screen is angled toward her. I can see the glow but not the text. She types something back. Quick. Two thumbs. The smile stays.
+
+She puts the phone face-down on the nightstand and rolls toward me.
+
+<<say "Lena Ashford">>Night, babe.<</say>>
+
+<<sayself>>Night.<</sayself>>
+
+She's asleep in three minutes. I know because I count her breaths. The rhythm shifts and deepens and her body goes heavy beside me.
+
+I stare at the ceiling. The fan turns. The lace dries against my softening cock.
+
+I reach over and tilt her phone up from the nightstand. The screen lights. Recent message, notification preview:
+
+//Adrian W: "It was wonderful meeting you tonight. Daniel's a lucky man."//
+
+I read it twice. Three times. The period at the end. The precision of it. "Daniel's a lucky man." Not "you're both lucky." Not "great to meet the Ashfords." Daniel is lucky to have //her//. The compliment is aimed at Lena through a window that looks like it's for me.
+
+She texted back. I can see the bubble but not the content because the lock screen only shows the incoming preview. She responded to him. At midnight. In bed. After sex with her husband. She texted Adrian Wolfe back.
+
+My cock twitches against the lace. It's not possible. I just came. I'm thirty-one, not eighteen. But the twitch is there, small and definitive, a vote cast by a body that has stopped consulting me about its preferences.
+
+I put the phone down. I stare at the ceiling. The fan turns.
+
+I press my thighs together and feel the lace shift and the bra straps settle against my shoulders and I think about Adrian Wolfe saying my name in that low, warm voice and Lena's head tipping back in laughter and Victoria standing beside me with her wine and her satisfaction and the word "effect."
+
+//Adrian has that effect on people.//
+
+I close my eyes. I don't sleep for a long time.
+
+<<modstat "arousalRewiring" 2>>
+<<npc "lena" "adrianInterest" 5>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R6_ChoiceResolution">><</link>>
+</div>
+
+:: R6_ChoiceResolution [r6 story]
+<<moodimage "files/images/mood/r6-phone-glow.png" "">>
+<<objective "Decide what to do about the second text.">>
+
+The bedroom is dark. Lena is asleep. Her phone is on the nightstand, face down, holding Adrian's words against the wood like a pressed flower.
+
+My body is a war zone of conflicting signals. I just had the best sex I've had with my wife in six months and the knowledge of why it was good is a bone stuck in my throat. She was aroused. By someone else. She brought that arousal home and spent it on me and I was grateful for the secondhand heat.
+
+The panties are cooling against my skin. The bra straps have made shallow indentations on my shoulders. I can feel the marks without touching them.
+
+Her phone buzzes again. A second text. The screen lights up briefly through the face-down glow.
+
+<div class="choice-container">
+    <<link "Read the text over her shoulder" "R6_Choice_Read">><<set $choices.r6.choiceResolution = "read">><</link>>
+    <<link "Ask who it is" "R6_Choice_Ask">><<set $choices.r6.choiceResolution = "ask">><</link>>
+    <<link "Pretend to sleep" "R6_Choice_Pretend">><<set $choices.r6.choiceResolution = "pretend">><</link>>
+</div>
+
+:: R6_Choice_Read [r6 story]
+<<location "Bedroom, Middle of the Night">>
+<<objective "Try to sleep.">>
+
+I reach over. Tilt the phone. The screen lights.
+
+//Adrian W: "Sleep well, Lena. Same book recommendation holds. I think you'd love Chapter 4 especially."//
+
+A book recommendation. Innocent. Friendly. And intimate in a way that a dinner invitation or a drink suggestion wouldn't be. He's recommending a specific chapter. He's imagining her reading it. He's placing himself inside her private hours.
+
+Lena's response below: //"Already downloading it :) Tonight was really wonderful."//
+
+A smiley face. She hasn't used a smiley face in a text to me since 2022.
+
+I put the phone down. My pulse is a drum in my temples. The jealousy is there, sharp and green and bitter. But underneath it, wrapping around it, feeding on it like a parasite that has become the host, is arousal. My cock stirs against the drying lace. I'm getting hard again. Reading my wife's midnight texts with another man and I'm getting hard.
+
+I press my face into the pillow and breathe. The fan turns. The lace shifts. Something inside me is rearranging itself and I can hear the furniture scraping against the floor.
+
+<<modstat "ntrAwareness" 15>>
+<<modstat "arousalRewiring" 5>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R6_Closing">><</link>>
+</div>
+
+:: R6_Choice_Ask [r6 story]
+<<location "Bedroom, Middle of the Night">>
+<<objective "Try to sleep.">>
+
+<<sayself>>Who was that?<</sayself>>
+
+My voice is neutral. Conversational. A man asking his wife a question in the dark.
+
+She shifts.
+
+<<say "Lena Ashford">>Hmm?<</say>>
+
+<<sayself>>The text. Just now.<</sayself>>
+
+<<say "Lena Ashford">>Oh. Just a guy from the party. He was nice.<</say>>
+
+She rolls onto her side, facing away from me.
+
+<<say "Lena Ashford">>Good night.<</say>>
+
+She locks the phone and sets it down. The click of the side button is the sound of a door closing.
+
+I lie in the dark and listen to her breathing slow and think about the word "nice." She called our sex "nice." She called Adrian "nice." The same word for her husband's body and a stranger's attention. The equivalence should be reassuring. It's not.
+
+<<modstat "ntrAwareness" 8>>
+<<modstat "marriageBond" -3>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R6_Closing">><</link>>
+</div>
+
+:: R6_Choice_Pretend [r6 story]
+<<location "Bedroom, Middle of the Night">>
+<<objective "Try to sleep.">>
+
+I close my eyes. Regulate my breathing. Perform unconsciousness with the same dedication I bring to performing competence in quarterly reviews. In through the nose. Out through the mouth. Slow. Deep. Convincing.
+
+Lena picks up her phone. The screen glow plays against my closed eyelids, a shifting blue-white I can feel on my skin. I hear her thumbs on the screen. Tap. Tap tap. A pause. Then more tapping. She's writing something. Not a quick reply. Something considered.
+
+She makes a small sound. Not quite a laugh. A soft exhale through the nose, the sound of reading something that pleases her. Then more typing. Then a final tap, decisive, the punctuation of sending.
+
+She puts the phone down. Settles into her pillow. Her hand reaches across the bed and finds my arm. She squeezes it once, gently, the way you touch something you're about to put down for a long time.
+
+<<say "Lena Ashford">>Night, babe.<</say>>
+
+I don't answer. I'm asleep. I'm supposed to be asleep. Her hand leaves my arm and she rolls away and I lie in the dark with my eyes closed and the lace drying against my cock and the ghost of her fingers on my skin and I wonder who got the better version of that touch tonight. Me or the phone.
+
+The fan turns. The night thickens. Somewhere in the city, Adrian Wolfe is reading my wife's response on his screen, and the thought makes me grip the sheets hard enough that my knuckles ache.
+
+<<modstat "ntrAwareness" 5>>
+<<modstat "marriageBond" -5>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R6_Closing">><</link>>
+</div>
+
+:: R6_Closing [r6 system]
+<<set $objective = "">>
+
+The alarm is set for 5:45 tomorrow. Fifteen minutes early. Some things survive every version of me.
+
+Downstairs, forty floors below where I'm lying, the city keeps its own counsel. Somewhere in it, a phone screen has gone dark on a conversation that started with a handshake and isn't finished. Somewhere in this bed, a wife sleeps with a private smile still fading from her mouth. And somewhere under a rumpled shirt and a loosened tie, a husband lies wearing another woman's underwear, listening to a fan turn, waiting to find out what he's becoming.
+
+<div class="release-end">
+    <div class="release-title">End of Release 6<br>Lena Meets Adrian</div>
+    <p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:0 auto 2rem;">
+        If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+    </p>
+    <div class="title-menu" style="margin: 0 auto;">
+        <<link "View Stats" "R6_StatsScreen">><</link>>
+        <<link "Return to Title" "Start">><</link>>
+    </div>
+</div>
+
+:: R6_StatsScreen [r6 system]
+<<location "Release 6, Complete">>
+
+<div class="stats-full">
+
+<h3>Final Stats</h3>
+
+|Stat|Value|
+|Identity|<<= $stats.selfIdentity>>% (<<= Silk.identityLabel($stats.selfIdentity)>>)|
+|Marriage Bond|<<= $stats.marriageBond>>%|
+|Feminization|<<= $stats.feminization>>%|
+|Submission|<<= $stats.submission>>%|
+|Arousal Rewiring|<<= $stats.arousalRewiring>>%|
+|Victoria Trust|<<= $stats.victoriaTrust>>%|
+|Office Suspicion|<<= $stats.officeSuspicion>>%|
+|NTR Awareness|<<= $stats.ntrAwareness>>%|
+
+<h3>The Second Text</h3>
+<<if $choices.r6.choiceResolution === "read">>You read it over her shoulder. A book recommendation, a smiley face she hasn't used on you in years, and a jealousy that turned into arousal before you could stop it.
+<<elseif $choices.r6.choiceResolution === "ask">>You asked who it was. "Just a guy from the party. He was nice." The same word for him and for you.
+<<else>>You pretended to sleep and listened to her type something considered, something that made her laugh quietly to herself.
+<</if>>
+
+<h3>Side Quests</h3>
+<p>
+<<if $flags.r6HarperObserver>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Harper the Observer<br>
+<<if $flags.r6MartinStandard>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Martin's Standard<br>
+<<if $flags.r6VictoriaCheckIn>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Victoria's Check-In
+</p>
+
+<h3>Key Unlocks</h3>
+<p>
+Adrian Wolfe, met in person for the first time<br>
+Lena and Adrian's forty-minute conversation at the mixer<br>
+The first jealousy-arousal fusion, named but not yet understood<br>
+Harper's suspicion thread advances further<br>
+Martin's mentor dynamic continues to strain against what he can't see
+</p>
+
+<h3>Tomorrow</h3>
+<p>A book recommendation. A chapter he thinks she'd love. A smiley face that used to belong to someone else.</p>
+
+</div>
+
+<p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:2rem auto 1rem; text-align:center;">
+    If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+</p>
+
+<div class="title-menu" style="margin: 0 auto;">
+    <<link "Return to Title" "Start">><</link>>
+</div>
