@@ -151,7 +151,7 @@ I don't leave the building. That would be an admission. Instead I go back to my 
 
 The afternoon passes in a fog. I answer emails. I attend a team check-in and contribute nothing. I nod when people speak. I drink three cups of coffee that taste like hot brown water. At 2:15 I go to the men's room and stand in front of the mirror and look at my face and try to identify the exact moment I became the kind of man who loses twelve-million-dollar accounts.
 
-It's not a moment. That's the problem. It's a gradient. A slow downward slope so gentle you don't notice you're descending until you look up and the summit is gone. I wasn't sharp enough. I wasn't bold enough. I prepared more than anyone and understood less than most. I built buffers and binders and backup plans and none of it mattered because the core product, the man himself, was average. And average, in a building like this, is a death sentence delivered on a long enough timeline.
+It's not a moment. That's the problem. It's a gradient. A slow downward slope so gentle you don't notice you're descending until you look up and the summit is gone. I wasn't sharp enough. I wasn't bold enough. I prepared more than anyone and understood less than most. I built buffers and binders and backup plans and none of it mattered because the core product, the man himself, was average and average, in a building like this, is a death sentence delivered on a long enough timeline.
 
 Harper stops by my desk at 4:30.
 
@@ -329,7 +329,7 @@ He claps my shoulder. The same half-approval, half-ownership gesture from every 
 
 He smiles. The kind of smile that contains information but doesn't release it.
 
-"Just keep your head down. And for God's sake, stop looking like the world ended. Even when it did."
+"Just keep your head down and for God's sake, stop looking like the world ended. Even when it did."
 
 He walks away. His shoes make no sound on the carpet. Men like Martin Crane have been absorbing the impact of their own footsteps for so long the floor has given up registering them.
 
@@ -387,7 +387,7 @@ She is sympathetic. Genuinely. But I watch her face and I see the calculus happe
 
 I came to her for comfort and what I see is concern. Practical concern. The kind that calculates before it consoles.
 
-"We'll figure it out," she says. And she means it. But the "we" sounds different now. It sounds like a budget meeting.
+"We'll figure it out," she says and she means it. But the "we" sounds different now. It sounds like a budget meeting.
 
 I feel something shift inside me. Something small and significant. The seed of a realization that will grow into something I don't have a name for yet: the awareness that being rescued might feel better than rescuing. That someone else holding the wheel might be exactly what I need.
 
@@ -497,7 +497,7 @@ She stops chewing. "You saw that?"
 
 "Just now. After the meeting."
 
-She swallows. Looks at her salad. Looks at me. In her eyes I see something complicated. The frustration of a woman who saw the train coming and waved and wasn't seen. The tenderness of a colleague who has been quietly catching my mistakes for months without keeping score. And underneath both, something else entirely. A warmth that has nothing to do with mentorship.
+She swallows. Looks at her salad. Looks at me. In her eyes I see something complicated. The frustration of a woman who saw the train coming and waved and wasn't seen. The tenderness of a colleague who has been quietly catching my mistakes for months without keeping score and underneath both, something else entirely. A warmth that has nothing to do with mentorship.
 
 "I should have been louder about it," she says.
 
@@ -509,13 +509,13 @@ We sit in silence for a moment. The office hums around us. Fluorescent lights. K
 
 "Why?"
 
-She shrugs. "Because you'd do it for me. And because someone should." She picks up her fork. "Now go away. You're making my lunch depressing."
+She shrugs. "Because you'd do it for me and because someone should." She picks up her fork. "Now go away. You're making my lunch depressing."
 
 I stand. At her desk, among the orbiting notebooks and the cat-shaped cactus and the dog-eared paperback, I see another sticky note, half-hidden under a file folder. In Harper's sharp handwriting: *"DA - tell him about the gap??"*
 
 Two question marks. She debated it. She chose the note on her monitor instead of the conversation. She was trying to help without overstepping. She was navigating the politics of being a 26-year-old woman correcting a 31-year-old man's work in a firm that runs on hierarchy and ego.
 
-I walk back to my desk with the knowledge that Harper Quinn saw me failing in slow motion and tried to catch me without being seen trying. And the knowledge that I was so busy preparing that I never once looked in her direction.
+I walk back to my desk with the knowledge that Harper Quinn saw me failing in slow motion and tried to catch me without being seen trying and the knowledge that I was so busy preparing that I never once looked in her direction.
 
 ---
 

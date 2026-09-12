@@ -118,7 +118,7 @@ Victoria Cross in person: tall, dark-haired, sharp-featured, sitting behind her 
 
 **NPC Interaction   Victoria Cross (first direct scene):** She knows everything. Not just the Henderson meeting   his entire performance history, his evaluations, his trajectory. She recites details he'd forgotten: a client he almost lost two years ago, a project where Harper quietly fixed his analysis. She's not cruel about it. She's clinical. She lays out his professional life like an autopsy and lets him sit with the body.
 
-"You're not bad at your job, Daniel. You're adequate. And adequate, in this firm, gets you a severance package and a LinkedIn update."
+"You're not bad at your job, Daniel. You're adequate and adequate, in this firm, gets you a severance package and a LinkedIn update."
 
 She lets that land. Then she offers the arrangement.
 
@@ -181,7 +181,7 @@ The panties are in Daniel's nightstand drawer, buried under a book he's never re
 
 Daniel showers. Stands naked in the bedroom. The panties are laid out beside his charcoal suit   a juxtaposition that looks like a crime scene or an invitation, depending on the angle. He picks them up. The lace is so light it barely exists in his hand.
 
-Extended first-person interiority: the internal argument. Every masculine instinct his father drilled into him screaming *don't*. His career whispering *you have to*. And something else   quiet, unnamed, pressing up from underneath   whispering *you want to*.
+Extended first-person interiority: the internal argument. Every masculine instinct his father drilled into him screaming *don't*. His career whispering *you have to* and something else   quiet, unnamed, pressing up from underneath   whispering *you want to*.
 
 He steps into them. The lace slides up his thighs. The silk settles against his cock, his ass, his hips. They fit. Not like they were made for him   but close enough to feel intentional.
 
@@ -227,7 +227,7 @@ Silence. His face burning from the jaw up. The panties are damp   he's been leak
 
 She leans back. Satisfied. Proprietary.
 
-"Tomorrow, same pair. And Daniel? Don't wash them tonight. I want you to smell yourself in them."
+"Tomorrow, same pair and Daniel? Don't wash them tonight. I want you to smell yourself in them."
 
 ### Player Choices & Outcomes
 
@@ -256,7 +256,7 @@ Panties and bra. The layered awareness is overwhelming   every movement now regi
 
 **NPC Interaction   Colleague (Dave Parkman, sales):** Dave slaps Daniel on the back during a hallway conversation   friendly, thoughtless, the way men hit each other. Daniel flinches violently. Dave frowns. "You pull something?" Daniel says he slept wrong. Dave shrugs and moves on. But Daniel's heart is jackhammering   Dave's hand was inches from the bra strap. He could have felt it through the shirt.
 
-The paranoia compounds. Every interaction becomes a minefield. Every handshake, every shoulder touch, every casual proximity   potential discovery. And the paranoia itself is a drug. The fear produces adrenaline, which feeds the arousal, which soaks the panties, which deepens the awareness.
+The paranoia compounds. Every interaction becomes a minefield. Every handshake, every shoulder touch, every casual proximity   potential discovery and the paranoia itself is a drug. The fear produces adrenaline, which feeds the arousal, which soaks the panties, which deepens the awareness.
 
 **NPC Interaction   Harper Quinn (afternoon):** Working late together on a report. Harper leans over his desk to point at a figure. Her arm brushes his shoulder   right over the bra strap. She pauses for a microsecond. Does she feel it? Her face reveals nothing. She finishes her point and returns to her seat. Daniel doesn't breathe for ten seconds.
 
@@ -296,7 +296,7 @@ She presses the arch of her foot against his lace-covered cock. Lazy, almost abs
 
 **NPC Interaction   Victoria (post-scene):** The aftercare is minimal but deliberate. She has him dress while she watches. Buttons his shirt. Adjusts his collar. Fixes his tie   the same tie he put on fourteen hours ago in a different life.
 
-"Same time tomorrow, Daniel. And Daniel?" She holds his chin, tilts his face up. "You did well."
+"Same time tomorrow, Daniel and Daniel?" She holds his chin, tilts his face up. "You did well."
 
 Three words that hit harder than the orgasm he's still trying not to have.
 
@@ -508,7 +508,7 @@ Victoria presents the new plug   same size, sleek matte black, but with a Blueto
 
 "You'll wear this today. I'll keep the remote."
 
-She watches his face process the implications. The old plug was passive   constant but predictable. This one is *alive*. And its heartbeat is in her pocket.
+She watches his face process the implications. The old plug was passive   constant but predictable. This one is *alive* and its heartbeat is in her pocket.
 
 She inserts it herself this time. Standing behind him in her office, his pants around his thighs, her hand between his legs. The plug slides in with practiced ease   his body barely resists now. She activates a single low pulse to test it.
 
