@@ -1,9 +1,9 @@
-# SILK THREAD — RELEASE 5: MATCHING SET
-## Twine SugarCube Scene Script — First Person Narration
+# SILK THREAD - RELEASE 5: MATCHING SET
+## Twine SugarCube Scene Script - First Person Narration
 
 ---
 
-## Scene 1: The Package (Meridian Office, Floor 39 — 7:12 AM)
+## Scene 1: The Package (Meridian Office, Floor 39 - 7:12 AM)
 
 ### Passage: R5_Opening
 
@@ -61,7 +61,7 @@ The straps move with every step. I count seventeen steps to my office door. Each
 
 ---
 
-## Scene 2: The Full Day — Morning
+## Scene 2: The Full Day - Morning
 
 ### Passage: R5_MorningStandup
 
@@ -155,7 +155,7 @@ I eat my salmon. The fork trembles once and I grip it harder. Under the table, I
 
 ---
 
-## Scene 3: The Full Day — Afternoon
+## Scene 3: The Full Day - Afternoon
 
 ### Passage: R5_HarperAfternoon
 
@@ -377,7 +377,7 @@ I press the lobby button. The elevator descends. Forty-two floors of silence.
 
 ---
 
-## Scene 5: Home — Evening
+## Scene 5: Home - Evening
 
 ### Passage: R5_HomeEvening
 

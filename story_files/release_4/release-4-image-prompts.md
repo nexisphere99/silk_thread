@@ -1,4 +1,4 @@
-# SILK THREAD — Release 4: Image Prompts
+# SILK THREAD - Release 4: Image Prompts
 ## AI Image Generation Reference (Stable Diffusion / Midjourney / Flux)
 
 ---
@@ -17,7 +17,7 @@ All images for Silk Thread should share a cohesive visual identity:
 
 ## SCENE 1: The Morning Decision
 
-### Image 1A — Bedroom, Suit and Panties
+### Image 1A - Bedroom, Suit and Panties
 **Path:** `files/images/locations/r4-opening-suit-panties-bed.png`
 
 **Prompt:**
@@ -28,7 +28,7 @@ Photorealistic still life on a bed. Charcoal grey men's suit laid flat on white 
 
 ---
 
-### Image 1B — Daniel in Mirror
+### Image 1B - Daniel in Mirror
 **Path:** `files/images/mood/r4-opening-mirror.png`
 
 **Prompt:**
@@ -41,7 +41,7 @@ A man in his early 30s, slender build, sandy brown hair slightly too long, stand
 
 ## SCENE 2: The Commute
 
-### Image 2A — Hands on Steering Wheel
+### Image 2A - Hands on Steering Wheel
 **Path:** `files/images/mood/r4-commute-hands-wheel.png`
 
 **Prompt:**
@@ -54,7 +54,7 @@ Close-up of a man's hands gripping a leather steering wheel. Clean, manicured na
 
 ## SCENE 3: The Work Day
 
-### Image 3A — Conference Room B, Standup Meeting
+### Image 3A - Conference Room B, Standup Meeting
 **Path:** `files/images/locations/r4-workday-standup.png`
 
 **Prompt:**
@@ -65,7 +65,7 @@ Modern corporate conference room, glass walls, whiteboard with blue marker diagr
 
 ---
 
-### Image 3B — Executive Dining Room, Lunch with Crane
+### Image 3B - Executive Dining Room, Lunch with Crane
 **Path:** `files/images/locations/r4-workday-lunch-crane.png`
 
 **Prompt:**
@@ -76,7 +76,7 @@ Upscale corporate executive dining room. White tablecloth, heavy silver cutlery,
 
 ---
 
-### Image 3C — Whiteboard Presentation Moment
+### Image 3C - Whiteboard Presentation Moment
 **Path:** `files/images/mood/r4-workday-presentation.png`
 
 **Prompt:**
@@ -89,7 +89,7 @@ A man in his early 30s standing at a whiteboard in a corporate conference room, 
 
 ## SCENE 4: NPC Interactions
 
-### Image 4A — Harper at Daniel's Desk
+### Image 4A - Harper at Daniel's Desk
 **Path:** `files/images/mood/r4-npc-harper-desk.png`
 
 **Prompt:**
@@ -100,7 +100,7 @@ A young woman, 26, sharp features, dark hair in a low ponytail, wearing a fitted
 
 ---
 
-### Image 4B — Martin Crane in Hallway
+### Image 4B - Martin Crane in Hallway
 **Path:** `files/images/mood/r4-npc-martin-hallway.png`
 
 **Prompt:**
@@ -111,9 +111,9 @@ A man in his mid-50s, silver hair, strong jaw, broad shoulders, wearing a dark o
 
 ---
 
-## SCENE 5: After Hours — Victoria's Office
+## SCENE 5: After Hours - Victoria's Office
 
-### Image 5A — Victoria's Office at Dusk
+### Image 5A - Victoria's Office at Dusk
 **Path:** `files/images/locations/r4-afterhours-victoria-office-dusk.png`
 
 **Prompt:**
@@ -124,7 +124,7 @@ A luxurious corner office on a high floor of a skyscraper. Floor-to-ceiling wind
 
 ---
 
-### Image 5B — Victoria Standing Close
+### Image 5B - Victoria Standing Close
 **Path:** `files/images/characters/r4-victoria-standing-close.png`
 
 **Prompt:**
@@ -135,7 +135,7 @@ A tall woman in her late 30s, dark hair down, sharp elegant features, cream silk
 
 ---
 
-### Image 5C — The Choice Moment
+### Image 5C - The Choice Moment
 **Path:** `files/images/characters/r4-daniel-choice-moment.png`
 
 **Prompt:**
@@ -148,7 +148,7 @@ A man's face in warm amber light, early 30s, sandy brown hair, looking upward at
 
 ## SCENE 6: Drive Home and Evening
 
-### Image 6A — Car Interior, Night Drive
+### Image 6A - Car Interior, Night Drive
 **Path:** `files/images/mood/r4-drivehome-car-night.png`
 
 **Prompt:**
@@ -159,7 +159,7 @@ Interior of a car at night. Dashboard glow in blue and white. Through the windsh
 
 ---
 
-### Image 6B — Kitchen Scene, Lena Cooking
+### Image 6B - Kitchen Scene, Lena Cooking
 **Path:** `files/images/locations/r4-homeevening-kitchen.png`
 
 **Prompt:**
@@ -170,7 +170,7 @@ A warm apartment kitchen. A woman, 29, petite, auburn hair in a loose updo, wear
 
 ---
 
-### Image 6C — Bedroom, Two People, Distance
+### Image 6C - Bedroom, Two People, Distance
 **Path:** `files/images/locations/r4-closing-bedroom-distance.png`
 
 **Prompt:**
@@ -183,7 +183,7 @@ A modern bedroom at night. Overhead light off, one bedside lamp on, casting a wa
 
 ## SIDE QUEST IMAGES
 
-### Image SQ1 — Executive Washroom Stall
+### Image SQ1 - Executive Washroom Stall
 **Path:** `files/images/locations/r4-sq-washroom-stall.png`
 
 **Prompt:**
@@ -194,7 +194,7 @@ A locked bathroom stall in a corporate executive washroom. Marble floor visible 
 
 ---
 
-### Image SQ2 — Phone Screen Glow on Couch
+### Image SQ2 - Phone Screen Glow on Couch
 **Path:** `files/images/mood/r4-sq-phone-glow.png`
 
 **Prompt:**
@@ -207,7 +207,7 @@ Close-up of a man's hand holding a smartphone on a dark couch. The phone screen 
 
 ## UI ELEMENTS
 
-### UI Image 1 — Phone Frame
+### UI Image 1 - Phone Frame
 **Path:** `files/images/ui/r4-ui-phone-frame.png`
 
 **Prompt:**
@@ -218,7 +218,7 @@ A clean, minimal smartphone mockup frame. Dark mode interface. No brand logos. S
 
 ---
 
-### UI Image 2 — Stat Icons
+### UI Image 2 - Stat Icons
 **Path:** `files/images/ui/r4-ui-stat-icons.png`
 
 **Prompt:**

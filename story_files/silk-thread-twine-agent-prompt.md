@@ -144,7 +144,7 @@ You are building an adult interactive fiction game called "Silk Thread" in Twine
     week: 1
 }>>
 
-// Current objective — short goal text shown in the sidebar below the
+// Current objective - short goal text shown in the sidebar below the
 // time chip, so the player always knows what to do next. Set once per
 // story beat via <<objective "...">>. Cleared to "" at release endings
 // so the box disappears once there's nothing left to point toward.
@@ -236,7 +236,7 @@ Macro.add('location', {
 });
 
 // Current-objective indicator (sidebar, below the time chip)
-// Usage: <<objective "Get through the workday.">> — call once per story
+// Usage: <<objective "Get through the workday.">> - call once per story
 // beat, same pattern as <<location>>. Doesn't render anything inline;
 // it just updates $objective, which the StoryCaption picks up.
 Macro.add('objective', {

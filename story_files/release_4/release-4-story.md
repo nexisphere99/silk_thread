@@ -1,4 +1,4 @@
-# SILK THREAD — Release 4: SILK AGAINST SKIN
+# SILK THREAD - Release 4: SILK AGAINST SKIN
 ## Full Interactive Story Content (Twine SugarCube Passages)
 
 ---

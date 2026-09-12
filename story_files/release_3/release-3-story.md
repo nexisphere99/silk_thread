@@ -1,4 +1,4 @@
-# SILK THREAD — RELEASE 3: THE DEAL
+# SILK THREAD - RELEASE 3: THE DEAL
 
 ## Full Interactive Script (First-Person, Daniel Ashford POV)
 
@@ -354,7 +354,7 @@ I spend the rest of the day with the panties in my desk drawer, the bottom one, 
 
 ### PASSAGE: npc_sidequest_harper_intro
 
-**[NPC SIDE INTERACTION: Harper Quinn — The Observer]**
+**[NPC SIDE INTERACTION: Harper Quinn - The Observer]**
 
 Harper Quinn occupies the desk fourteen feet from mine. I know the exact distance because I measured it once during a particularly boring conference call, pacing it out heel-to-toe like a crime scene technician at a scene with no crime.
 
@@ -390,7 +390,7 @@ Harper Quinn is dangerous. Not to me. Not yet. But in the way that any sharp edg
 
 ### PASSAGE: npc_sidequest_martin
 
-**[NPC SIDE INTERACTION: Martin Crane — The Old Guard]**
+**[NPC SIDE INTERACTION: Martin Crane - The Old Guard]**
 
 Martin Crane has been at Meridian for twenty-three years. He joined when the firm was twelve people and a coffeemaker. He watched it grow into a glass tower full of Harvard MBAs and venture capital and he carries that origin story like a veteran carries a campaign ribbon. Visible. Permanent. A claim on territory that newer arrivals can never match.
 
@@ -430,7 +430,7 @@ I think about two kinds of power. One that grips. One that pulls.
 
 ### PASSAGE: npc_sidequest_lena_evening
 
-**[NPC SIDE INTERACTION: Lena Ashford — The Distance]**
+**[NPC SIDE INTERACTION: Lena Ashford - The Distance]**
 
 The evening is ordinary in the way that ordinary has become our default setting. Lena reheated something. Pasta or rice, I've already forgotten which. We eat on the couch because the dining table has become a staging area for her crafting supplies, a sewing project she started in March and abandoned in May and hasn't moved because moving it would be admitting it's dead.
 
@@ -460,7 +460,7 @@ I already know which ones.
 
 ### PASSAGE: npc_sidequest_greg_tanaka
 
-**[NPC SIDE INTERACTION: Greg Tanaka — The Loose End]**
+**[NPC SIDE INTERACTION: Greg Tanaka - The Loose End]**
 
 I almost forgot about Greg. That's the thing about being rescued. You forget about the fire. You forget about the man who stood in his office at 4:47 PM and typed the first line of your termination while you stood there watching your reflection dissolve.
 
@@ -543,4 +543,4 @@ I don't step aside.
 - Greg Tanaka's dynamic shifted (former threat neutralized)
 - Lena distance thread reinforced
 
-**Next Release Preview:** RELEASE 4 — SILK AGAINST SKIN. Daniel wears the panties for the first time. Every meeting, every handshake, every step becomes a negotiation between the man everyone sees and the secret pressed against his skin.
+**Next Release Preview:** RELEASE 4 - SILK AGAINST SKIN. Daniel wears the panties for the first time. Every meeting, every handshake, every step becomes a negotiation between the man everyone sees and the secret pressed against his skin.

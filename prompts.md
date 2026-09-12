@@ -1,4 +1,4 @@
-create release_3 from release_2
+create release_4 from release_3. end of release 4 add add the ask if need to acces recent version or need to support devlopment go to patreon, now remove it from release_3 after changing branch
 
 @story_files/release_3/release-3-story.md 
  
@@ -10,7 +10,7 @@ above is having image prompts and you need to keep image tags, I will add images
 
 eg:
 
-### 1. Apartment Bedroom — Morning
+### 1. Apartment Bedroom - Morning
 files/images/locations/apartment_bedroom_morning.png
 ```
 Photorealistic interior, modern mid-rise apartment bedroom at dawn, thin blinds casting horizontal light strips across rumpled white sheets, one pillow indented, nightstand with phone and water glass, muted warm tones, early morning blue-gold light, slightly desaturated, cinematic composition, 16:9 aspect ratio, shallow depth of field on pillow indent, quiet loneliness mood

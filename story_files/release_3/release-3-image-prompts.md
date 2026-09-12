@@ -1,4 +1,4 @@
-# SILK THREAD — RELEASE 3: THE DEAL — Image Prompts
+# SILK THREAD - RELEASE 3: THE DEAL - Image Prompts
 
 All prompts designed for Stable Diffusion XL, Midjourney, or Flux. Cinematic realism style. Aspect ratios noted per image.
 

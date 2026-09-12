@@ -1,4 +1,4 @@
-# SILK THREAD — RELEASE 2: THE MISTAKE
+# SILK THREAD - RELEASE 2: THE MISTAKE
 ## Complete Game Script, Twine Implementation & Image Prompts
 
 ---
