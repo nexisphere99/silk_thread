@@ -1,0 +1,139 @@
+:: R5_HomeEvening [r5 story intimate]
+<<scene "Daniel & Lena's Apartment, Kitchen" "files/images/locations/r5-home-kitchen-evening.png">>
+<<set $time = { day: "friday", period: "evening", week: 1 }>>
+<<objective "Get through the evening at home.">>
+
+Lena is on the couch when I get in. Leggings, oversized sweater, her auburn hair in a messy bun. She's watching something on her laptop with earbuds in. She pulls one out when I close the door.
+
+<<say "Lena Ashford">>Hey. Late night?<</say>>
+
+<<sayself>>Waverly prep.<</sayself>>
+
+The lie is automatic. I don't even taste it anymore. Lies have become the air in this apartment, invisible and everywhere, breathed in and out by both of us.
+
+<<say "Lena Ashford">>There's leftover Thai in the fridge.<</say>>
+
+<<sayself>>Thanks.<</sayself>>
+
+I stand in the kitchen eating pad thai from the container. The bra presses against my chest. The panties cling, still damp. I eat noodles with a fork standing over the sink because sitting down means the bra clasp pressing into my back and the couch is where Lena is and being near Lena right now feels like bringing contraband through customs.
+
+She comes in for water. Stands next to me. We occupy the same three square feet of kitchen. She fills a glass. I chew a shrimp.
+
+<<say "Lena Ashford">>You okay? You seem weird.<</say>>
+
+<<sayself>>Tired.<</sayself>>
+
+<<say "Lena Ashford">>You're always tired.<</say>>
+
+There's no accusation in it. Just observation. The observation of a woman who's noticed a pattern and stopped being surprised by it. She drinks her water. Puts the glass in the sink. Goes back to the couch. The interaction lasts maybe forty seconds and contains the entire topography of our marriage: proximity without connection, words without communication, two people who share a kitchen and a bed and nothing that matters.
+
+I throw away the container. Wash the fork. Go to the bathroom.
+
+I lock the door. Take off my shirt. The bra sits on my chest in the bathroom light. I look at it in the mirror above the sink. The nude cups, the thin straps, the little bow between the cups that serves no structural purpose, just decoration, just prettiness.
+
+I touch the bow. Run my finger over it. Such a small thing. A half-inch of ribbon tied in a shape that means nothing and everything.
+
+I take the bra off. Then the panties. Fold them together, the way I've seen Lena fold her lingerie. Matching set, nested together. I put them in the bottom of my briefcase under the files.
+
+Shower. The hot water hits the red lines on my shoulders where the straps dug in. The marks will fade by morning. By then I'll be putting the bra back on, creating new ones.
+
+I get into bed. Lena is already under the covers, phone in hand, the screen painting her face blue.
+
+<<say "Lena Ashford">>Night.<</say>>
+
+<<sayself>>Night.<</sayself>>
+
+She doesn't reach for me. I don't reach for her. There was a time when bed was a destination. When we'd race to it, laughing, pulling at clothes, when her mouth was warm and demanding and mine was eager and unafraid. There was a time when this mattress was the center of everything and the world outside it was just the waiting room.
+
+That time has a location in my memory but no heat. Like remembering a fireplace from a photograph. You know it was warm. You can't feel it.
+
+I think about reaching for her. My hand on her hip, the familiar curve of it, the way she used to arch back into me when I touched her there. I could try. I could cross the three feet and put my hand on her body and see what happens.
+
+But my hand still remembers the marble. My mouth still remembers the nylon. My shoulders still carry the grooves. And the part of me that used to reach for Lena in the dark has been rerouted, the wiring pulled and reconnected to a different circuit, one that runs through a corner office on the forty-second floor and terminates at a pair of Louboutin heels.
+
+So I don't reach. And she doesn't reach. We lie in the dark on separate sides of a king bed and the space between us is approximately three feet and contains every lie we've ever told each other and a few we haven't gotten to yet.
+
+<<moodimage "files/images/mood/r5-ceiling-stare.png" "">>
+
+I stare at the ceiling.
+
+On my shoulders, the phantom of the straps. On my ribs, the memory of the band. On my cock, the echo of her foot through wet lace.
+
+Victoria's voice in my head, two words on repeat, a lullaby for the person I'm becoming: //Good boy.//
+
+I close my eyes. I don't sleep for a long time.
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_Closing">><</link>>
+</div>
+
+:: R5_Closing [r5 system]
+<<set $objective = "">>
+
+Tomorrow the alarm will go off and I'll shower and shave and stand in front of the closet, and the matching set will be waiting in the bottom of my briefcase, folded together the way Lena folds hers.
+
+Same Daniel. That's what she called it. That's what I keep calling it too, in the small hours, when the label is the only thing holding the shape together.
+
+<div class="release-end">
+    <div class="release-title">End of Release 5<br>Matching Set</div>
+    <p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:0 auto 2rem;">
+        If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+    </p>
+    <div class="title-menu" style="margin: 0 auto;">
+        <<link "View Stats" "R5_StatsScreen">><</link>>
+        <<link "Return to Title" "Start">><</link>>
+    </div>
+</div>
+
+:: R5_StatsScreen [r5 system]
+<<location "Release 5, Complete">>
+
+<div class="stats-full">
+
+<h3>Final Stats</h3>
+
+|Stat|Value|
+|Identity|<<= $stats.selfIdentity>>% (<<= Silk.identityLabel($stats.selfIdentity)>>)|
+|Marriage Bond|<<= $stats.marriageBond>>%|
+|Feminization|<<= $stats.feminization>>%|
+|Submission|<<= $stats.submission>>%|
+|Arousal Rewiring|<<= $stats.arousalRewiring>>%|
+|Victoria Trust|<<= $stats.victoriaTrust>>%|
+|Office Suspicion|<<= $stats.officeSuspicion>>%|
+|NTR Awareness|<<= $stats.ntrAwareness>>%|
+
+<h3>After-Hours Inspection</h3>
+<<if $choices.r5.afterHoursChoice === "ask">>You asked permission. She said no, and the refusal became its own leash.
+<<elseif $choices.r5.afterHoursChoice === "thanks">>You thanked her. Her hand found your hair, and something in you leaned into it.
+<<else>>You said you needed it to stop, and then you didn't leave. She noticed. You noticed too.
+<</if>>
+
+<h3>Side Quests</h3>
+<p>
+<<if $flags.r5LenaMorning>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Lena's Morning<br>
+<<if $flags.r5MartinElevator>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> The Elevator With Martin<br>
+<<if $flags.r5HarperCoffee>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Coffee With Harper<br>
+<<if $flags.r5GregTanaka>><span class="quest-check">&#10003;</span><<else>><span class="quest-missed">&#9675;</span><</if>> Greg Tanaka's Summons
+</p>
+
+<h3>Key Unlocks</h3>
+<p>
+First full lingerie set worn for a complete work day<br>
+First denied orgasm under Victoria's control<br>
+Harper's observational pattern continues to build<br>
+Martin Crane establishes a mentor dynamic that will become an obstacle<br>
+Marriage continues flat-line degradation through mutual avoidance
+</p>
+
+<h3>Tomorrow</h3>
+<p>The matching set, folded together in the bottom of a briefcase. Same time tomorrow, Daniel.</p>
+
+</div>
+
+<p style="font-family:var(--font-ui); color:var(--text-secondary); font-size:0.85rem; max-width:360px; margin:2rem auto 1rem; text-align:center;">
+    If you want access to recent versions and to support the project, visit the [[Patreon page|https://www.patreon.com/c/silk_thread]].
+</p>
+
+<div class="title-menu" style="margin: 0 auto;">
+    <<link "Return to Title" "Start">><</link>>
+</div>

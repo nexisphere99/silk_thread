@@ -1,0 +1,202 @@
+:: R5_HarperAfternoon [r5 story intimate]
+<<location "Conference Room B Deck, Floor 39">>
+<<portrait "files/images/mood/r5-harper-conference-tension.png" "Harper Quinn">>
+<<objective "Finish the Waverly deck with Harper.">>
+
+Harper and I work in the glass-walled conference room on B deck for three hours after lunch. She's building the analytics backbone for my Waverly presentation. I'm editing the narrative deck. We sit across from each other at the long table with laptops open and coffee going cold.
+
+She's good at this. Better than me, honestly. She sees patterns in numbers the way some people see faces in clouds, except her faces are always actually there. She pulls a correlation between Waverly's customer churn rate and their marketing spend cadence that I would have missed entirely.
+
+<<sayself>>You're genius at this.<</sayself>>
+
+I mean it.
+
+<<say "Harper Quinn">>I'm adequate at this.<</say>>
+
+She smiles without looking up.
+
+<<say "Harper Quinn">>You want genius, you pay genius rates. You want Harper Quinn, you get a junior analyst who reads too many statistics blogs and drinks too much coffee.<</say>>
+
+<<sayself>>I'll put that in your performance review.<</sayself>>
+
+<<say "Harper Quinn">>Please don't.<</say>>
+
+We work. The afternoon light moves across the table. The building hums. This is the version of work I actually enjoy, the collaborative quiet, two people building something from data and argument and carefully chosen words. Harper smells like coffee and something clean, maybe vanilla, maybe just soap. She's got a freckle on her left wrist I've never noticed before.
+
+She leans over my side of the table to point at a cell in my spreadsheet.
+
+<<say "Harper Quinn">>This number's off. You've got the Q2 adjusted figure but the baseline is Q1 actual. Should be Q2 actual or the growth rate's inflated.<</say>>
+
+Her arm extends across my space. Her forearm brushes my shoulder. Right over the bra strap.
+
+The contact lasts maybe two seconds. Her arm against my shoulder, her skin warm through my shirt, and beneath the shirt the raised line of the strap, a quarter-inch ridge of fabric and elastic that shouldn't be there.
+
+She pauses.
+
+It's a small pause. A catch in the rhythm of her reach, a hesitation measured in fractions of a second. Her fingers still on the spreadsheet, her arm still extended, her forearm resting on my shoulder with the strap pressing into us both.
+
+Then she withdraws. Sits back down. Looks at her screen.
+
+<<say "Harper Quinn">>Fix the baseline. Everything else looks clean.<</say>>
+
+Did she feel it. The question repeats in my skull like a stuck record. Did she feel it. Her forearm was right on it. The strap was right there. She paused. She definitely paused.
+
+I fix the baseline. My hands are trembling. I type the number wrong twice before getting it right. Harper is looking at her screen and her expression reveals absolutely nothing, which is exactly the expression of someone who has catalogued something interesting and decided not to catalog it out loud.
+
+We work for another hour. She doesn't lean over again. She doesn't touch my shoulder. She doesn't mention the pause. But once, when I look up, she's watching me with an expression I can't decode. Curiosity, maybe. Concern, maybe. Something else, maybe.
+
+She looks away first.
+
+<<npc "harper" "suspicion" 8>>
+<<modstat "officeSuspicion" 3>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_Afternoon_Hub">><</link>>
+</div>
+
+:: R5_Afternoon_Hub [r5 hub]
+<<location "Meridian Consulting, Floor 39">>
+<<objective "Get through the rest of the afternoon.">>
+
+The afternoon thins out toward evening. The strap marks are starting to ache under my shirt.
+
+<div class="choice-container">
+    <<if !$flags.r5HarperCoffee>>
+        <span class="sidequest"><<link "Get coffee with Harper" "R5_Side_Harper_Coffee">><</link>></span>
+    <</if>>
+    <<if !$flags.r5GregTanaka>>
+        <span class="sidequest"><<link "Answer Greg Tanaka's summons" "R5_Side_GregTanaka">><</link>></span>
+    <</if>>
+    <<link "Take a minute alone" "R5_AfternoonAlone">><</link>>
+</div>
+
+:: R5_Side_Harper_Coffee [r5 sidequest]
+<<set $flags.r5HarperCoffee = true>>
+<<location "Kitchenette Alcove, Floor 39">>
+<<portrait "files/images/characters/r5-harper-coffee-machine.png" "Harper Quinn">>
+<<objective "See what Harper wants.">>
+
+Harper catches me at the coffee machine at 2 PM. She has her mug, the one with the chipped handle and the faded NPR logo. She pours. I pour. We stand in the kitchenette alcove and the silence is the comfortable kind, which is unusual, because most silence in this building is strategic.
+
+<<say "Harper Quinn">>Can I ask you something weird?<</say>>
+
+My stomach drops. The bra strap. The pause when her arm crossed my shoulder. She felt it. She knows. She's about to ask and everything is about to.
+
+<<sayself>>Sure.<</sayself>>
+
+<<say "Harper Quinn">>Are you happy here?<</say>>
+
+Not the question I expected. The relief is so immediate and so violent that I almost laugh.
+
+<<sayself>>At Meridian?<</sayself>>
+
+<<say "Harper Quinn">>At Meridian. In this career. In this building.<</say>>
+
+She sips her coffee. Watches me over the rim.
+
+<<say "Harper Quinn">>I ask because you've been different lately. Not bad different. Just... different. Like you're paying attention to things you weren't paying attention to before. Or maybe paying attention to things I can't see.<</say>>
+
+She's good. She's so dangerously good at reading people that she might as well be reading my laundry.
+
+<<sayself>>I'm paying attention. Maybe more than I used to.<</sayself>>
+
+<<say "Harper Quinn">>To what?<</say>>
+
+I look at her. She looks at me. The fluorescent light hums. The coffee maker gurgles.
+
+<<sayself>>Texture.<</sayself>>
+
+And I don't know why I say it. But it's true.
+
+She tilts her head.
+
+<<say "Harper Quinn">>Texture.<</say>>
+
+She turns the word over like a coin.
+
+<<say "Harper Quinn">>Okay. That's interesting.<</say>>
+
+She rinses her mug.
+
+<<say "Harper Quinn">>Fix that Waverly baseline. The crosswalk's going to break if you don't.<</say>>
+
+She leaves. I stand with my coffee and the word I just offered her and the certainty that she's going to think about it longer than I intended.
+
+<<npc "harper" "trust" 5>>
+
+<div class="continue-wrap">
+    <<link "Back to the office" "R5_Afternoon_Hub">><</link>>
+</div>
+
+:: R5_Side_GregTanaka [r5 sidequest]
+<<set $flags.r5GregTanaka = true>>
+<<location "Greg Tanaka's Office, Floor 39">>
+<<objective "See what Greg wants.">>
+
+Greg Tanaka calls me into his office at 4 PM. Brief. Efficient. Greg does everything at speed because Greg believes that wasted time is wasted revenue and both are personal failings.
+
+<<say "Greg Tanaka">>Waverly's on track?<</say>>
+
+<<sayself>>Thursday. Finalized.<</sayself>>
+
+<<say "Greg Tanaka">>Good.<</say>>
+
+He doesn't smile. Greg doesn't smile for the same reason light switches don't dance. They serve a function.
+
+<<say "Greg Tanaka">>Cross signed off on your continued involvement after the Henderson situation. That's not nothing. Whatever you're doing to keep her happy, keep doing it.<</say>>
+
+Whatever I'm doing. The sentence sits in my mouth like a marble. Whatever I'm doing includes kneeling on her floor and sucking her toes through nylon and wearing her underwear under my suit and whimpering for permission to orgasm.
+
+<<sayself>>I will. Thanks, Greg.<</sayself>>
+
+<<say "Greg Tanaka">>Don't thank me. Thank Cross. She went to bat for you with the partners. Henderson should have ended you.<</say>>
+
+He says this without malice. It's simply the truth, stated with the emotional resonance of a weather report.
+
+<<say "Greg Tanaka">>You owe her.<</say>>
+
+I owe her. Yes. That is the architecture of this arrangement. I owe her and she collects and the interest compounds daily and the principal is something I used to call my dignity.
+
+<<sayself>>Understood.<</sayself>>
+
+<<say "Greg Tanaka">>Go finish Waverly.<</say>>
+
+I go finish Waverly. The bra rides with me, a passenger in my shirt, a debt I'm paying with my body.
+
+<<modstat "victoriaTrust" 2>>
+
+<div class="continue-wrap">
+    <<link "Back to the office" "R5_Afternoon_Hub">><</link>>
+</div>
+
+:: R5_AfternoonAlone [r5 story intimate]
+<<location "Men's Room, Third Stall, Floor 39">>
+<<objective "Get a minute to breathe before after-hours.">>
+
+I lock myself in the men's room at 3:47 PM. Third stall from the wall. The one with the door that actually latches.
+
+I need a minute. Just one minute away from the exposure, the constant threat surface area of existing in public with this thing on my body. The bra has been on for eight hours and the straps have rubbed two faint red lines into my shoulders that I can feel even when I'm not touching them. The band around my ribs is a permanent low-grade squeeze that I've started breathing against, my inhales working around it rather than through it.
+
+I loosen my tie. Unbutton the top two buttons of my shirt. Look down.
+
+The bra is visible in the gap. The nude fabric against my skin, the faint outline of the cup, the strap running from the cup's edge to my shoulder. It's right there. Two unbuttoned buttons and there it is. The secret is a centimeter from public knowledge at all times and the only thing between me and ruin is a row of buttons and the assumption that nobody would ever think to look.
+
+I button back up. Tighten the tie. Wash my hands even though they don't need washing, because the sink gives me a reason to stand here for another ten seconds and I need ten more seconds before I go back out into a world that assumes things about me that are no longer true.
+
+The face in the mirror looks normal. That's the obscenity of it. Normal face, normal shirt, normal tie. A man in a corporate bathroom looking at himself the way men in corporate bathrooms have looked at themselves since corporations invented bathrooms. Nothing visible. Nothing wrong. Nothing except the network of straps and silk and lace running under the surface like electrical wiring in a wall, hidden and humming and carrying current that could kill you if you touched the wrong wire.
+
+I dry my hands. Straighten my cuffs. Walk out.
+
+My cock is hard. It's been half-hard for most of the day, the lace doing its work, the paranoia doing its work, the combination creating a low constant hum of arousal that I can't fully suppress. I've been leaking into the panties since the Dave Parkman backslap. There's a damp spot on the silk that I can feel when I walk, warm and slick, evidence of a body that's responding to stimuli my brain hasn't authorized.
+
+I don't touch myself. Victoria hasn't given permission. I'm not sure when that became a rule. She never said it explicitly. But the thought of coming without her knowledge feels like stealing. Stealing from whom is a question I don't want to sit with.
+
+I flush the toilet for camouflage. Wash my hands. Return to my desk.
+
+Four more hours until after-hours. Four more hours of buttons and lies and the soft insistent weight of something on my chest that isn't supposed to be there.
+
+<<modstat "submission" 3>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_VictoriaOffice">><</link>>
+</div>
