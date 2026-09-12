@@ -7,14 +7,14 @@
     background-blend-mode: overlay;
     border-right: 1px solid var(--border-subtle);
 }
-#ui-bar-body { padding-top: 0.5rem; }
+/* #ui-bar-body { padding-top: 0.5rem; } */
 #story-caption { padding: 0; }
 
 /* Native SugarCube title header (from the StoryTitle / StorySubtitle passages)
    is the single source for the game's wordmark, styled here instead of
    duplicating it inside StoryCaption. */
 #title {
-    padding: 1.5rem 1.25rem 1.25rem;
+    /* padding: 1.5rem 1.25rem 1.25rem; */
     margin-bottom: 0.25rem;
 }
 #story-banner { display: none; }
