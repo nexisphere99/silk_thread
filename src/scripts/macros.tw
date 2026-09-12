@@ -200,3 +200,62 @@ Macro.add('moodimage', {
         $(this.output).wiki(html);
     }
 });
+
+/* --- save-schema migration ---
+   Each release adds new keys to $choices/$flags. StoryInit only runs
+   for a brand-new game, so a save made on an earlier release (or an
+   autoload of one) restores without those newer keys, and a bare
+   <<set $choices.rN.x = ...>> in a later release then throws "Cannot
+   set properties of undefined". Save.onLoad patches any missing keys
+   into a save's variables before it becomes State.variables, without
+   touching values it already has. A save's state is a full moment
+   history (State.marshalForSave() -> {index, history: [...]}), each
+   moment carrying its own variables snapshot, so every moment needs
+   patching, not just the active one, or pressing "Back" later would
+   restore an unpatched snapshot. Keep the defaults below in sync with
+   StoryInit's $choices/$flags whenever a new release adds fields. */
+Silk.fillDefaults = function (target, defaults) {
+    for (var key in defaults) {
+        if (!Object.prototype.hasOwnProperty.call(defaults, key)) continue;
+        if (!(key in target)) {
+            target[key] = defaults[key];
+        } else if (defaults[key] !== null && typeof defaults[key] === 'object' && !Array.isArray(defaults[key]) &&
+                   target[key] !== null && typeof target[key] === 'object') {
+            Silk.fillDefaults(target[key], defaults[key]);
+        }
+    }
+};
+
+Save.onLoad.add(function (save) {
+    var history = save && save.state && save.state.history;
+    if (!history) return;
+    history.forEach(function (moment) {
+        var sv = moment && moment.variables;
+        if (!sv) return;
+        Silk.fillDefaults(sv.choices, {
+            r1: { bedChoice: "", sideQuests: [] },
+            r2: { lenaChoice: "" },
+            r3: { dealChoice: "" },
+            r4: { afterHoursChoice: "" }
+        });
+        Silk.fillDefaults(sv.flags, {
+            harperCoffee: false,
+            martinElevator: false,
+            lenaPhoneGlimpse: false,
+            lookedAround: false,
+            triedGoDown: false,
+            suggestedNew: false,
+            acceptedRoutine: false,
+            r2HarperSticky: false,
+            r2HarperExtended: false,
+            r2MartinHallway: false,
+            r2MartinExtended: false,
+            r2PhoneChecked: false,
+            r2StayedUpLate: false,
+            r3HarperLunch: false,
+            r3MartinExtended: false,
+            r4LockerMoment: false,
+            r4PhoneCheck: false
+        });
+    });
+});
