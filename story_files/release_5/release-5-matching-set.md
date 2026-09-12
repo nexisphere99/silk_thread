@@ -51,7 +51,7 @@ I button my shirt over it. Straighten the collar. Knot the tie. Check the mirror
 
 Same face. Same jaw. Same hair combed the same way it's been combed since I was nineteen and my father told me to stop looking like a teenager. The shirt sits flat. The bra is invisible. You could pat me on the chest and feel nothing except maybe the faintest ridge of the underwire if you pressed hard enough and knew what you were pressing for.
 
-But I know it's there. I can feel the straps with every breath. The band around my ribs, a constant low hug. The cups against my skin, holding their empty promise. And below, the panties. The lace against my cock, the silk against my ass. Two layers now. A matching set.
+But I know it's there. I can feel the straps with every breath. The band around my ribs, a constant low hug. The cups against my skin, holding their empty promise and below, the panties. The lace against my cock, the silk against my ass. Two layers now. A matching set.
 
 I stare at the mirror and try to find the man my father raised. He's still there, technically. Same bones, same suit, same polished shoes. But he's wearing a bra and panties under the uniform and the uniform is starting to feel like the costume, not the other way around.
 
@@ -285,7 +285,7 @@ Victoria circles me. Slow. Her heels on marble. I can feel the air move when she
 
 "Nothing. He didn't notice."
 
-"No. He didn't." She's close now. Close enough that I can smell her perfume, the dark one, layered and warm, and under it something that might just be her skin. "Because people see what they expect. And nobody expects this." Her finger taps the bra cup, once, over my left nipple. "They will, eventually. But by then, you won't care."
+"No. He didn't." She's close now. Close enough that I can smell her perfume, the dark one, layered and warm, and under it something that might just be her skin. "Because people see what they expect and nobody expects this." Her finger taps the bra cup, once, over my left nipple. "They will, eventually. But by then, you won't care."
 
 I don't know if that's a promise or a threat. The difference between the two is collapsing.
 
@@ -363,7 +363,7 @@ Same Daniel. The Daniel who walked in at 7 AM with polished shoes and a pressed 
 
 Same Daniel. With the taste of her toes in his mouth and the wetness of her foot against his cock still warm in the lace and the ghost of a whimper still vibrating in his throat.
 
-"Same time tomorrow. And Daniel?" She holds my chin. Tilts my face up. Her eyes are dark and steady and in them I see something that is not amusement and is not cruelty and might, in a different context, from a different woman, be called tenderness. "You did well."
+"Same time tomorrow and Daniel?" She holds my chin. Tilts my face up. Her eyes are dark and steady and in them I see something that is not amusement and is not cruelty and might, in a different context, from a different woman, be called tenderness. "You did well."
 
 Three words. They land somewhere between my ribs and stay there. They will still be there when I'm brushing my teeth tonight. They will still be there when I'm lying next to Lena in the dark. They will still be there tomorrow when I put the bra on again, because I will put the bra on again, because she told me to and because I want to and those two things have merged into a single fact.
 
@@ -425,9 +425,9 @@ That time has a location in my memory but no heat. Like remembering a fireplace 
 
 I think about reaching for her. My hand on her hip, the familiar curve of it, the way she used to arch back into me when I touched her there. I could try. I could cross the three feet and put my hand on her body and see what happens.
 
-But my hand still remembers the marble. My mouth still remembers the nylon. My shoulders still carry the grooves. And the part of me that used to reach for Lena in the dark has been rerouted, the wiring pulled and reconnected to a different circuit, one that runs through a corner office on the forty-second floor and terminates at a pair of Louboutin heels.
+But my hand still remembers the marble. My mouth still remembers the nylon. My shoulders still carry the grooves and the part of me that used to reach for Lena in the dark has been rerouted, the wiring pulled and reconnected to a different circuit, one that runs through a corner office on the forty-second floor and terminates at a pair of Louboutin heels.
 
-So I don't reach. And she doesn't reach. We lie in the dark on separate sides of a king bed and the space between us is approximately three feet and contains every lie we've ever told each other and a few we haven't gotten to yet.
+So I don't reach and she doesn't reach. We lie in the dark on separate sides of a king bed and the space between us is approximately three feet and contains every lie we've ever told each other and a few we haven't gotten to yet.
 
 I stare at the ceiling.
 
@@ -497,7 +497,7 @@ Ten seconds pass. Twenty. The city hums forty-two floors down.
 
 I don't leave.
 
-She doesn't tell me to stay. She doesn't tell me to go. She just waits. And the waiting is the answer, because if I could stop I would have stopped at the panties. If I could leave I would have left at the bra. If I could say no I wouldn't have said yes and then yes again and then yes with my mouth on her shoe and yes with my tongue between her toes and yes with my cock dripping in her lace.
+She doesn't tell me to stay. She doesn't tell me to go. She just waits and the waiting is the answer, because if I could stop I would have stopped at the panties. If I could leave I would have left at the bra. If I could say no I wouldn't have said yes and then yes again and then yes with my mouth on her shoe and yes with my tongue between her toes and yes with my cock dripping in her lace.
 
 I sit back down. She picks up her pen.
 
@@ -537,7 +537,7 @@ She's good. She's so dangerously good at reading people that she might as well b
 
 I look at her. She looks at me. The fluorescent light hums. The coffee maker gurgles.
 
-"Texture," I say. And I don't know why I say it. But it's true.
+"Texture," I say and I don't know why I say it. But it's true.
 
 She tilts her head. "Texture." She turns the word over like a coin. "Okay. That's interesting." She rinses her mug. "Fix that Waverly baseline. The crosswalk's going to break if you don't."
 

@@ -263,7 +263,7 @@ She turns away. He lies there, cock softening, shame flooding, and quietly reach
 
 **Celeste's first appearance:** Victoria brings in her feminization consultant. Celeste assesses Daniel clinically   measurements, skin quality, bone structure.
 
-"Lovely waist-to-hip ratio. With the right cincher, we can give you curves. And these cheekbones   you'll contour beautifully."
+"Lovely waist-to-hip ratio. With the right cincher, we can give you curves and these cheekbones   you'll contour beautifully."
 
 **Scene 🔥🔥   First body grooming:**
 Full body wax at Celeste's private studio. Extended scene   the vulnerability of lying naked under fluorescent lights while a stranger strips hair from his body. Legs, chest, arms, underarms, full Brazilian. Each strip of wax a small violence, revealing smoother, softer skin beneath.
@@ -369,7 +369,7 @@ He does. Screaming into the cushion, clenching around the strap-on, ruining the 
 
 "That's the hardest you've ever come, isn't it?"
 
-It is. And his wife doesn't even know he's here.
+It is and his wife doesn't even know he's here.
 
 **NTR thread:** Post-scene, checking his phone. Lena sent a selfie from a wine bar   she's with Adrian, cheeks flushed, his arm visible at the edge of the frame. Caption: *"Girls' night! (Adrian crashed lol)"*
 
@@ -496,7 +496,7 @@ She makes him come untouched   just from the prostate stimulation and her voice.
 ### Release 22   LENA AND ADRIAN: FIRST KISS
 **NTR milestone   player discovers the affair has turned physical.**
 
-**Story:** Daniel checks Lena's iPad (synced to her phone). Messages with Adrian. Flirty at first, then explicit. And then   a photo. Adrian took it: Lena with her eyes closed, lips slightly parted, post-kiss. Her lipstick is smudged. She looks *happy*.
+**Story:** Daniel checks Lena's iPad (synced to her phone). Messages with Adrian. Flirty at first, then explicit and then   a photo. Adrian took it: Lena with her eyes closed, lips slightly parted, post-kiss. Her lipstick is smudged. She looks *happy*.
 
 The messages below:
 *Adrian: "I've wanted to do that for weeks."*
@@ -840,7 +840,7 @@ He changes into Danielle. Wig, makeup, dress. Stands before his wife.
 
 Lena walks around him. Touches the wig. Looks at his face.
 
-"You're *pretty*." She sounds amazed. And something else   jealous? Aroused?
+"You're *pretty*." She sounds amazed and something else   jealous? Aroused?
 
 **Mutual truth path:** Both secrets explode. Daniel in panties. Lena with hickeys. They sit on opposite sides of the bed and lay everything bare. He's been feminized by his boss. She's been fucking Adrian. They're both cheating. They're both guilty. They're both relieved.
 
@@ -1053,7 +1053,7 @@ They make love   tenderly, sadly, beautifully. Two people who were married disco
 
 "Hello, Danielle."
 
-No one else is in the room. She's talking to herself. And meaning it.
+No one else is in the room. She's talking to herself and meaning it.
 
 ---
 

@@ -13,7 +13,7 @@ I shower. Seven minutes. Same temperature I always use, hot enough to redden the
 
 I stand naked in the bedroom.
 
-The panties are laid out on the bed now. I don't remember taking them from the drawer. I must have, while I was on autopilot, while the part of my brain that makes decisions was still fogged with steam. They're beside my charcoal suit. The suit is pressed. The shirt is white, starched, folded with the collar up. My black oxfords sit on the floor beneath, polished to a mirror finish. And next to all of it, black lace. La Perla. A scrap of silk and thread that costs more than my wife's entire underwear drawer.
+The panties are laid out on the bed now. I don't remember taking them from the drawer. I must have, while I was on autopilot, while the part of my brain that makes decisions was still fogged with steam. They're beside my charcoal suit. The suit is pressed. The shirt is white, starched, folded with the collar up. My black oxfords sit on the floor beneath, polished to a mirror finish and next to all of it, black lace. La Perla. A scrap of silk and thread that costs more than my wife's entire underwear drawer.
 
 The juxtaposition looks like a crime scene. Or an invitation. Depends on the angle.
 
@@ -65,7 +65,7 @@ The doors open on 39. I step out. The silk whispers.
 
 Harper is presenting. Q3 analytics. She stands at the whiteboard in her fitted blazer, pulling data from the dashboard with the casual precision of someone who thinks in spreadsheets. She's talking about conversion rates. Client acquisition costs. Funnel optimization. Words I know, concepts I've worked with for years, and right now they sound like a foreign language being spoken in an adjacent room.
 
-Because the lace pulled tight when I sat down and my cock is half-hard and I'm clenching my thighs together under the table like a teenager hiding an erection in math class. Except I'm thirty-one years old. In a boardroom. Wearing La Perla panties under a Brooks Brothers suit. And the woman four seats down, the one whose name is on the email that put these panties in my hand, is somewhere on this floor, possibly watching the security feed, possibly just sitting in her corner office knowing that right now, right this second, I am feeling exactly what she intended me to feel.
+Because the lace pulled tight when I sat down and my cock is half-hard and I'm clenching my thighs together under the table like a teenager hiding an erection in math class. Except I'm thirty-one years old. In a boardroom. Wearing La Perla panties under a Brooks Brothers suit and the woman four seats down, the one whose name is on the email that put these panties in my hand, is somewhere on this floor, possibly watching the security feed, possibly just sitting in her corner office knowing that right now, right this second, I am feeling exactly what she intended me to feel.
 
 Harper glances at me mid-sentence. "Daniel, any flags on the Whitmore account?"
 
@@ -279,7 +279,7 @@ Her smile widens. A fraction. The kind of widening that on another face might be
 
 She looks back down. The pen resumes. I leave. But the word patience hangs in the elevator like perfume. It implies a timeline. A plan. A sequence of events she's already plotted on a calendar I'll never see.
 
-Patience means there is more. And I asked for it.
+Patience means there is more and I asked for it.
 
 `<<set $submission += 5>><<set $arousalRewiring += 5>><<set $victoriaTrust += 5>>`
 
@@ -391,7 +391,7 @@ I go to bed. Lena is reading. Her bedside lamp throws a warm circle of light ove
 
 "Goodnight."
 
-She turns off her lamp. The room goes dark. I lie on my back and stare at the ceiling and feel the lace against my skin and think about tomorrow. The same panties. The same smell. The same suit over the same secret. And Victoria's voice, low and knowing, saying *you're learning* like she's been waiting for me all along. Like this was always where I was going. Like the only question was how long it would take me to arrive.
+She turns off her lamp. The room goes dark. I lie on my back and stare at the ceiling and feel the lace against my skin and think about tomorrow. The same panties. The same smell. The same suit over the same secret and Victoria's voice, low and knowing, saying *you're learning* like she's been waiting for me all along. Like this was always where I was going. Like the only question was how long it would take me to arrive.
 
 I close my eyes. The panties press against me. The silk holds the shape of my arousal like a handprint in wet cement. I fall asleep inside it.
 

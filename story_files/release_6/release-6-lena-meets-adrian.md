@@ -134,7 +134,7 @@ I stand there. Wine going warm. Wife illuminated by another man's attention like
 
 The juxtaposition is so complete it feels architectural. Designed. Like someone drew a blueprint of the most violent contrast a single human body could contain and then built it with me as the material.
 
-My wife is falling into another man's light. I am standing in the dark wearing women's underwear for my female boss. Both things are happening simultaneously. Both things are happening to me. And the feeling underneath it all, the one I can't name because it doesn't have a single name, is not pure jealousy. Not pure shame. Not pure arousal.
+My wife is falling into another man's light. I am standing in the dark wearing women's underwear for my female boss. Both things are happening simultaneously. Both things are happening to me and the feeling underneath it all, the one I can't name because it doesn't have a single name, is not pure jealousy. Not pure shame. Not pure arousal.
 
 It's all of them. At once. Screaming in a chord I don't have the instrument to play.
 
@@ -142,7 +142,7 @@ Victoria sips her wine.
 
 "He's charming," I say. My voice sounds like someone else's.
 
-"He is. And your wife looks lovely tonight. That green." She says it the way you'd compliment a painting's frame. Appreciative. Contextual. Like Lena is an element of a composition Victoria is evaluating for balance.
+"He is and your wife looks lovely tonight. That green." She says it the way you'd compliment a painting's frame. Appreciative. Contextual. Like Lena is an element of a composition Victoria is evaluating for balance.
 
 Thirty-eight minutes. Lena throws her head back laughing again. Adrian catches her wine glass before she spills it, and their hands touch around the stem, and neither of them lets go.
 
@@ -228,7 +228,7 @@ She pushes me onto the bed. Climbs on top and kisses me, hard, her tongue findin
 
 She doesn't question it. She's not operating in question mode. She unzips my slacks and pulls them down and my cock is straining against the lace panties but the room is dark, her preference or mine, and she doesn't see or doesn't register or doesn't care. She wraps her hand around me through the fabric and I bite back a sound.
 
-"God, you're hard," she says. She sounds surprised. And pleased. Like she forgot she could do this to me.
+"God, you're hard," she says. She sounds surprised and pleased. Like she forgot she could do this to me.
 
 She can't, is the thing. Not like this. Not anymore. The hardness she's holding isn't for her. It's for the lace against my skin and the memory of Victoria's foot against this exact spot and the image of her husband standing across a party watching her bloom under another man's sunlight. The arousal is not from her. It's from everything around her. She's the frame, not the painting.
 
@@ -238,7 +238,7 @@ I fuck her. It's better than it's been in weeks, maybe months. She's responsive 
 
 I fuck her harder. Some engine inside me is running on fuel I don't want to identify. Jealousy. That's part of it. Adrian's hand on her back. Adrian's green eyes on her face. Adrian remembering the book she mentioned to someone else. The precision of his attention, the contrast with my blunt, routine touch. I fuck her harder because someone else warmed her up and I'm the beneficiary and the victim of that warmth simultaneously.
 
-She moans louder. Wraps her legs around me and pulls me deeper and says "yes" and "there" and "don't stop," and the instruction manual she's reciting sounds like it was written by someone else's hands. She's fucking me but she's responding to the echo of a conversation with a man who didn't touch her. His warmth is still on her skin. His laugh is still in her ears. And she's channeling all of it into me like I'm a lightning rod for desire that started somewhere else.
+She moans louder. Wraps her legs around me and pulls me deeper and says "yes" and "there" and "don't stop," and the instruction manual she's reciting sounds like it was written by someone else's hands. She's fucking me but she's responding to the echo of a conversation with a man who didn't touch her. His warmth is still on her skin. His laugh is still in her ears and she's channeling all of it into me like I'm a lightning rod for desire that started somewhere else.
 
 I come inside her. Four minutes, maybe five. Long for us. An eternity by our usual standard. She comes too, or I think she does. Her body tightens around me and she gasps and her fingers grip the sheets and there's a tremor through her thighs. Real. Physical. Undeniable.
 
@@ -348,7 +348,7 @@ My stomach drops. The panties tighten against my tensing thighs.
 
 "Big transition," I say. "New vertical, new leadership. Just adjusting."
 
-"Victoria Cross." He says her name the way a man says the name of a rival who outflanked him. Respect and resentment and a grudging admiration he'd rather not admit. "She's brilliant. Ruthless. And she has a way of reshaping people around her. Like a black hole. You get close enough and you start orbiting whether you want to or not."
+"Victoria Cross." He says her name the way a man says the name of a rival who outflanked him. Respect and resentment and a grudging admiration he'd rather not admit. "She's brilliant. Ruthless and she has a way of reshaping people around her. Like a black hole. You get close enough and you start orbiting whether you want to or not."
 
 "I think she's been a great addition to the leadership team."
 
@@ -360,7 +360,7 @@ I drink my wine. He drinks his bourbon. The jazz trio transitions to something s
 
 Martin stares at me for a long moment. His eyes are the color of old leather and they miss nothing. Then he nods, once, and claps my shoulder with the weight of a man who's decided to believe me against his better judgment.
 
-"Keep building. And keep your head on straight. This firm eats confused people alive."
+"Keep building and keep your head on straight. This firm eats confused people alive."
 
 He walks away. The bourbon smell hangs in the air behind him. I press my palm against the bar and feel the bra strap shift under my jacket and think: confused doesn't begin to cover it.
 
@@ -418,7 +418,7 @@ I reach over. Tilt the phone. The screen lights.
 
 *Adrian W: "Sleep well, Lena. Same book recommendation holds. I think you'd love Chapter 4 especially."*
 
-A book recommendation. Innocent. Friendly. And intimate in a way that a dinner invitation or a drink suggestion wouldn't be. He's recommending a specific chapter. He's imagining her reading it. He's placing himself inside her private hours.
+A book recommendation. Innocent. Friendly and intimate in a way that a dinner invitation or a drink suggestion wouldn't be. He's recommending a specific chapter. He's imagining her reading it. He's placing himself inside her private hours.
 
 Lena's response below: *"Already downloading it :) Tonight was really wonderful."*
 

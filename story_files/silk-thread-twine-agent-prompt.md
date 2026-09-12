@@ -880,7 +880,7 @@ This is what marriage becomes. This is what everyone says and what nobody questi
 
 The night settles. I get up. Pad to the kitchen. Pour a finger of whiskey.
 
-I stand at the window. The city is out there, lit up. And I'm in here, in my nice apartment, with my nice wife, with my nice career, drinking nice whiskey. The word "nice" is a prison sentence served in a room with no bars.
+I stand at the window. The city is out there, lit up and I'm in here, in my nice apartment, with my nice wife, with my nice career, drinking nice whiskey. The word "nice" is a prison sentence served in a room with no bars.
 
 My phone is on the counter. No new emails. No messages. No one reaching for me in the digital dark.
 
