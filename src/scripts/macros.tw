@@ -245,7 +245,8 @@ Silk.choicesDefaults = {
     r2: { lenaChoice: "" },
     r3: { dealChoice: "" },
     r4: { afterHoursChoice: "" },
-    r5: { afterHoursChoice: "" }
+    r5: { afterHoursChoice: "" },
+    r6: { choiceResolution: "" }
 };
 
 Silk.flagsDefaults = {
@@ -269,7 +270,10 @@ Silk.flagsDefaults = {
     r5LenaMorning: false,
     r5MartinElevator: false,
     r5HarperCoffee: false,
-    r5GregTanaka: false
+    r5GregTanaka: false,
+    r6HarperObserver: false,
+    r6MartinStandard: false,
+    r6VictoriaCheckIn: false
 };
 
 Silk.migrateMoments = function (history) {
