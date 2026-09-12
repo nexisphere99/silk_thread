@@ -19,6 +19,13 @@
 <<set $currentRelease = 1>>
 <<set $releaseProgress = 0>>
 
+/% Which release this build actually ships, shown in the sidebar via
+   StorySubtitle so the player always knows what version they're on -
+   independent of $currentRelease, which tracks story-chapter progress
+   and updates as the player reads through earlier releases' content
+   bundled into this same build. %/
+<<set $buildRelease = 2>>
+
 <<set $npc = {
     lena: { affection: 50, suspicion: 0, adrianInterest: 0, lastInteraction: "" },
     victoria: { trust: 0, control: 0, arousal: 0, lastInteraction: "" },
