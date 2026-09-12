@@ -203,17 +203,26 @@ Macro.add('moodimage', {
 
 /* --- save-schema migration ---
    Each release adds new keys to $choices/$flags. StoryInit only runs
-   for a brand-new game, so a save made on an earlier release (or an
-   autoload of one) restores without those newer keys, and a bare
+   for a brand-new game, so any other path that hands back an older
+   moment's variables restores without those newer keys, and a bare
    <<set $choices.rN.x = ...>> in a later release then throws "Cannot
-   set properties of undefined". Save.onLoad patches any missing keys
-   into a save's variables before it becomes State.variables, without
-   touching values it already has. A save's state is a full moment
-   history (State.marshalForSave() -> {index, history: [...]}), each
-   moment carrying its own variables snapshot, so every moment needs
-   patching, not just the active one, or pressing "Back" later would
-   restore an unpatched snapshot. Keep the defaults below in sync with
-   StoryInit's $choices/$flags whenever a new release adds fields. */
+   set properties of undefined". Two separate paths need patching:
+     1. Save.onLoad - fires when a save is loaded via the Saves UI/API
+        (browser slot, disk, base64). save.state.history is that
+        save's full moment list (State.marshalForSave() -> {index,
+        history: [...]}).
+     2. :storyready - fires once after page bootstrap, which covers
+        SugarCube's *automatic* same-tab session restore (a page
+        refresh resurrects the in-progress playthrough from
+        sessionStorage via State.restore()). That path never touches
+        Save.onLoad at all, so without this hook a stale mid-session
+        tab surviving across a version update hits the same crash.
+        State.history is the live history array here, not a save
+        object, but the shape of each moment is identical.
+   Both patch every moment in the history, not just the active one, or
+   pressing "Back" later would restore an unpatched snapshot. Keep the
+   defaults below in sync with StoryInit's $choices/$flags whenever a
+   new release adds fields. */
 Silk.fillDefaults = function (target, defaults) {
     for (var key in defaults) {
         if (!Object.prototype.hasOwnProperty.call(defaults, key)) continue;
@@ -226,36 +235,53 @@ Silk.fillDefaults = function (target, defaults) {
     }
 };
 
-Save.onLoad.add(function (save) {
-    var history = save && save.state && save.state.history;
+Silk.choicesDefaults = {
+    r1: { bedChoice: "", sideQuests: [] },
+    r2: { lenaChoice: "" },
+    r3: { dealChoice: "" },
+    r4: { afterHoursChoice: "" }
+};
+
+Silk.flagsDefaults = {
+    harperCoffee: false,
+    martinElevator: false,
+    lenaPhoneGlimpse: false,
+    lookedAround: false,
+    triedGoDown: false,
+    suggestedNew: false,
+    acceptedRoutine: false,
+    r2HarperSticky: false,
+    r2HarperExtended: false,
+    r2MartinHallway: false,
+    r2MartinExtended: false,
+    r2PhoneChecked: false,
+    r2StayedUpLate: false,
+    r3HarperLunch: false,
+    r3MartinExtended: false,
+    r4LockerMoment: false,
+    r4PhoneCheck: false
+};
+
+Silk.migrateMoments = function (history) {
     if (!history) return;
     history.forEach(function (moment) {
         var sv = moment && moment.variables;
         if (!sv) return;
-        Silk.fillDefaults(sv.choices, {
-            r1: { bedChoice: "", sideQuests: [] },
-            r2: { lenaChoice: "" },
-            r3: { dealChoice: "" },
-            r4: { afterHoursChoice: "" }
-        });
-        Silk.fillDefaults(sv.flags, {
-            harperCoffee: false,
-            martinElevator: false,
-            lenaPhoneGlimpse: false,
-            lookedAround: false,
-            triedGoDown: false,
-            suggestedNew: false,
-            acceptedRoutine: false,
-            r2HarperSticky: false,
-            r2HarperExtended: false,
-            r2MartinHallway: false,
-            r2MartinExtended: false,
-            r2PhoneChecked: false,
-            r2StayedUpLate: false,
-            r3HarperLunch: false,
-            r3MartinExtended: false,
-            r4LockerMoment: false,
-            r4PhoneCheck: false
-        });
+        Silk.fillDefaults(sv.choices, Silk.choicesDefaults);
+        Silk.fillDefaults(sv.flags, Silk.flagsDefaults);
     });
+};
+
+Save.onLoad.add(function (save) {
+    Silk.migrateMoments(save && save.state && save.state.history);
+});
+
+$(document).one(':storyready', function () {
+    Silk.migrateMoments(State.history);
+    /* State.variables (the live active moment) is a distinct object
+       from State.history's entries, not a shared reference, so the
+       walk above never touches what's actually on screen right now -
+       patch it directly too. */
+    Silk.fillDefaults(State.variables.choices, Silk.choicesDefaults);
+    Silk.fillDefaults(State.variables.flags, Silk.flagsDefaults);
 });
