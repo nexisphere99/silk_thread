@@ -68,7 +68,7 @@ She recites details I'd forgotten. A presentation where I used the wrong revenue
 
 She lays out my professional life like a body on a table. Clean cuts, no wasted motion. She's not cruel about it. That would require emotion. She's clinical. A surgeon showing you the X-ray and letting you count your own fractures.
 
-"You're not bad at your job, Daniel." She closes the folder. Leans back. Crosses her legs. One heel, black, catches the morning light. Red sole. Louboutin. The shoe costs more than my monthly mortgage. "You're adequate. And adequate, in this firm, gets you a severance package and a LinkedIn update."
+"You're not bad at your job, Daniel." She closes the folder. Leans back. Crosses her legs. One heel, black, catches the morning light. Red sole. Louboutin. The shoe costs more than my monthly mortgage. "You're adequate and adequate, in this firm, gets you a severance package and a LinkedIn update."
 
 The words land in my stomach like ice water. Not because they're harsh. Because they're true. I have spent six years being adequate. I have perfected adequacy. I have made it an art form, this careful navigation of the middle, this studied avoidance of any height from which I might fall.
 
@@ -152,7 +152,7 @@ My mouth is dry. My career is a flatline on a screen and she's holding the paddl
 
 I think about Greg Tanaka's face. The termination paperwork. The email I'd have to send to my father explaining why I lost another thing. The look on Lena's face when I tell her the career she married is gone. The apartment we can't afford on one salary. The plan I described over pad thai, dead at thirty-one, buried under a missed deadline and a misread room.
 
-I think about all of that. And underneath all of that, in the part of my brain I keep locked and unfurnished, I think about how the silk feels against my skin.
+I think about all of that and underneath all of that, in the part of my brain I keep locked and unfurnished, I think about how the silk feels against my skin.
 
 "Yes, Ms. Cross."
 

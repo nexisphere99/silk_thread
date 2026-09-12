@@ -277,7 +277,7 @@ Lena is asleep now. Her breathing is even, rhythmic, the soundtrack of a thousan
 
 I get up. Quietly. Pad to the kitchen in bare feet. Pour a finger of whiskey from the bottle on the counter. Not enough to matter. Just enough to feel something other than the flat hum of a day lived exactly the way it was supposed to be lived.
 
-I stand at the kitchen window. The city is out there, lit up, alive with the chaos and ambition and mess of a million people doing things that matter to them. And I'm in here, in my nice apartment, with my nice wife, with my nice career, drinking nice whiskey, and the word "nice" is a prison sentence served in a room with no bars.
+I stand at the kitchen window. The city is out there, lit up, alive with the chaos and ambition and mess of a million people doing things that matter to them and I'm in here, in my nice apartment, with my nice wife, with my nice career, drinking nice whiskey, and the word "nice" is a prison sentence served in a room with no bars.
 
 My phone is on the counter. I pick it up. No new emails. No messages. No one reaching for me in the digital dark. I am exactly as needed as the day requires and not a degree more.
 
