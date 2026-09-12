@@ -199,7 +199,7 @@ I lie still and listen to my own heartbeat and wait for the alarm that will carr
 |Victoria Trust|<<= $stats.victoriaTrust>>%|
 
 <h3>The Choice</h3>
-<<if $choices.r2.lenaChoice === "told">>You told Lena about Henderson. She was sympathetic. And she was already thinking about the mortgage.
+<<if $choices.r2.lenaChoice === "told">>You told Lena about Henderson. She was sympathetic and she was already thinking about the mortgage.
 <<else>>You kept it to yourself. The distance widened, one quiet frequency at a time.
 <</if>>
 
