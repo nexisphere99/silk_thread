@@ -1,0 +1,114 @@
+:: R5_TitleCard [r5 system]
+<<set $currentRelease = 5>>
+<div class="title-screen">
+    <div class="title-image">
+        <img src="files/images/ui/release_5_title_card.png" alt="" onerror="this.closest('.title-image').classList.add('is-missing')">
+    </div>
+    <p class="title-wordmark" style="font-size:2.2rem;">MATCHING SET</p>
+    <div class="title-rule"></div>
+    <p class="title-subtitle">Release Five</p>
+    <div class="title-menu">
+        <<link "Continue" "R5_PreDawn_Hub">><</link>>
+    </div>
+</div>
+
+:: R5_PreDawn_Hub [r5 hub]
+<<location "Daniel & Lena's Apartment, Bedroom">>
+<<set $time = { day: "friday", period: "morning", week: 1 }>>
+<<objective "Start the morning.">>
+
+5:45 AM. The room is still dark. I'm awake, though nobody watching would know it.
+
+<div class="choice-container">
+    <<if !$flags.r5LenaMorning>>
+        <span class="sidequest"><<link "Watch Lena get ready in the dark" "R5_Side_Lena_Morning">><</link>></span>
+    <</if>>
+    <<link "Get up. Go to the office." "R5_Opening">><</link>>
+</div>
+
+:: R5_Side_Lena_Morning [r5 sidequest]
+<<set $flags.r5LenaMorning = true>>
+<<moodimage "files/images/mood/r5-lena-morning-departure.png" "">>
+<<objective "Watch Lena get ready.">>
+
+Earlier that morning. 5:45 AM. Before all of it.
+
+Lena's alarm goes off. She's doing sunrise yoga now, a new thing, three weeks old. She slides out of bed in the dark with the careful movements of someone trying not to wake a partner they're also trying not to have a conversation with.
+
+She doesn't know I'm awake. I watch through half-closed eyes. She pulls off her sleep shirt. She's naked underneath. In the blue pre-dawn light from the window, her body is a landscape I used to know. The curve of her hip. The small of her back. The birthmark on her left shoulder blade that I kissed on our third date and she laughed and said "Nobody's ever noticed that before."
+
+She pulls on yoga pants. A sports bra. Her bra looks like function and mine, hidden in the briefcase by the door, looks like something else entirely. She pulls her hair into a ponytail. Checks her phone. The screen lights her face and I see her smile at something and the smile is small and private and not for me.
+
+She leaves. The door clicks. The apartment settles.
+
+I lie in bed and think about the bra in my briefcase and the smile on her face and how both of us are leaving this bed for destinations the other one doesn't know about. We are parallel lines in a marriage that used to be a conversation. Parallel lines don't intersect. That's the definition. It's also the forecast.
+
+<div class="continue-wrap">
+    <<link "Get up. Go to the office." "R5_Opening">><</link>>
+</div>
+
+:: R5_Opening [r5 story]
+<<scene "Meridian Consulting, Daniel's Office" "files/images/locations/r5-opening-package-desk.png">>
+<<objective "See what's in the box.">>
+
+I see it the second I round the corner into my office. A matte black box sitting dead center on my desk like a small expensive coffin. No label. No shipping marks. No card tucked under the lid. Just a box that costs more than its contents, which is a specific kind of message.
+
+My briefcase hits the chair. I close the door. Not all the way, because closing your office door at 7 AM before anyone else arrives is the kind of thing people notice, and people noticing things is the entire architecture of my anxiety now.
+
+I lift the lid.
+
+Tissue paper. Black, not white. Folded in the precise origami style of boutiques where sales associates wear all black and never smile. Under the tissue: a bra. Nude tone, lightly padded, structured but thin enough to vanish under a dress shirt. The cups are almost flat. Almost. The suggestion of shape is there, a whisper of contour, a rumor of something that could be.
+
+The tag says La Perla. Same brand as the panties currently pressed against my cock under my charcoal slacks.
+
+A note, folded once, tucked into the left cup. Victoria's handwriting. I know her handwriting now. Sharp letters, zero flourish, the penmanship of a woman who signs contracts the way surgeons close incisions.
+
+//Bathroom. Now.//
+
+Two words. A period that hits like a gavel.
+
+I put the lid back on. Check the hallway through the glass partition. Empty. 7:14 AM. The cleaning crew finished an hour ago. The early birds won't land until 7:30. I have a window.
+
+I pick up the box and walk to the executive washroom on the far side of the floor. My shoes click on the marble. The panties shift against me with every step, silk on skin, a sensation I've stopped noticing except when I notice that I've stopped noticing. That's the part that gets me. Not the wearing. The forgetting.
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_Bathroom">><</link>>
+</div>
+
+:: R5_Bathroom [r5 story intimate]
+<<scene "Executive Washroom, Floor 39" "files/images/mood/r5-bathroom-mirror.png">>
+<<objective "Get the bra on before anyone arrives.">>
+
+The executive washroom has three stalls and a lock on the main door. I engage the lock. The click echoes off tile that probably cost more per square foot than my first apartment.
+
+I set the box on the counter next to the soap dispenser. Pull off my jacket and hang it on the back of the door. Unknot my tie. Start unbuttoning my shirt.
+
+Here is the thing about undressing in a corporate bathroom at 7:15 in the morning: every sound is an indictment. The shirt fabric sliding off my shoulders. The clink of my belt buckle. The rustle of tissue paper as I lift the bra out and hold it up under the fluorescent light.
+
+It weighs nothing. A few ounces of fabric and wire and engineering designed to do one thing, which is hold breasts I don't have against a chest that's never needed holding. The straps are adjustable. The band has three rows of hooks. The cups have the faintest padding, a thin layer of foam that would smooth the contour of real tissue against clothing. On me it will create a silhouette that doesn't exist. A ghost of shape over flat skin and the hard line of my sternum.
+
+I unclasp it. Slide my arms through the straps. Reach behind my back and fumble with the hooks.
+
+The fumble is what kills me. I can't do it. My fingers are shaking and the hooks are small and the angle is wrong. I've watched Lena do this ten thousand times, that quick blind reach behind the back, the snap of connection, the slight adjustment of the band. She does it the way I tie my shoes. Muscle memory. Thoughtless.
+
+It takes me four attempts. On the fourth try the hooks catch and the band tightens across my ribcage and the straps settle onto my shoulders.
+
+Weight. Not much, but present. The straps create two parallel lines of gentle pressure running from my collarbones to the band in back. When I move my arms, the straps shift. When I breathe deep, the band tightens. When I look down, the cups sit against my chest like hands cupping nothing, holding the space where something might eventually be.
+
+<<modstat "feminization" 5>>
+
+I button my shirt over it. Straighten the collar. Knot the tie. Check the mirror.
+
+Same face. Same jaw. Same hair combed the same way it's been combed since I was nineteen and my father told me to stop looking like a teenager. The shirt sits flat. The bra is invisible. You could pat me on the chest and feel nothing except maybe the faintest ridge of the underwire if you pressed hard enough and knew what you were pressing for.
+
+But I know it's there. I can feel the straps with every breath. The band around my ribs, a constant low hug. The cups against my skin, holding their empty promise. And below, the panties. The lace against my cock, the silk against my ass. Two layers now. A matching set.
+
+I stare at the mirror and try to find the man my father raised. He's still there, technically. Same bones, same suit, same polished shoes. But he's wearing a bra and panties under the uniform and the uniform is starting to feel like the costume, not the other way around.
+
+I pick up the box and the tissue paper, fold them flat, and slide them into my briefcase. Check the lock. Unlock the door. Walk back to my office.
+
+The straps move with every step. I count seventeen steps to my office door. Each one registers at the shoulders and the chest and the hips. Each one whispers.
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_MorningStandup">><</link>>
+</div>

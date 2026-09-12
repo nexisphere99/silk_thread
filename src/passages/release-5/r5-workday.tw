@@ -1,0 +1,206 @@
+:: R5_MorningStandup [r5 story intimate]
+<<location "Conference Room, Floor 39">>
+<<objective "Get through the morning standup.">>
+
+The standup meeting begins at 8:30. Seven people around the conference table. I sit down and the bra band tightens slightly and the chair back presses the clasp into my spine. A small point of pressure, metal through fabric through skin. I shift forward an inch. The pressure eases. The straps readjust.
+
+Greg Tanaka runs through the project board. He calls on me for an update on the Waverly proposal. I stand. The straps pull. The cups lift slightly against my chest as my posture straightens.
+
+<<sayself>>Waverly's due Thursday. Final projections are running through compliance. I've flagged the regulatory overhang in section three and proposed two hedge scenarios. Should be clean.<</sayself>>
+
+Clean. The word tastes like a joke. I'm standing in a conference room delivering quarterly strategy while wearing a nude La Perla bra under my Brooks Brothers shirt and the only thing keeping me from visibly shaking is the fact that my legs are locked.
+
+<<say "Greg Tanaka">>Good. Harper, take us through analytics.<</say>>
+
+I sit. The clasp presses. I shift.
+
+Harper Quinn stands. Navy blouse today, hair pulled back, a pen behind her ear she'll forget about for two hours. She runs through engagement metrics with the quiet confidence of someone who knows her numbers are bulletproof. I should be listening. I need to listen. The Waverly numbers tie into her trend analysis and I'll need the crosswalk for my Thursday meeting.
+
+But the bra strap on my left shoulder has shifted slightly. It's sitting a quarter inch lower than the right. I can feel the asymmetry like a loose tooth you can't stop tonguing. My hand drifts to my shoulder.
+
+I catch it. Force it down to the table. Flatten my palm against the wood.
+
+Harper glances at me mid-sentence. Her eyes drop to my hand, flat and tense against the table, then back up to my face. She doesn't pause. She doesn't comment. But her pupils contract by a millimeter and something files itself behind her eyes.
+
+I don't fix the strap for the next forty minutes. The asymmetry screams at me the entire time.
+
+<<npc "harper" "suspicion" 3>>
+<<modstat "officeSuspicion" 2>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_MidMorning_Hub">><</link>>
+</div>
+
+:: R5_MidMorning_Hub [r5 hub]
+<<location "Floor 39">>
+<<objective "Get through the rest of the morning.">>
+
+The morning settles into its ordinary shape. Emails. A team call. The strap still sitting a quarter inch off.
+
+<div class="choice-container">
+    <<if !$flags.r5MartinElevator>>
+        <span class="sidequest"><<link "Ride the elevator with Martin" "R5_Side_Martin_Elevator">><</link>></span>
+    <</if>>
+    <<link "Head down the hall" "R5_DaveParkmanEncounter">><</link>>
+</div>
+
+:: R5_Side_Martin_Elevator [r5 sidequest]
+<<set $flags.r5MartinElevator = true>>
+<<scene "Elevator, Floor 39 to Lobby" "files/images/locations/r5-elevator-martin.png">>
+<<portrait "files/images/characters/martin_hallway.png" "Martin Crane">>
+<<objective "Get through the elevator ride.">>
+
+Martin Crane in the elevator. Just the two of us. Nineteen floors of enforced proximity. He hits the lobby button. I hit 39.
+
+<<say "Martin Crane">>Ashford.<</say>>
+
+<<sayself>>Mr. Crane.<</sayself>>
+
+<<say "Martin Crane">>Heard good things about your Waverly prep. Keep that up.<</say>>
+
+He adjusts his cufflinks. Silver, heavy, monogrammed.
+
+<<say "Martin Crane">>You know what separates the men who make partner from the men who don't?<</say>>
+
+I wait. Martin doesn't ask questions. He delivers setups for his own answers.
+
+<<say "Martin Crane">>Integrity. Not the ethics kind. The structural kind. Being the same thing all the way through, like a piece of wood. No hidden grain. No weak spots. You cut it open anywhere and you see the same material.<</say>>
+
+The elevator passes floor 34. 33. 32.
+
+I am standing next to a man who is lecturing me about structural integrity while I wear a bra and panties under my suit. The wood metaphor is exquisite. He's talking about having no hidden grain and I am hollow with secrets. I am so full of weak spots that I'm practically a screen door.
+
+<<sayself>>I appreciate that, Mr. Crane.<</sayself>>
+
+<<say "Martin Crane">>Martin.<</say>>
+
+He corrects, which means I've crossed some invisible threshold. First names are currency at Meridian and Martin just slid one across the table.
+
+<<sayself>>Martin.<</sayself>>
+
+He nods. The elevator hits 39. The doors open. I step out.
+
+<<say "Martin Crane">>Ashford.<</say>>
+
+I turn back. He's holding the door open with one massive hand.
+
+<<say "Martin Crane">>Whatever's going on with you. Sort it out. I'm on your side but I'm only on your side if there's a side to be on.<</say>>
+
+The doors close. He descends. I stand in the hallway and wonder how many sides I have now and whether any of them face the same direction.
+
+<<npc "martin" "suspicion" 3>>
+<<npc "martin" "respect" 5>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_DaveParkmanEncounter">><</link>>
+</div>
+
+:: R5_DaveParkmanEncounter [r5 story intimate]
+<<location "Corridor, Floor 39">>
+<<objective "Get through the hallway without giving anything away.">>
+
+Dave Parkman catches me in the hallway around 10. Dave is six-two, former lacrosse, the kind of wide-shouldered salesman who backslaps his way through life like personal space is a concept that applies to other people.
+
+<<say "Dave Parkman">>Danny boy!<</say>>
+
+He falls into step beside me.
+
+<<say "Dave Parkman">>You see the Knicks last night? Absolute meltdown in the fourth.<</say>>
+
+<<sayself>>Missed it. Busy night.<</sayself>>
+
+<<say "Dave Parkman">>Brother, you gotta make time.<</say>>
+
+He claps me on the back.
+
+<<moodimage "files/images/mood/r5-dave-backslap.png" "">>
+
+His hand lands square between my shoulder blades. The impact is friendly. Casual. The kind of hit men deliver to other men as punctuation, a physical exclamation point. I've received a thousand of them in my life and never flinched.
+
+I flinch.
+
+His hand landed on the bra band. The clasp dug into my spine from the impact. But worse, so much worse, is the realization that his palm was an inch from the strap. One inch higher and his fingers would have crossed over the strap line running from my shoulder to the band. He would have felt the ridge through my shirt. He would have known.
+
+<<say "Dave Parkman">>You okay? You pull a muscle?<</say>>
+
+<<sayself>>Slept on my neck wrong.<</sayself>>
+
+The lie materializes fully formed. Lies are coming easier now. They arrive before I request them, idling at the curb like a car service I didn't book.
+
+<<say "Dave Parkman">>Sucks. Try a heating pad. My wife swears by hers.<</say>>
+
+He claps me again, lighter this time, on the shoulder. His fingers brush directly over the bra strap.
+
+I feel it. He must feel it. The slight ridge, the strip of thicker fabric beneath the cotton of my shirt. My entire cardiovascular system suspends operations for two seconds.
+
+<<say "Dave Parkman">>See you at lunch?<</say>>
+
+He's already moving. He felt nothing. He noticed nothing. He's thinking about the Knicks and his lunch order and whatever deal he's closing this week. The bra strap under my shirt registered on his fingertips with less significance than a wrinkled collar.
+
+I stand in the hallway and breathe.
+
+The paranoia is not like fear. Fear runs cold. This runs hot. Every interaction is a live wire now, every casual touch a detonation sequence. Somebody might feel. Somebody might know. The possibility crackles under my skin like electricity looking for ground, and the thing I can't explain, the thing that makes my cock stiffen against the lace, is that the electricity feels good. The danger feels good. The secret feels good.
+
+I am standing in a corporate hallway at 10:15 AM with a half-erection in women's underwear because a colleague slapped me on the back and didn't discover my bra. This is my life now. This is what my life is now.
+
+<<modstat "arousalRewiring" 4>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_MartinLunch">><</link>>
+</div>
+
+:: R5_MartinLunch [r5 story]
+<<scene "Partners' Dining Room, Floor 41" "files/images/locations/r5-martin-lunch-dining.png">>
+<<portrait "files/images/characters/martin_hallway.png" "Martin Crane">>
+<<objective "Get through lunch with Martin.">>
+
+Martin Crane takes me to lunch. The partners' dining room, forty-first floor. White linen tablecloths. Heavy silver flatware that probably predates the building. Windows that turn the city into a postcard for people who can afford the stamp.
+
+Martin orders a steak. I order salmon. He orders for both of us, actually, because Martin Crane orders for everyone at every table he's ever sat at. It's not rudeness. It's a worldview. Some men believe they know what you need before you do. Martin is the patron saint of that belief.
+
+<<say "Martin Crane">>How's the Waverly prep?<</say>>
+
+He cuts his steak with surgical precision. Even his eating is authoritative.
+
+<<sayself>>On track. Compliance cleared the hedge scenarios this morning.<</sayself>>
+
+<<say "Martin Crane">>Good. Good.<</say>>
+
+He chews. Swallows. Points his knife at me, which is a Martin Crane punctuation mark, the conversational equivalent of an underline.
+
+<<say "Martin Crane">>You've got potential, Ashford. I've been saying it to the partners. You keep your head down, you do the work. In five years you'll have my office. You know what that takes?<</say>>
+
+<<sayself>>Focus.<</sayself>>
+
+<<say "Martin Crane">>Consistency. Being the same man every day. The clients need to know what they're getting. No surprises. The firm needs to know what they're getting. No surprises.<</say>>
+
+He leans forward. His eyes are grey and sharp and they miss nothing except the things they're not looking for.
+
+<<say "Martin Crane">>Your wife. She good?<</say>>
+
+<<sayself>>She's great.<</sayself>>
+
+<<say "Martin Crane">>That matters. A stable home. A woman who supports you. That's the foundation. You don't build the tower without the foundation.<</say>>
+
+I'm sitting across from a 55-year-old man who represents everything my father wanted me to become, and I'm nodding along to his theory of masculine architecture, and my ribs are encircled by a bra and my cock is cupped in lace and the straps on my shoulders are two thin lines of treason against every word he's saying.
+
+<<say "Martin Crane">>You seem distracted today.<</say>>
+
+He studies me the way he studies quarterly reports. Not with suspicion, but with the quiet certainty that any deviation from trend will eventually reveal its cause.
+
+<<say "Martin Crane">>Something on your mind?<</say>>
+
+<<sayself>>Just the Waverly timeline. Tight turnaround.<</sayself>>
+
+He nods. Slow. The nod of a man who doesn't believe you but has decided to file it rather than press.
+
+<<say "Martin Crane">>Eat your salmon. You look thin.<</say>>
+
+I eat my salmon. The fork trembles once and I grip it harder. Under the table, I cross my legs, and the lace pulls tight, and my cock stirs, and I smile at Martin Crane and agree that consistency is the key to leadership.
+
+<<npc "martin" "respect" 3>>
+<<modstat "arousalRewiring" 2>>
+
+<div class="continue-wrap">
+    <<link "Continue" "R5_HarperAfternoon">><</link>>
+</div>
